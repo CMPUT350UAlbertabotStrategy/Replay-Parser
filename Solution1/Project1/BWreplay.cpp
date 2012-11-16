@@ -346,7 +346,7 @@ void BWRepDump::onUnitDestroy(BWAPI::Unit* unit)
 		//Broodwar->sendText("A %s [%x] has been destroyed at (%d,%d)",unit->getType().getName().c_str(),unit,unit->getPosition().x(),unit->getPosition().y());
 		this->replayDat << Broodwar->getFrameCount() << "," << unit->getPlayer()->getID()  << ",Destroyed," 
 			<< unit->getID() << "," << unit->getType().getName() << ",(" << unit->getPosition().x() << "," << unit->getPosition().y() <<")\n";
-
+}
 }
 
 void BWRepDump::onUnitMorph(BWAPI::Unit* unit)

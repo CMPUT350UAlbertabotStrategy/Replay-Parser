@@ -1,0 +1,2558 @@
+[Replay Start]
+RepPath: maps\replays\27620.rep
+MapName: | iCCup | Heartbreak Ridge 2.1
+NumStartPositions: 2
+The following players are in this replay:
+0, Jasari, Protoss, 0
+1, ArenaMafiuS, Zerg, 1
+Begin replay data:
+0,-1,Created,0,Special Protoss Temple,(112,2992)0,1,Created,1,Zerg Drone,(3856,1888)0,1,Created,2,Zerg Drone,(3832,1888)0,0,Created,3,Protoss Nexus,(288,1232)0,0,Created,4,Protoss Probe,(288,1288)0,1,Created,5,Zerg Larva,(3808,1882)0,0,Created,7,Protoss Probe,(312,1288)0,0,Created,8,Protoss Probe,(264,1288)0,1,Created,9,Zerg Drone,(3872,1858)0,0,Created,10,Protoss Probe,(240,1288)0,-1,Created,11,Resource Mineral Field,(2176,48)0,1,Created,12,Zerg Larva,(3808,1882)0,1,Created,6,Zerg Hatchery,(3808,1840)0,-1,Created,13,Resource Mineral Field,(1920,2992)0,1,Created,14,Zerg Overlord,(3709,1775)0,-1,Created,15,Resource Mineral Field,(288,2032)0,-1,Created,16,Resource Mineral Field,(1920,48)0,-1,Created,17,Resource Mineral Field,(2048,16)0,-1,Created,18,Resource Mineral Field,(2016,2992)0,-1,Created,19,Resource Mineral Field,(3840,112)0,-1,Created,20,Resource Mineral Field,(3840,112)0,-1,Created,21,Resource Mineral Field,(3840,112)0,-1,Created,22,Resource Mineral Field,(3840,112)0,-1,Created,23,Resource Mineral Field,(2048,3024)0,-1,Created,24,Resource Mineral Field,(3840,112)0,-1,Created,25,Resource Mineral Field,(3840,112)0,-1,Created,26,Resource Mineral Field,(3840,112)0,-1,Created,27,Resource Mineral Field,(3840,112)0,-1,Created,28,Resource Mineral Field,(3840,112)0,-1,Created,29,Resource Mineral Field,(3840,112)0,-1,Created,30,Resource Mineral Field,(3840,112)0,-1,Created,31,Resource Mineral Field,(3840,112)0,-1,Created,32,Resource Mineral Field,(2176,2992)0,1,Created,33,Zerg Larva,(3808,1882)0,-1,Created,34,Resource Mineral Field,(1984,3024)0,-1,Created,35,Resource Mineral Field,(2112,3024)0,-1,Created,36,Resource Mineral Field,(3840,112)0,-1,Created,37,Resource Mineral Field,(2112,16)0,1,Created,38,Zerg Drone,(3768,1888)0,-1,Created,39,Resource Mineral Field,(3808,1040)0,-1,Created,40,Resource Mineral Field,(2080,48)0,-1,Created,41,Resource Mineral Field,(1984,16)0,-1,Created,42,Resource Mineral Field,(224,2928)0,-1,Created,43,Resource Mineral Field,(224,2928)0,-1,Created,44,Resource Mineral Field,(3840,112)0,-1,Created,45,Resource Mineral Field,(3840,112)0,-1,Created,46,Resource Mineral Field,(3552,400)0,-1,Created,47,Resource Mineral Field,(3840,112)0,-1,Created,48,Resource Mineral Field,(3840,112)0,-1,Created,49,Resource Mineral Field,(64,1168)0,-1,Created,50,Resource Mineral Field,(64,1232)0,-1,Created,51,Resource Mineral Field,(224,2928)0,-1,Created,52,Resource Mineral Field,(3840,112)0,-1,Created,53,Resource Mineral Field,(3456,400)0,-1,Created,54,Resource Mineral Field,(224,2928)0,-1,Created,55,Resource Mineral Field,(224,2928)0,-1,Created,56,Resource Mineral Field,(224,2928)0,-1,Created,57,Resource Mineral Field,(224,2928)0,-1,Created,58,Resource Mineral Field,(224,2928)0,-1,Created,59,Resource Mineral Field,(224,2928)0,-1,Created,60,Resource Mineral Field,(224,2928)0,-1,Created,61,Resource Mineral Field,(224,2928)0,-1,Created,62,Resource Mineral Field,(96,1200)0,-1,Created,63,Resource Mineral Field,(224,2928)0,-1,Created,64,Resource Mineral Field,(224,2928)0,-1,Created,65,Resource Mineral Field,(3840,112)0,-1,Created,66,Resource Mineral Field,(224,2928)0,-1,Created,67,Resource Mineral Field,(224,2928)0,-1,Created,68,Resource Mineral Field,(224,2928)0,-1,Created,69,Resource Mineral Field,(3840,112)0,-1,Created,70,Resource Vespene Geyser,(3648,256)0,-1,Created,71,Resource Mineral Field,(224,2928)0,-1,Created,72,Resource Mineral Field,(3328,400)0,-1,Created,73,Resource Mineral Field,(224,2928)0,-1,Created,74,Resource Mineral Field,(1824,1488)0,-1,Created,75,Resource Mineral Field,(4000,1904)0,-1,Created,76,Resource Mineral Field,(4032,1872)0,-1,Created,77,Resource Mineral Field,(96,1360)0,-1,Created,78,Resource Mineral Field,(64,1264)0,-1,Created,79,Resource Mineral Field,(1856,1456)0,-1,Created,80,Resource Mineral Field,(96,1104)0,-1,Created,81,Resource Mineral Field,(224,2928)0,-1,Created,82,Resource Mineral Field,(128,1072)0,-1,Created,83,Resource Vespene Geyser,(512,2336)0,-1,Created,84,Resource Mineral Field,(3968,1680)0,-1,Created,85,Resource Mineral Field,(1824,1424)0,-1,Created,86,Resource Mineral Field,(4000,1968)0,-1,Created,87,Resource Mineral Field,(4000,1808)0,-1,Created,88,Resource Mineral Field,(4032,1936)0,-1,Created,89,Resource Mineral Field,(1856,1392)0,-1,Created,90,Resource Mineral Field,(1888,1360)0,-1,Created,91,Resource Mineral Field,(4032,1840)0,-1,Created,92,Resource Mineral Field,(4032,1776)0,-1,Created,93,Resource Mineral Field,(224,2928)0,-1,Created,94,Resource Mineral Field,(2240,1680)0,-1,Created,95,Resource Mineral Field,(4000,1712)0,-1,Created,96,Resource Vespene Geyser,(3808,1664)0,-1,Created,97,Resource Vespene Geyser,(2112,1792)0,-1,Created,98,Resource Mineral Field,(64,1328)0,-1,Created,99,Resource Mineral Field,(2272,1648)0,-1,Created,100,Resource Mineral Field,(2208,1712)0,-1,Created,101,Resource Vespene Geyser,(3584,768)0,-1,Created,102,Resource Mineral Field,(2240,1616)0,-1,Created,103,Resource Vespene Geyser,(1984,1280)0,-1,Created,104,Resource Mineral Field,(2272,1584)0,-1,Created,105,Resource Mineral Field,(96,1296)0,-1,Created,106,Resource Mineral Field,(4000,2928)0,-1,Created,107,Resource Mineral Field,(3424,432)0,-1,Created,108,Resource Mineral Field,(3488,432)0,-1,Created,109,Resource Mineral Field,(288,2064)0,-1,Created,110,Resource Mineral Field,(3360,432)0,-1,Created,111,Resource Mineral Field,(4000,2864)0,-1,Created,112,Resource Mineral Field,(128,80)0,-1,Created,113,Resource Mineral Field,(96,112)0,-1,Created,114,Resource Mineral Field,(3840,976)0,-1,Created,115,Resource Mineral Field,(288,2256)0,-1,Created,116,Resource Vespene Geyser,(3776,3008)0,-1,Created,117,Resource Mineral Field,(3968,2736)0,-1,Created,118,Resource Mineral Field,(3968,2960)0,-1,Created,119,Resource Vespene Geyser,(288,1056)0,-1,Created,120,Resource Mineral Field,(256,2128)0,-1,Created,121,Resource Mineral Field,(3840,912)0,-1,Created,122,Resource Mineral Field,(128,272)0,-1,Created,123,Resource Mineral Field,(96,176)0,-1,Created,124,Resource Mineral Field,(288,2096)0,-1,Created,125,Resource Mineral Field,(4000,2768)0,-1,Created,126,Resource Mineral Field,(3840,848)0,-1,Created,127,Resource Mineral Field,(4000,2800)0,-1,Created,128,Resource Mineral Field,(128,304)0,-1,Created,129,Resource Mineral Field,(96,240)0,-1,Created,130,Resource Mineral Field,(128,144)0,-1,Created,131,Resource Mineral Field,(256,2192)0,-1,Created,132,Resource Mineral Field,(3808,816)0,-1,Created,133,Resource Mineral Field,(3808,880)0,-1,Created,134,Resource Mineral Field,(3968,2832)0,-1,Created,135,Resource Mineral Field,(3808,1008)0,-1,Created,136,Resource Mineral Field,(3808,944)0,-1,Created,137,Resource Vespene Geyser,(320,32)0,-1,Created,138,Resource Mineral Field,(736,2640)0,-1,Created,139,Resource Mineral Field,(544,2672)0,-1,Created,140,Special Protoss Temple,(112,2992)0,-1,Created,141,Special Protoss Temple,(3953,48)0,-1,Created,142,Resource Mineral Field,(640,2672)0,-1,Created,143,Special Protoss Temple,(112,2992)0,-1,Created,144,Resource Mineral Field,(608,2640)0,-1,Created,145,Special Protoss Temple,(112,2992)0,-1,Created,146,Special Protoss Temple,(3953,48)0,-1,Created,147,Resource Mineral Field,(768,2672)0,-1,Created,148,Resource Mineral Field,(288,2224)0,-1,Created,149,Special Protoss Temple,(3953,48)0,-1,Created,150,Resource Mineral Field,(672,2640)0,-1,Created,151,Resource Mineral Field,(288,2160)0,-1,Created,152,Special Protoss Temple,(3953,48)0,-1,Created,153,Resource Vespene Geyser,(448,2816)0,-1,Created,154,Special Protoss Temple,(3953,48)0,-1,Created,155,Special Protoss Temple,(112,2992)0,-1,Created,156,Special Protoss Temple,(3953,48)0,-1,Created,157,Special Protoss Temple,(112,2992)0,-1,Created,158,Special Protoss Temple,(112,2992)0,-1,Created,159,Special Protoss Temple,(3953,48)11,0,Created,160,Protoss Probe,(288,1232)27,1,Morph,33,Zerg Egg,(3808,1881)
+345,1,Morph,33,Zerg Drone,(3808,1881)
+358,1,Created,161,Zerg Larva,(3749,1840)385,0,Created,162,Protoss Probe,(288,1232)425,1,Morph,161,Zerg Egg,(3741,1830)
+659,1,Morph,5,Zerg Egg,(3807,1891)
+687,0,Created,163,Protoss Probe,(288,1232)743,1,Morph,161,Zerg Drone,(3741,1830)
+767,1,Created,164,Zerg Larva,(3749,1840)875,1,Morph,12,Zerg Egg,(3810,1881)
+977,1,Morph,5,Zerg Drone,(3807,1891)
+989,0,Created,165,Protoss Probe,(288,1232)1033,1,Morph,164,Zerg Egg,(3751,1827)
+1105,1,Created,166,Zerg Larva,(3749,1840)1193,1,Morph,12,Zerg Drone,(3810,1881)
+1207,0,Created,167,Protoss Pylon,(608,2144)1351,1,Morph,164,Zerg Drone,(3751,1827)
+1367,0,Created,168,Protoss Probe,(288,1232)1444,1,Created,169,Zerg Larva,(3749,1840)1481,1,Morph,166,Zerg Egg,(3731,1880)
+1640,1,Destroyed,1,Zerg Drone,(3808,1664)
+1640,1,Morph,96,Zerg Extractor,(3808,1664)
+1644,0,Discovered,162,Protoss Probe
+1647,1,Morph,169,Zerg Egg,(3731,1860)
+1656,1,Discovered,14,Zerg Overlord
+1664,1,Created,170,Zerg Drone,(3808,1664)1664,1,Destroyed,96,Zerg Extractor,(3808,1664)
+1665,-1,Created,171,Resource Vespene Geyser,(3808,1664)1728,0,Created,172,Protoss Probe,(288,1232)1789,1,Created,173,Zerg Larva,(3749,1840)1965,1,Morph,169,Zerg Drone,(3731,1860)
+2009,0,Created,174,Protoss Forge,(624,2272)2057,0,Created,175,Protoss Probe,(288,1232)2099,1,Morph,166,Zerg Overlord,(3731,1880)
+2119,1,Created,176,Zerg Larva,(3749,1840)2119,1,Morph,173,Zerg Egg,(3751,1810)
+2153,1,Morph,176,Zerg Egg,(3748,1828)
+2172,1,Discovered,6,Zerg Hatchery
+2184,1,Discovered,2,Zerg Drone
+2184,1,Discovered,9,Zerg Drone
+2184,1,Discovered,38,Zerg Drone
+2196,1,Discovered,170,Zerg Drone
+2359,0,Created,177,Protoss Probe,(288,1232)2437,1,Morph,173,Zerg Drone,(3751,1810)
+2457,1,Created,178,Zerg Larva,(3749,1840)2471,1,Morph,176,Zerg Drone,(3748,1828)
+2483,1,Morph,9,Zerg Spawning Pool,(3792,1728)
+2661,0,Created,179,Protoss Probe,(288,1232)2795,1,Created,180,Zerg Larva,(3749,1840)2963,0,Created,181,Protoss Probe,(288,1232)3143,1,Created,182,Zerg Larva,(3749,1840)3169,1,Morph,182,Zerg Egg,(3751,1850)
+3337,1,Morph,178,Zerg Egg,(3741,1790)
+3371,0,Created,183,Protoss Nexus,(480,2160)3427,0,Created,184,Protoss Probe,(288,1232)3487,1,Morph,182,Zerg Drone,(3751,1850)
+3506,1,Created,185,Zerg Larva,(3749,1840)3655,1,Morph,178,Zerg Drone,(3741,1790)
+3715,1,Morph,180,Zerg Egg,(3741,1850)
+3715,1,Morph,185,Zerg Egg,(3751,1860)
+3796,0,Created,186,Protoss Photon Cannon,(608,2080)3844,1,Created,187,Zerg Larva,(3749,1840)3995,0,Created,188,Protoss Probe,(288,1232)4032,0,Discovered,3,Protoss Nexus
+4032,0,Discovered,188,Protoss Probe
+4092,0,Discovered,175,Protoss Probe
+4116,0,Discovered,160,Protoss Probe
+4128,0,Discovered,177,Protoss Probe
+4135,0,Created,189,Protoss Pylon,(3584,992)4140,0,Discovered,189,Protoss Pylon
+4153,1,Morph,180,Zerg Zergling,(3741,1850)
+4153,1,Morph,185,Zerg Zergling,(3751,1860)
+4168,1,Created,190,Zerg Zergling,(3734,1853)4168,1,Created,191,Zerg Zergling,(3744,1863)4176,0,Discovered,8,Protoss Probe
+4188,0,Discovered,184,Protoss Probe
+4188,0,Discovered,165,Protoss Probe
+4192,1,Created,192,Zerg Larva,(3749,1840)4200,0,Discovered,179,Protoss Probe
+4200,0,Discovered,168,Protoss Probe
+4224,0,Discovered,172,Protoss Probe
+4236,0,Discovered,163,Protoss Probe
+4260,0,Discovered,4,Protoss Probe
+4284,0,Discovered,7,Protoss Probe
+4287,1,Morph,12,Zerg Hatchery,(3424,944)
+4296,0,Discovered,10,Protoss Probe
+4356,1,Discovered,191,Zerg Zergling
+4368,1,Discovered,190,Zerg Zergling
+4384,0,Destroyed,189,Protoss Pylon,(3584,992)
+4463,0,Created,193,Protoss Gateway,(704,2192)4501,1,Morph,169,Zerg Hatchery,(3616,944)
+4517,1,Morph,192,Zerg Egg,(3748,1837)
+4517,1,Morph,187,Zerg Egg,(3741,1811)
+4527,0,Created,194,Protoss Photon Cannon,(544,2080)4530,1,Created,195,Zerg Larva,(3749,1840)4601,0,Created,196,Protoss Probe,(288,1232)4608,0,Discovered,181,Protoss Probe
+4729,1,Destroyed,38,Zerg Drone,(3808,1664)
+4729,1,Morph,171,Zerg Extractor,(3808,1664)
+4749,0,Morph,119,Protoss Assimilator,(288,1056)
+4835,1,Morph,192,Zerg Drone,(3748,1837)
+4835,1,Morph,187,Zerg Drone,(3741,1811)
+4876,1,Created,197,Zerg Larva,(3749,1840)4932,0,Discovered,194,Protoss Photon Cannon
+4944,0,Discovered,186,Protoss Photon Cannon
+5062,0,Created,198,Protoss Probe,(288,1232)5062,0,Destroyed,162,Protoss Probe,(3979,1995)
+5136,0,Discovered,196,Protoss Probe
+5222,1,Created,199,Zerg Larva,(3749,1840)5253,0,Created,200,Protoss Probe,(480,2160)5263,1,Morph,199,Zerg Egg,(3751,1830)
+5297,1,Morph,197,Zerg Egg,(3751,1800)
+5297,1,Morph,195,Zerg Egg,(3751,1800)
+5364,0,Created,201,Protoss Probe,(288,1232)5445,0,Created,202,Protoss Zealot,(704,2192)5555,0,Created,203,Protoss Probe,(480,2160)5602,1,Created,204,Zerg Larva,(3749,1840)5615,1,Morph,197,Zerg Drone,(3751,1800)
+5615,1,Morph,195,Zerg Drone,(3751,1800)
+5645,0,Created,205,Protoss Cybernetics Core,(464,2080)5729,0,Created,206,Protoss Probe,(288,1232)5785,1,Morph,204,Zerg Egg,(3746,1845)
+5867,0,Created,207,Protoss Pylon,(352,1504)5881,1,Morph,199,Zerg Overlord,(3751,1830)
+5943,1,Created,208,Zerg Larva,(3749,1840)6095,1,Created,209,Zerg Larva,(3424,986)6107,0,Created,210,Protoss Probe,(288,1232)6141,1,Morph,208,Zerg Egg,(3741,1810)
+6163,0,Created,211,Protoss Probe,(480,2160)6201,1,Morph,209,Zerg Egg,(3444,985)
+6223,1,Morph,204,Zerg Zergling,(3746,1845)
+6238,1,Created,212,Zerg Zergling,(3739,1848)6275,1,Created,213,Zerg Larva,(3749,1840)6309,1,Created,214,Zerg Larva,(3616,986)6361,1,Morph,214,Zerg Egg,(3616,995)
+6395,0,Created,215,Protoss Zealot,(704,2192)6401,1,Morph,213,Zerg Egg,(3739,1850)
+6409,0,Created,216,Protoss Probe,(288,1232)6445,1,Created,217,Zerg Larva,(3424,986)6465,0,Created,218,Protoss Probe,(480,2160)6544,1,Morph,192,Zerg Creep Colony,(3520,960)
+6579,1,Morph,208,Zerg Zergling,(3741,1810)
+6594,1,Created,219,Zerg Zergling,(3734,1813)6616,1,Created,220,Zerg Larva,(3749,1840)6633,0,Created,221,Protoss Citadel of Adun,(464,2016)6639,1,Morph,209,Zerg Zergling,(3444,985)
+6652,1,Created,222,Zerg Larva,(3675,944)6654,1,Created,223,Zerg Zergling,(3437,988)6709,1,Morph,222,Zerg Egg,(3684,914)
+6717,0,Created,224,Protoss Probe,(288,1232)6767,0,Created,225,Protoss Probe,(480,2160)6789,1,Created,226,Zerg Larva,(3424,986)6799,1,Morph,214,Zerg Zergling,(3616,995)
+6814,1,Created,227,Zerg Zergling,(3609,998)6861,0,Created,228,Protoss Gateway,(384,1584)6892,1,Morph,192,Zerg Sunken Colony,(3520,960)
+6907,1,Morph,226,Zerg Egg,(3415,1005)
+6907,1,Morph,217,Zerg Egg,(3474,995)
+6953,1,Created,229,Zerg Larva,(3749,1840)6989,1,Created,230,Zerg Larva,(3675,944)6993,1,Destroyed,212,Zerg Zergling,(3646,1396)
+6997,0,Created,231,Protoss Zealot,(704,2192)7019,1,Morph,213,Zerg Overlord,(3739,1850)
+7097,0,Created,232,Protoss Pylon,(256,1152)7113,1,Morph,220,Zerg Egg,(3751,1821)
+7113,1,Morph,229,Zerg Egg,(3738,1807)
+7133,1,Created,233,Zerg Larva,(3424,986)7147,1,Morph,222,Zerg Zergling,(3684,914)
+7147,1,Morph,230,Zerg Egg,(3674,924)
+7162,1,Created,234,Zerg Zergling,(3677,917)7163,0,Created,235,Protoss Probe,(288,1232)7171,1,Morph,233,Zerg Egg,(3424,1005)
+7205,-1,Destroyed,93,Resource Mineral Field,(224,2928)
+7289,1,Created,236,Zerg Larva,(3749,1840)7293,-1,Destroyed,66,Resource Mineral Field,(224,2928)
+7301,0,Morph,83,Protoss Assimilator,(512,2336)
+7325,1,Created,237,Zerg Larva,(3616,902)7345,1,Morph,226,Zerg Zergling,(3415,1005)
+7345,1,Morph,217,Zerg Zergling,(3474,995)
+7360,1,Created,238,Zerg Zergling,(3467,998)7360,1,Created,239,Zerg Zergling,(3408,1008)7375,1,Morph,236,Zerg Egg,(3741,1860)
+7388,-1,Destroyed,51,Resource Mineral Field,(224,2928)
+7475,1,Created,240,Zerg Larva,(3424,986)7481,-1,Destroyed,71,Resource Mineral Field,(224,2928)
+7551,1,Morph,220,Zerg Zergling,(3751,1821)
+7551,1,Morph,229,Zerg Zergling,(3738,1807)
+7566,1,Created,241,Zerg Zergling,(3731,1810)7566,1,Created,242,Zerg Zergling,(3744,1824)7571,-1,Destroyed,63,Resource Mineral Field,(224,2928)
+7577,0,Created,243,Protoss Pylon,(384,1248)7585,1,Morph,230,Zerg Zergling,(3674,924)
+7600,1,Created,244,Zerg Zergling,(3667,927)7609,1,Morph,233,Zerg Zergling,(3424,1005)
+7624,1,Created,245,Zerg Zergling,(3417,1008)7631,1,Created,246,Zerg Larva,(3749,1840)7649,0,Created,247,Protoss Zealot,(704,2192)7658,-1,Destroyed,68,Resource Mineral Field,(224,2928)
+7673,1,Created,248,Zerg Larva,(3616,902)7681,0,Created,249,Protoss Probe,(288,1232)7687,1,Morph,240,Zerg Egg,(3434,999)
+7689,0,Created,250,Protoss Probe,(480,2160)7695,1,Morph,248,Zerg Egg,(3626,894)
+7695,1,Morph,237,Zerg Egg,(3676,904)
+7713,1,Morph,246,Zerg Egg,(3745,1805)
+7751,-1,Destroyed,54,Resource Mineral Field,(224,2928)
+7812,1,Created,251,Zerg Larva,(3424,986)7813,1,Morph,236,Zerg Zergling,(3741,1860)
+7828,1,Created,252,Zerg Zergling,(3734,1863)7836,0,Discovered,231,Protoss Zealot
+7841,0,Created,253,Protoss Zealot,(384,1584)7842,-1,Destroyed,64,Resource Mineral Field,(224,2928)
+7872,0,Discovered,202,Protoss Zealot
+7920,0,Discovered,215,Protoss Zealot
+7935,-1,Destroyed,73,Resource Mineral Field,(224,2928)
+7976,1,Created,254,Zerg Larva,(3749,1840)7983,0,Created,255,Protoss Probe,(288,1232)7991,0,Created,256,Protoss Probe,(480,2160)8012,1,Created,257,Zerg Larva,(3616,902)8023,-1,Destroyed,55,Resource Mineral Field,(224,2928)
+8049,1,Morph,254,Zerg Egg,(3751,1850)
+8090,0,Created,258,Protoss Pylon,(448,1248)8115,-1,Destroyed,56,Resource Mineral Field,(224,2928)
+8125,1,Morph,240,Zerg Zergling,(3434,999)
+8133,1,Morph,248,Zerg Zergling,(3626,894)
+8133,1,Morph,237,Zerg Zergling,(3676,904)
+8140,1,Created,259,Zerg Zergling,(3427,1002)8148,1,Created,260,Zerg Zergling,(3669,907)8148,1,Created,261,Zerg Zergling,(3619,897)8151,1,Morph,246,Zerg Zergling,(3745,1805)
+8156,1,Created,262,Zerg Larva,(3424,986)8166,1,Created,263,Zerg Zergling,(3738,1808)8189,1,Morph,251,Zerg Egg,(3464,985)
+8207,1,Morph,257,Zerg Egg,(3575,904)
+8208,-1,Destroyed,67,Resource Mineral Field,(224,2928)
+8217,1,Morph,262,Zerg Egg,(3431,1001)
+8251,0,Created,264,Protoss Zealot,(704,2192)8299,-1,Destroyed,59,Resource Mineral Field,(224,2928)
+8313,1,Created,265,Zerg Larva,(3749,1840)8350,1,Created,266,Zerg Larva,(3616,902)8367,0,Created,267,Protoss Stargate,(160,1008)8392,-1,Destroyed,42,Resource Mineral Field,(224,2928)
+8427,1,Morph,266,Zerg Egg,(3626,894)
+8464,0,Created,268,Protoss Stargate,(416,1040)8484,-1,Destroyed,81,Resource Mineral Field,(224,2928)
+8487,1,Morph,254,Zerg Zergling,(3751,1850)
+8497,1,Created,269,Zerg Larva,(3424,986)8502,1,Created,270,Zerg Zergling,(3744,1853)8515,0,Created,271,Protoss Probe,(288,1232)8523,0,Created,272,Protoss Probe,(480,2160)8565,0,Created,273,Protoss Zealot,(384,1584)8576,-1,Destroyed,43,Resource Mineral Field,(224,2928)
+8611,1,Morph,197,Zerg Hydralisk Den,(3600,1920)
+8645,1,Morph,257,Zerg Zergling,(3575,904)
+8651,1,Created,274,Zerg Larva,(3749,1840)8655,1,Morph,262,Zerg Zergling,(3431,1001)
+8660,1,Created,275,Zerg Zergling,(3568,907)8669,-1,Destroyed,61,Resource Mineral Field,(224,2928)
+8670,1,Created,276,Zerg Zergling,(3424,1004)8688,1,Created,277,Zerg Larva,(3616,902)8727,0,Created,278,Protoss Pylon,(416,2336)8756,-1,Destroyed,57,Resource Mineral Field,(224,2928)
+8807,1,Morph,251,Zerg Overlord,(3464,985)
+8839,1,Created,279,Zerg Larva,(3424,986)8839,1,Morph,277,Zerg Egg,(3603,891)
+8845,1,Morph,269,Zerg Egg,(3445,1005)
+8849,-1,Destroyed,60,Resource Mineral Field,(224,2928)
+8853,0,Created,280,Protoss Zealot,(704,2192)8861,1,Morph,274,Zerg Egg,(3741,1810)
+8861,1,Morph,265,Zerg Egg,(3741,1871)
+8865,1,Morph,266,Zerg Zergling,(3626,894)
+8880,1,Created,281,Zerg Zergling,(3619,897)8943,-1,Destroyed,58,Resource Mineral Field,(224,2928)
+8969,0,Created,282,Protoss Templar Archives,(400,1184)8998,1,Created,283,Zerg Larva,(3749,1840)9003,1,Morph,279,Zerg Egg,(3419,989)
+9019,0,Created,284,Protoss Probe,(288,1232)9035,1,Created,285,Zerg Larva,(3616,902)9069,0,Created,286,Protoss Probe,(480,2160)9167,0,Created,287,Protoss Zealot,(384,1584)9184,1,Created,288,Zerg Larva,(3424,986)9209,1,Morph,283,Zerg Egg,(3732,1870)
+9217,1,Morph,288,Zerg Egg,(3412,986)
+9277,1,Morph,277,Zerg Zergling,(3603,891)
+9280,0,Created,289,Protoss Pylon,(256,992)9283,1,Morph,269,Zerg Zergling,(3445,1005)
+9292,1,Created,290,Zerg Zergling,(3596,894)9298,1,Created,291,Zerg Zergling,(3438,1008)9299,1,Morph,274,Zerg Zergling,(3741,1810)
+9299,1,Morph,265,Zerg Zergling,(3741,1871)
+9314,1,Created,292,Zerg Zergling,(3734,1874)9314,1,Created,293,Zerg Zergling,(3734,1813)9340,1,Created,294,Zerg Larva,(3749,1840)9377,1,Created,295,Zerg Larva,(3616,902)9389,0,Created,296,Protoss Photon Cannon,(192,1120)9441,1,Morph,294,Zerg Egg,(3741,1861)
+9441,1,Morph,279,Zerg Zergling,(3419,989)
+9456,1,Created,297,Zerg Zergling,(3412,992)9459,0,Created,298,Protoss Zealot,(704,2192)9516,1,Discovered,223,Zerg Zergling
+9516,1,Discovered,281,Zerg Zergling
+9526,1,Created,299,Zerg Larva,(3424,986)9528,1,Discovered,234,Zerg Zergling
+9528,1,Discovered,239,Zerg Zergling
+9540,1,Discovered,227,Zerg Zergling
+9540,0,Discovered,298,Protoss Zealot
+9540,0,Discovered,193,Protoss Gateway
+9540,0,Discovered,280,Protoss Zealot
+9552,1,Discovered,219,Zerg Zergling
+9552,1,Discovered,244,Zerg Zergling
+9564,1,Discovered,245,Zerg Zergling
+9564,0,Discovered,247,Protoss Zealot
+9576,1,Discovered,241,Zerg Zergling
+9576,1,Discovered,242,Zerg Zergling
+9578,1,Destroyed,281,Zerg Zergling,(784,2263)
+9588,1,Discovered,238,Zerg Zergling
+9588,0,Discovered,203,Protoss Probe
+9600,0,Discovered,221,Protoss Citadel of Adun
+9600,0,Discovered,205,Protoss Cybernetics Core
+9604,1,Destroyed,266,Zerg Zergling,(800,2263)
+9612,1,Discovered,270,Zerg Zergling
+9612,1,Discovered,252,Zerg Zergling
+9624,1,Discovered,259,Zerg Zergling
+9624,0,Discovered,253,Protoss Zealot
+9636,1,Destroyed,226,Zerg Zergling,(617,1957)
+9636,1,Discovered,263,Zerg Zergling
+9636,1,Discovered,261,Zerg Zergling
+9636,0,Discovered,264,Protoss Zealot
+9636,0,Discovered,273,Protoss Zealot
+9636,0,Discovered,218,Protoss Probe
+9641,1,Destroyed,217,Zerg Zergling,(509,1962)
+9647,1,Morph,283,Zerg Zergling,(3732,1870)
+9648,1,Discovered,260,Zerg Zergling
+9648,0,Discovered,183,Protoss Nexus
+9648,0,Discovered,167,Protoss Pylon
+9648,0,Discovered,256,Protoss Probe
+9655,1,Morph,288,Zerg Zergling,(3412,986)
+9660,0,Discovered,211,Protoss Probe
+9662,1,Created,300,Zerg Zergling,(3725,1873)9666,1,Destroyed,270,Zerg Zergling,(868,2256)
+9666,1,Destroyed,252,Zerg Zergling,(883,2223)
+9670,1,Created,301,Zerg Zergling,(3405,989)9672,0,Discovered,225,Protoss Probe
+9678,1,Destroyed,180,Zerg Zergling,(865,2140)
+9681,1,Destroyed,214,Zerg Zergling,(474,1973)
+9683,1,Destroyed,223,Zerg Zergling,(513,2039)
+9684,1,Discovered,276,Zerg Zergling
+9684,1,Discovered,275,Zerg Zergling
+9684,0,Discovered,272,Protoss Probe
+9684,0,Discovered,200,Protoss Probe
+9685,1,Created,302,Zerg Larva,(3749,1840)9696,0,Discovered,286,Protoss Probe
+9708,1,Discovered,291,Zerg Zergling
+9708,0,Discovered,250,Protoss Probe
+9711,1,Destroyed,254,Zerg Zergling,(875,2240)
+9713,1,Destroyed,236,Zerg Zergling,(900,2216)
+9724,1,Destroyed,227,Zerg Zergling,(518,2042)
+9726,0,Destroyed,165,Protoss Probe,(373,2022)
+9729,1,Destroyed,219,Zerg Zergling,(476,1980)
+9731,1,Created,303,Zerg Larva,(3616,902)9732,1,Discovered,290,Zerg Zergling
+9747,1,Destroyed,248,Zerg Zergling,(884,2156)
+9751,1,Destroyed,185,Zerg Zergling,(867,2130)
+9753,0,Destroyed,280,Protoss Zealot,(815,2267)
+9761,0,Destroyed,194,Protoss Photon Cannon,(544,2080)
+9768,1,Destroyed,239,Zerg Zergling,(567,2041)
+9771,1,Destroyed,263,Zerg Zergling,(880,2182)
+9780,1,Destroyed,240,Zerg Zergling,(853,2254)
+9780,0,Discovered,174,Protoss Forge
+9790,1,Destroyed,276,Zerg Zergling,(804,2300)
+9791,1,Destroyed,230,Zerg Zergling,(342,2056)
+9794,1,Destroyed,291,Zerg Zergling,(878,2222)
+9798,0,Destroyed,273,Protoss Zealot,(792,2281)
+9811,0,Created,304,Protoss Zealot,(384,1584)9816,1,Destroyed,222,Zerg Zergling,(534,2070)
+9822,0,Destroyed,256,Protoss Probe,(385,1934)
+9823,1,Destroyed,262,Zerg Zergling,(902,2149)
+9824,1,Destroyed,277,Zerg Zergling,(840,2264)
+9826,0,Destroyed,186,Protoss Photon Cannon,(608,2080)
+9828,0,Discovered,287,Protoss Zealot
+9833,0,Destroyed,202,Protoss Zealot,(858,2219)
+9835,1,Morph,302,Zerg Egg,(3751,1870)
+9837,1,Destroyed,259,Zerg Zergling,(884,2198)
+9837,1,Destroyed,269,Zerg Zergling,(893,2166)
+9840,1,Discovered,293,Zerg Zergling
+9845,1,Destroyed,245,Zerg Zergling,(421,2018)
+9855,1,Morph,299,Zerg Egg,(3476,990)
+9856,1,Destroyed,191,Zerg Zergling,(790,2263)
+9858,1,Created,305,Zerg Larva,(3424,986)9858,0,Destroyed,225,Protoss Probe,(385,1980)
+9863,1,Destroyed,290,Zerg Zergling,(875,2208)
+9864,1,Discovered,297,Zerg Zergling
+9876,1,Discovered,292,Zerg Zergling
+9879,1,Destroyed,209,Zerg Zergling,(405,1964)
+9879,1,Morph,294,Zerg Zergling,(3741,1861)
+9883,0,Destroyed,215,Protoss Zealot,(858,2209)
+9885,0,Destroyed,264,Protoss Zealot,(816,2253)
+9888,0,Discovered,278,Protoss Pylon
+9894,1,Created,306,Zerg Zergling,(3734,1864)9901,0,Destroyed,218,Protoss Probe,(556,2206)
+9904,1,Destroyed,274,Zerg Zergling,(891,2220)
+9904,1,Destroyed,275,Zerg Zergling,(795,2279)
+9908,0,Destroyed,211,Protoss Probe,(428,1972)
+9920,0,Destroyed,247,Protoss Zealot,(793,2246)
+9925,1,Destroyed,261,Zerg Zergling,(859,2222)
+9938,1,Destroyed,241,Zerg Zergling,(617,1966)
+9955,0,Destroyed,231,Protoss Zealot,(904,2201)
+9978,0,Destroyed,253,Protoss Zealot,(881,2190)
+10018,0,Destroyed,203,Protoss Probe,(331,2068)
+10019,1,Created,307,Zerg Larva,(3749,1840)10061,0,Created,308,Protoss Zealot,(704,2192)10067,1,Morph,307,Zerg Egg,(3734,1833)
+10068,0,Destroyed,250,Protoss Probe,(331,2083)
+10068,0,Discovered,308,Protoss Zealot
+10080,1,Destroyed,190,Zerg Zergling,(531,1978)
+10102,0,Destroyed,287,Protoss Zealot,(503,1965)
+10121,0,Destroyed,200,Protoss Probe,(449,1880)
+10122,0,Destroyed,179,Protoss Probe,(477,1900)
+10132,0,Destroyed,196,Protoss Probe,(450,1915)
+10134,1,Destroyed,292,Zerg Zergling,(747,2148)
+10146,0,Destroyed,10,Protoss Probe,(450,1905)
+10147,1,Morph,305,Zerg Egg,(3405,985)
+10153,1,Morph,285,Zerg Egg,(3603,904)
+10153,1,Morph,295,Zerg Egg,(3674,904)
+10153,1,Morph,303,Zerg Egg,(3674,904)
+10171,0,Destroyed,188,Protoss Probe,(499,1876)
+10192,1,Destroyed,293,Zerg Zergling,(635,2097)
+10198,1,Created,309,Zerg Larva,(3365,944)10224,0,Discovered,228,Protoss Gateway
+10224,0,Discovered,304,Protoss Zealot
+10236,1,Discovered,300,Zerg Zergling
+10236,0,Discovered,207,Protoss Pylon
+10248,1,Discovered,301,Zerg Zergling
+10273,1,Morph,302,Zerg Zergling,(3751,1870)
+10284,0,Discovered,271,Protoss Probe
+10284,0,Discovered,210,Protoss Probe
+10284,0,Discovered,249,Protoss Probe
+10288,1,Created,310,Zerg Zergling,(3744,1873)10293,1,Morph,299,Zerg Zergling,(3476,990)
+10296,0,Discovered,284,Protoss Probe
+10296,0,Discovered,224,Protoss Probe
+10296,0,Discovered,216,Protoss Probe
+10296,0,Discovered,201,Protoss Probe
+10296,0,Discovered,255,Protoss Probe
+10308,1,Created,311,Zerg Zergling,(3469,993)10308,0,Discovered,296,Protoss Photon Cannon
+10308,0,Discovered,232,Protoss Pylon
+10308,0,Discovered,235,Protoss Probe
+10308,0,Discovered,206,Protoss Probe
+10308,0,Discovered,198,Protoss Probe
+10317,0,Created,312,Protoss Corsair,(160,1008)10320,0,Discovered,267,Protoss Stargate
+10320,0,Discovered,312,Protoss Corsair
+10329,1,Destroyed,237,Zerg Zergling,(159,1147)
+10332,0,Discovered,243,Protoss Pylon
+10365,1,Destroyed,265,Zerg Zergling,(138,1341)
+10375,1,Created,313,Zerg Larva,(3749,1840)10413,0,Created,314,Protoss Zealot,(384,1584)10416,0,Discovered,314,Protoss Zealot
+10440,1,Discovered,306,Zerg Zergling
+10456,1,Destroyed,233,Zerg Zergling,(159,1219)
+10485,1,Created,315,Zerg Larva,(3616,902)10492,0,Destroyed,308,Protoss Zealot,(704,2192)
+10505,1,Morph,307,Zerg Zergling,(3734,1833)
+10512,0,Destroyed,314,Protoss Zealot,(384,1584)
+10520,1,Created,316,Zerg Zergling,(3727,1836)10535,1,Created,317,Zerg Larva,(3365,944)10551,1,Morph,313,Zerg Egg,(3741,1800)
+10571,1,Morph,309,Zerg Egg,(3367,972)
+10571,1,Morph,317,Zerg Egg,(3366,963)
+10579,1,Morph,315,Zerg Egg,(3596,904)
+10585,1,Morph,305,Zerg Zergling,(3405,985)
+10586,0,Created,318,Protoss Photon Cannon,(192,1216)10591,1,Morph,285,Zerg Zergling,(3603,904)
+10591,1,Morph,295,Zerg Zergling,(3674,904)
+10591,1,Morph,303,Zerg Zergling,(3674,904)
+10600,1,Created,319,Zerg Zergling,(3398,988)10606,1,Created,320,Zerg Zergling,(3596,907)10606,1,Created,321,Zerg Zergling,(3667,907)10606,1,Created,322,Zerg Zergling,(3667,907)10617,0,Destroyed,228,Protoss Gateway,(384,1584)
+10689,0,Destroyed,193,Protoss Gateway,(704,2192)
+10710,0,Created,323,Protoss Photon Cannon,(256,1312)10718,1,Created,324,Zerg Larva,(3749,1840)10737,0,Created,325,Protoss Corsair,(416,1040)10774,0,Destroyed,207,Protoss Pylon,(352,1504)
+10817,1,Created,326,Zerg Larva,(3616,902)10853,0,Created,327,Protoss Probe,(288,1232)10860,1,Discovered,310,Zerg Zergling
+10875,1,Morph,326,Zerg Egg,(3636,904)
+10876,1,Created,328,Zerg Larva,(3365,944)10895,1,Morph,324,Zerg Egg,(3749,1828)
+10903,1,Morph,328,Zerg Egg,(3367,954)
+10919,0,Created,329,Protoss Corsair,(160,1008)10989,1,Morph,313,Zerg Zergling,(3741,1800)
+11004,1,Created,330,Zerg Zergling,(3734,1803)11009,1,Morph,309,Zerg Zergling,(3367,972)
+11009,1,Morph,317,Zerg Zergling,(3366,963)
+11017,1,Morph,315,Zerg Zergling,(3596,904)
+11024,1,Created,331,Zerg Zergling,(3360,975)11024,1,Created,332,Zerg Zergling,(3359,966)11032,1,Created,333,Zerg Zergling,(3589,907)11053,0,Created,334,Protoss Forge,(304,1376)11067,1,Created,335,Zerg Larva,(3749,1840)11086,0,Destroyed,221,Protoss Citadel of Adun,(464,2016)
+11153,1,Created,336,Zerg Larva,(3616,902)11175,0,Created,337,Protoss Pylon,(224,1376)11193,1,Morph,326,Zerg Drone,(3636,904)
+11201,1,Morph,335,Zerg Egg,(3741,1871)
+11212,1,Created,338,Zerg Larva,(3365,944)11213,1,Morph,324,Zerg Drone,(3749,1828)
+11221,1,Morph,328,Zerg Drone,(3367,954)
+11222,0,Destroyed,183,Protoss Nexus,(480,2160)
+11242,0,Destroyed,205,Protoss Cybernetics Core,(464,2080)
+11245,1,Morph,336,Zerg Egg,(3586,904)
+11320,0,Destroyed,167,Protoss Pylon,(608,2144)
+11411,0,Created,339,Protoss Gateway,(416,1328)11411,1,Morph,338,Zerg Egg,(3362,956)
+11416,1,Created,340,Zerg Larva,(3749,1840)11461,0,Destroyed,174,Protoss Forge,(624,2272)
+11491,1,Created,341,Zerg Larva,(3616,902)11494,0,Destroyed,278,Protoss Pylon,(416,2336)
+11497,1,Destroyed,14,Zerg Overlord,(1285,1734)
+11566,1,Created,342,Zerg Larva,(3365,944)11568,0,Discovered,325,Protoss Corsair
+11610,0,Created,343,Protoss Gateway,(512,1168)11639,1,Morph,335,Zerg Hydralisk,(3741,1871)
+11664,1,Discovered,333,Zerg Zergling
+11664,1,Discovered,331,Zerg Zergling
+11664,0,Discovered,339,Protoss Gateway
+11676,0,Discovered,337,Protoss Pylon
+11676,0,Discovered,334,Protoss Forge
+11683,1,Morph,336,Zerg Hydralisk,(3586,904)
+11688,0,Discovered,327,Protoss Probe
+11700,1,Discovered,322,Zerg Zergling
+11700,0,Discovered,323,Protoss Photon Cannon
+11705,1,Destroyed,288,Zerg Zergling,(224,1408)
+11712,1,Discovered,319,Zerg Zergling
+11712,1,Discovered,321,Zerg Zergling
+11724,1,Discovered,311,Zerg Zergling
+11724,1,Discovered,330,Zerg Zergling
+11724,1,Discovered,332,Zerg Zergling
+11724,0,Discovered,258,Protoss Pylon
+11724,0,Discovered,343,Protoss Gateway
+11736,1,Discovered,320,Zerg Zergling
+11740,1,Destroyed,306,Zerg Zergling,(220,1402)
+11748,0,Discovered,282,Protoss Templar Archives
+11754,1,Destroyed,300,Zerg Zergling,(208,1435)
+11755,1,Created,344,Zerg Larva,(3749,1840)11758,0,Destroyed,327,Protoss Probe,(511,1330)
+11758,1,Destroyed,301,Zerg Zergling,(224,1419)
+11776,1,Destroyed,166,Zerg Overlord,(1614,1641)
+11784,1,Discovered,316,Zerg Zergling
+11784,0,Discovered,318,Protoss Photon Cannon
+11792,1,Destroyed,294,Zerg Zergling,(192,1420)
+11794,1,Destroyed,307,Zerg Zergling,(222,1328)
+11800,1,Destroyed,208,Zerg Zergling,(139,1415)
+11825,1,Destroyed,317,Zerg Zergling,(230,1338)
+11831,1,Created,345,Zerg Larva,(3616,902)11832,0,Discovered,268,Protoss Stargate
+11832,0,Discovered,289,Protoss Pylon
+11841,1,Destroyed,315,Zerg Zergling,(276,1283)
+11842,1,Destroyed,297,Zerg Zergling,(216,1417)
+11849,1,Morph,338,Zerg Hydralisk,(3362,956)
+11866,1,Destroyed,279,Zerg Zergling,(245,1112)
+11885,1,Destroyed,309,Zerg Zergling,(249,1338)
+11890,1,Destroyed,260,Zerg Zergling,(196,1297)
+11894,1,Destroyed,333,Zerg Zergling,(309,1276)
+11898,1,Destroyed,242,Zerg Zergling,(169,1237)
+11911,1,Created,346,Zerg Larva,(3365,944)11914,1,Destroyed,244,Zerg Zergling,(179,1311)
+11918,1,Destroyed,204,Zerg Zergling,(252,1112)
+11923,1,Destroyed,310,Zerg Zergling,(219,1337)
+11928,0,Destroyed,323,Protoss Photon Cannon,(256,1312)
+11937,1,Destroyed,220,Zerg Zergling,(219,1320)
+11953,0,Destroyed,296,Protoss Photon Cannon,(192,1120)
+11957,1,Destroyed,283,Zerg Zergling,(195,1306)
+11962,1,Destroyed,238,Zerg Zergling,(220,1155)
+11990,1,Destroyed,299,Zerg Zergling,(227,1279)
+12004,0,Destroyed,298,Protoss Zealot,(197,1279)
+12005,1,Destroyed,322,Zerg Zergling,(219,1306)
+12006,1,Destroyed,313,Zerg Zergling,(324,1108)
+12011,0,Created,347,Protoss Photon Cannon,(160,1408)12012,0,Discovered,347,Protoss Photon Cannon
+12036,0,Discovered,329,Protoss Corsair
+12038,1,Destroyed,234,Zerg Zergling,(193,1177)
+12045,1,Destroyed,321,Zerg Zergling,(258,1352)
+12050,1,Destroyed,246,Zerg Zergling,(209,1183)
+12062,1,Destroyed,229,Zerg Zergling,(152,1188)
+12075,1,Destroyed,320,Zerg Zergling,(355,1193)
+12085,1,Destroyed,257,Zerg Zergling,(199,1174)
+12090,1,Created,348,Zerg Larva,(3749,1840)12090,1,Destroyed,319,Zerg Zergling,(199,1138)
+12092,1,Destroyed,302,Zerg Zergling,(270,1336)
+12095,1,Morph,342,Zerg Egg,(3357,984)
+12095,1,Morph,346,Zerg Egg,(3357,964)
+12101,1,Destroyed,330,Zerg Zergling,(236,1128)
+12101,1,Morph,341,Zerg Egg,(3586,894)
+12101,1,Morph,345,Zerg Egg,(3645,894)
+12120,1,Destroyed,303,Zerg Zergling,(345,1141)
+12131,0,Destroyed,304,Protoss Zealot,(254,1323)
+12148,1,Destroyed,311,Zerg Zergling,(242,1301)
+12169,0,Destroyed,312,Protoss Corsair,(3233,898)
+12179,1,Created,349,Zerg Larva,(3557,912)12189,1,Destroyed,316,Zerg Zergling,(401,1284)
+12227,1,Destroyed,295,Zerg Zergling,(205,1180)
+12243,1,Destroyed,213,Zerg Overlord,(3466,946)
+12253,1,Created,350,Zerg Larva,(3365,944)12333,1,Morph,350,Zerg Egg,(3367,934)
+12346,0,Destroyed,343,Protoss Gateway,(512,1168)
+12401,0,Created,351,Protoss Photon Cannon,(320,1312)12419,1,Morph,341,Zerg Drone,(3586,894)
+12419,1,Morph,345,Zerg Drone,(3645,894)
+12485,0,Created,352,Protoss Dark Templar,(416,1328)12492,0,Discovered,352,Protoss Dark Templar
+12513,1,Created,353,Zerg Larva,(3557,912)12533,1,Morph,342,Zerg Hydralisk,(3357,984)
+12533,1,Morph,346,Zerg Hydralisk,(3357,964)
+12574,0,Destroyed,258,Protoss Pylon,(448,1248)
+12587,1,Created,354,Zerg Larva,(3365,944)12723,0,Created,355,Protoss Photon Cannon,(256,1312)12829,1,Morph,349,Zerg Egg,(3545,925)
+12829,1,Morph,353,Zerg Egg,(3550,923)
+12851,1,Created,356,Zerg Larva,(3557,912)12856,1,Morph,6,Zerg Lair,(3808,1840)
+12923,1,Created,357,Zerg Larva,(3365,944)12951,1,Morph,350,Zerg Overlord,(3367,934)
+12976,1,Destroyed,326,Zerg Drone,(3584,768)
+12976,1,Morph,101,Zerg Extractor,(3584,768)
+12997,0,Created,358,Protoss Gateway,(256,1456)13026,0,Destroyed,355,Protoss Photon Cannon,(256,1312)
+13059,1,Morph,357,Zerg Egg,(3367,983)
+13059,1,Morph,354,Zerg Egg,(3367,924)
+13063,0,Created,359,Protoss Gateway,(384,1456)13071,1,Morph,356,Zerg Egg,(3554,908)
+13137,1,Morph,348,Zerg Egg,(3749,1798)
+13188,1,Created,360,Zerg Larva,(3616,902)13204,0,Destroyed,268,Protoss Stargate,(416,1040)
+13247,0,Created,361,Protoss Dark Templar,(416,1328)13279,1,Created,362,Zerg Larva,(3365,944)13377,1,Morph,357,Zerg Drone,(3367,983)
+13377,1,Morph,354,Zerg Drone,(3367,924)
+13389,1,Morph,356,Zerg Drone,(3554,908)
+13415,1,Destroyed,331,Zerg Zergling,(154,941)
+13447,1,Morph,349,Zerg Overlord,(3545,925)
+13447,1,Morph,353,Zerg Overlord,(3550,923)
+13452,1,Destroyed,332,Zerg Zergling,(97,949)
+13455,1,Morph,348,Zerg Drone,(3749,1798)
+13469,1,Created,363,Zerg Larva,(3749,1840)13477,1,Morph,360,Zerg Egg,(3684,894)
+13482,1,Destroyed,285,Zerg Zergling,(129,947)
+13488,0,Created,364,Protoss Gateway,(544,1328)13505,1,Morph,340,Zerg Egg,(3751,1871)
+13505,1,Morph,344,Zerg Egg,(3746,1865)
+13505,1,Morph,363,Zerg Egg,(3751,1840)
+13512,1,Destroyed,305,Zerg Zergling,(113,944)
+13523,1,Created,365,Zerg Larva,(3616,902)13616,1,Created,366,Zerg Larva,(3365,944)13811,1,Morph,366,Zerg Egg,(3363,939)
+13811,1,Morph,362,Zerg Egg,(3358,955)
+13827,1,Created,367,Zerg Larva,(3749,1840)13877,1,Created,368,Zerg Larva,(3557,912)13915,1,Destroyed,199,Zerg Overlord,(2328,1162)
+13915,1,Morph,360,Zerg Hydralisk,(3684,894)
+13943,1,Morph,340,Zerg Hydralisk,(3751,1871)
+13943,1,Morph,344,Zerg Hydralisk,(3746,1865)
+13943,1,Morph,363,Zerg Hydralisk,(3751,1840)
+13952,1,Created,369,Zerg Larva,(3365,944)13999,0,Created,370,Protoss High Templar,(416,1328)14113,0,Created,371,Protoss High Templar,(256,1456)14119,0,Created,372,Protoss High Templar,(384,1456)14166,1,Created,373,Zerg Larva,(3749,1840)14176,1,Destroyed,350,Zerg Overlord,(3061,1037)
+14217,1,Created,374,Zerg Larva,(3557,912)14249,1,Morph,366,Zerg Hydralisk,(3363,939)
+14249,1,Morph,362,Zerg Hydralisk,(3358,955)
+14289,1,Created,375,Zerg Larva,(3365,944)14295,1,Morph,369,Zerg Egg,(3357,982)
+14323,1,Morph,374,Zerg Egg,(3555,901)
+14330,0,Created,376,Protoss Pylon,(384,1120)14365,1,Created,377,Zerg Larva,(3749,1840)14376,0,Discovered,361,Protoss Dark Templar
+14446,1,Destroyed,338,Zerg Hydralisk,(1396,2368)
+14489,1,Destroyed,336,Zerg Hydralisk,(1422,2310)
+14635,1,Created,378,Zerg Larva,(3365,944)14651,1,Created,379,Zerg Larva,(3557,912)14659,1,Destroyed,342,Zerg Hydralisk,(1152,2356)
+14809,1,Morph,178,Zerg Spire,(3808,1952)
+14813,1,Destroyed,335,Zerg Hydralisk,(541,2260)
+14855,0,Created,380,Protoss Cybernetics Core,(336,992)14881,1,Morph,379,Zerg Egg,(3550,919)
+14891,0,Created,381,Protoss Zealot,(384,1456)14897,0,Created,382,Protoss Zealot,(416,1328)14905,0,Created,383,Protoss Zealot,(256,1456)14913,1,Morph,369,Zerg Overlord,(3357,982)
+14935,0,Created,384,Protoss Zealot,(544,1328)14941,1,Morph,374,Zerg Overlord,(3555,901)
+14983,1,Created,385,Zerg Larva,(3365,944)15041,1,Morph,368,Zerg Egg,(3549,894)
+15041,1,Morph,365,Zerg Egg,(3552,944)
+15063,1,Morph,378,Zerg Egg,(3357,974)
+15063,1,Morph,375,Zerg Egg,(3357,974)
+15091,1,Morph,377,Zerg Egg,(3741,1871)
+15107,0,Created,386,Protoss Pylon,(256,928)15199,1,Morph,379,Zerg Drone,(3550,919)
+15204,1,Created,387,Zerg Larva,(3557,912)15211,1,Morph,367,Zerg Egg,(3751,1861)
+15225,1,Destroyed,346,Zerg Hydralisk,(1935,2159)
+15359,1,Morph,368,Zerg Drone,(3549,894)
+15359,1,Morph,365,Zerg Drone,(3552,944)
+15361,0,Created,388,Protoss Probe,(288,1232)15381,1,Morph,378,Zerg Drone,(3357,974)
+15381,1,Morph,375,Zerg Drone,(3357,974)
+15392,1,Created,389,Zerg Larva,(3365,944)15409,1,Morph,377,Zerg Drone,(3741,1871)
+15420,1,Created,390,Zerg Larva,(3749,1840)15529,1,Morph,367,Zerg Drone,(3751,1861)
+15542,1,Created,391,Zerg Larva,(3616,986)15659,0,Created,392,Protoss High Templar,(544,1328)15663,0,Created,393,Protoss Probe,(288,1232)15663,0,Created,394,Protoss High Templar,(416,1328)15669,0,Created,395,Protoss Zealot,(384,1456)15727,0,Created,396,Protoss Zealot,(256,1456)15727,1,Created,397,Zerg Larva,(3365,944)15763,1,Created,398,Zerg Larva,(3749,1840)15827,1,Morph,385,Zerg Egg,(3364,949)
+15827,1,Morph,397,Zerg Egg,(3365,932)
+15827,1,Morph,389,Zerg Egg,(3348,952)
+15852,0,Destroyed,352,Protoss Dark Templar,(1603,1221)
+15852,0,Morph,361,Protoss Dark Archon,(1598,1203)
+15863,1,Morph,387,Zerg Egg,(3549,918)
+15877,1,Created,399,Zerg Larva,(3616,986)15916,0,Created,400,Protoss Pylon,(192,928)16165,1,Created,401,Zerg Larva,(3365,944)16191,0,Created,402,Protoss Probe,(288,1232)16214,1,Created,403,Zerg Larva,(3616,902)16265,1,Morph,385,Zerg Hydralisk,(3364,949)
+16265,1,Morph,397,Zerg Hydralisk,(3365,932)
+16265,1,Morph,389,Zerg Hydralisk,(3348,952)
+16481,1,Morph,387,Zerg Overlord,(3549,918)
+16506,1,Created,404,Zerg Larva,(3365,944)16542,0,Destroyed,392,Protoss High Templar,(560,1549)
+16542,0,Morph,394,Protoss Archon,(559,1547)
+16573,0,Created,405,Protoss Zealot,(384,1456)16577,0,Created,406,Protoss Zealot,(256,1456)16589,0,Created,407,Protoss High Templar,(416,1328)16627,1,Morph,373,Zerg Egg,(3741,1790)
+16627,1,Morph,398,Zerg Egg,(3741,1871)
+16627,1,Morph,390,Zerg Egg,(3751,1800)
+16627,1,Morph,404,Zerg Egg,(3357,934)
+16627,1,Morph,401,Zerg Egg,(3362,934)
+16627,1,Morph,399,Zerg Egg,(3583,993)
+16643,0,Created,408,Protoss High Templar,(544,1328)16723,1,Morph,391,Zerg Egg,(3637,988)
+16733,0,Created,409,Protoss Pylon,(608,2272)16789,1,Morph,403,Zerg Egg,(3634,894)
+16861,1,Created,410,Zerg Larva,(3365,944)16920,-1,Destroyed,39,Resource Mineral Field,(3808,1040)
+16949,1,Morph,410,Zerg Egg,(3364,961)
+16957,1,Created,411,Zerg Larva,(3557,912)16969,1,Created,412,Zerg Larva,(3749,1840)16993,1,Morph,411,Zerg Egg,(3553,928)
+17129,1,Morph,412,Zerg Egg,(3751,1881)
+17201,1,Created,413,Zerg Larva,(3365,944)17244,0,Discovered,394,Protoss Archon
+17245,1,Morph,373,Zerg Mutalisk,(3741,1790)
+17245,1,Morph,398,Zerg Mutalisk,(3741,1871)
+17245,1,Morph,390,Zerg Mutalisk,(3751,1800)
+17245,1,Morph,404,Zerg Mutalisk,(3357,934)
+17245,1,Morph,401,Zerg Mutalisk,(3362,934)
+17245,1,Morph,399,Zerg Mutalisk,(3583,993)
+17256,0,Discovered,394,Protoss Archon
+17257,1,Morph,403,Zerg Scourge,(3634,894)
+17268,0,Discovered,394,Protoss Archon
+17272,1,Created,414,Zerg Scourge,(3643,853)17280,0,Discovered,394,Protoss Archon
+17292,0,Discovered,394,Protoss Archon
+17297,1,Created,415,Zerg Larva,(3616,986)17304,0,Discovered,394,Protoss Archon
+17309,1,Created,416,Zerg Larva,(3749,1840)17316,0,Discovered,394,Protoss Archon
+17328,0,Discovered,394,Protoss Archon
+17340,0,Discovered,394,Protoss Archon
+17340,0,Discovered,409,Protoss Pylon
+17341,1,Morph,391,Zerg Mutalisk,(3637,988)
+17364,0,Discovered,393,Protoss Probe
+17407,0,Destroyed,393,Protoss Probe,(557,2274)
+17417,1,Morph,410,Zerg Scourge,(3364,961)
+17432,1,Created,417,Zerg Scourge,(3373,920)17532,0,Discovered,371,Protoss High Templar
+17534,0,Destroyed,409,Protoss Pylon,(608,2272)
+17536,1,Created,418,Zerg Larva,(3365,944)17544,0,Discovered,370,Protoss High Templar
+17544,0,Discovered,395,Protoss Zealot
+17556,1,Discovered,417,Zerg Scourge
+17556,1,Discovered,414,Zerg Scourge
+17580,0,Discovered,406,Protoss Zealot
+17585,1,Destroyed,385,Zerg Hydralisk,(716,2226)
+17592,1,Destroyed,340,Zerg Hydralisk,(695,2226)
+17592,0,Discovered,407,Protoss High Templar
+17604,0,Discovered,372,Protoss High Templar
+17604,0,Discovered,382,Protoss Zealot
+17604,0,Discovered,381,Protoss Zealot
+17608,1,Destroyed,414,Zerg Scourge,(2650,1015)
+17611,1,Morph,411,Zerg Overlord,(3553,928)
+17613,1,Destroyed,403,Zerg Scourge,(2662,1014)
+17616,0,Discovered,383,Protoss Zealot
+17618,0,Destroyed,329,Protoss Corsair,(2630,1015)
+17621,1,Destroyed,417,Zerg Scourge,(2675,1040)
+17624,1,Destroyed,410,Zerg Scourge,(2671,1053)
+17628,0,Discovered,396,Protoss Zealot
+17629,0,Destroyed,325,Protoss Corsair,(2654,1049)
+17630,1,Created,419,Zerg Larva,(3616,986)17640,0,Discovered,384,Protoss Zealot
+17651,0,Destroyed,371,Protoss High Templar,(894,2124)
+17652,0,Discovered,405,Protoss Zealot
+17657,1,Created,420,Zerg Larva,(3749,1840)17659,1,Morph,416,Zerg Egg,(3741,1830)
+17664,0,Discovered,394,Protoss Archon
+17676,0,Discovered,394,Protoss Archon
+17688,0,Discovered,394,Protoss Archon
+17691,1,Destroyed,366,Zerg Hydralisk,(758,2136)
+17700,0,Discovered,394,Protoss Archon
+17700,0,Discovered,408,Protoss High Templar
+17711,1,Destroyed,362,Zerg Hydralisk,(745,2107)
+17712,0,Discovered,394,Protoss Archon
+17717,1,Destroyed,344,Zerg Hydralisk,(846,2229)
+17724,0,Discovered,394,Protoss Archon
+17728,1,Destroyed,389,Zerg Hydralisk,(815,2198)
+17733,1,Destroyed,363,Zerg Hydralisk,(756,2161)
+17736,0,Discovered,394,Protoss Archon
+17737,1,Destroyed,397,Zerg Hydralisk,(867,2257)
+17747,1,Morph,412,Zerg Overlord,(3751,1881)
+17748,0,Discovered,394,Protoss Archon
+17755,1,Destroyed,360,Zerg Hydralisk,(789,2172)
+17807,0,Created,421,Protoss Zealot,(384,1456)17811,0,Created,422,Protoss Zealot,(256,1456)17815,0,Created,423,Protoss Zealot,(416,1328)17839,1,Morph,418,Zerg Egg,(3367,943)
+17839,1,Morph,413,Zerg Egg,(3367,944)
+17871,1,Created,424,Zerg Larva,(3365,944)17905,1,Morph,419,Zerg Egg,(3606,991)
+17905,1,Morph,415,Zerg Egg,(3579,985)
+17925,1,Morph,420,Zerg Egg,(3751,1840)
+17951,1,Morph,424,Zerg Egg,(3362,938)
+17968,1,Created,425,Zerg Larva,(3675,944)17983,1,Morph,379,Zerg Creep Colony,(3552,1056)
+17998,1,Created,426,Zerg Larva,(3749,1840)18003,0,Created,427,Protoss Pylon,(384,1056)18011,1,Morph,425,Zerg Egg,(3676,946)
+18022,0,Created,428,Protoss Nexus,(480,2160)18081,1,Morph,426,Zerg Egg,(3732,1858)
+18100,0,Created,429,Protoss Pylon,(512,2240)18103,1,Morph,195,Zerg Creep Colony,(3488,832)
+18205,1,Created,430,Zerg Larva,(3365,944)18276,0,Discovered,364,Protoss Gateway
+18277,1,Morph,416,Zerg Mutalisk,(3741,1830)
+18288,0,Discovered,376,Protoss Pylon
+18300,0,Discovered,427,Protoss Pylon
+18300,0,Discovered,423,Protoss Zealot
+18302,1,Created,431,Zerg Larva,(3616,986)18312,0,Discovered,351,Protoss Photon Cannon
+18312,0,Discovered,380,Protoss Cybernetics Core
+18332,1,Created,432,Zerg Larva,(3749,1840)18336,0,Discovered,388,Protoss Probe
+18336,0,Discovered,402,Protoss Probe
+18343,1,Morph,419,Zerg Zergling,(3606,991)
+18343,1,Morph,415,Zerg Zergling,(3579,985)
+18358,1,Created,433,Zerg Zergling,(3572,988)18358,1,Created,434,Zerg Zergling,(3599,994)18358,1,Morph,379,Zerg Sunken Colony,(3552,1056)
+18363,1,Morph,420,Zerg Zergling,(3751,1840)
+18378,1,Created,435,Zerg Zergling,(3744,1843)18389,1,Morph,430,Zerg Egg,(3357,932)
+18389,1,Morph,424,Zerg Zergling,(3362,938)
+18393,0,Destroyed,255,Protoss Probe,(107,1244)
+18394,1,Destroyed,399,Zerg Mutalisk,(225,1233)
+18395,1,Morph,431,Zerg Egg,(3617,985)
+18396,0,Discovered,358,Protoss Gateway
+18396,0,Discovered,422,Protoss Zealot
+18404,1,Created,436,Zerg Zergling,(3355,941)18413,1,Morph,432,Zerg Egg,(3740,1840)
+18426,1,Morph,195,Zerg Sunken Colony,(3488,832)
+18430,0,Destroyed,318,Protoss Photon Cannon,(192,1216)
+18439,1,Destroyed,373,Zerg Mutalisk,(226,1243)
+18449,1,Morph,425,Zerg Zergling,(3676,946)
+18457,1,Morph,418,Zerg Mutalisk,(3367,943)
+18457,1,Morph,413,Zerg Mutalisk,(3367,944)
+18464,1,Created,437,Zerg Zergling,(3669,949)18519,1,Morph,426,Zerg Zergling,(3732,1858)
+18534,1,Created,438,Zerg Zergling,(3725,1861)18539,1,Created,439,Zerg Larva,(3365,944)18540,1,Discovered,433,Zerg Zergling
+18540,1,Discovered,437,Zerg Zergling
+18540,1,Discovered,436,Zerg Zergling
+18552,1,Discovered,434,Zerg Zergling
+18552,1,Discovered,435,Zerg Zergling
+18557,1,Destroyed,391,Zerg Mutalisk,(256,1213)
+18566,1,Destroyed,437,Zerg Zergling,(3315,922)
+18573,1,Destroyed,390,Zerg Mutalisk,(207,1237)
+18580,1,Destroyed,433,Zerg Zergling,(3333,932)
+18589,0,Destroyed,351,Protoss Photon Cannon,(320,1312)
+18603,1,Destroyed,419,Zerg Zergling,(3299,926)
+18607,1,Destroyed,436,Zerg Zergling,(3383,884)
+18607,1,Destroyed,434,Zerg Zergling,(3267,947)
+18610,1,Destroyed,415,Zerg Zergling,(3283,942)
+18617,1,Destroyed,424,Zerg Zergling,(3384,900)
+18646,0,Destroyed,383,Protoss Zealot,(3341,864)
+18647,1,Created,440,Zerg Larva,(3616,986)18660,1,Discovered,438,Zerg Zergling
+18660,0,Discovered,386,Protoss Pylon
+18660,0,Discovered,400,Protoss Pylon
+18666,1,Destroyed,420,Zerg Zergling,(3406,1013)
+18677,1,Created,441,Zerg Larva,(3749,1840)18686,1,Destroyed,425,Zerg Zergling,(3390,1060)
+18721,1,Morph,440,Zerg Egg,(3630,991)
+18731,1,Morph,439,Zerg Egg,(3367,946)
+18733,1,Destroyed,435,Zerg Zergling,(3463,1023)
+18734,1,Destroyed,438,Zerg Zergling,(3444,1066)
+18757,1,Morph,441,Zerg Egg,(3748,1832)
+18759,1,Destroyed,426,Zerg Zergling,(3460,1065)
+18768,0,Discovered,394,Protoss Archon
+18780,0,Discovered,394,Protoss Archon
+18782,0,Destroyed,405,Protoss Zealot,(3475,1047)
+18792,0,Discovered,394,Protoss Archon
+18801,0,Destroyed,388,Protoss Probe,(110,1168)
+18803,0,Destroyed,177,Protoss Probe,(107,1131)
+18804,0,Discovered,394,Protoss Archon
+18816,0,Discovered,394,Protoss Archon
+18827,1,Morph,430,Zerg Zergling,(3357,932)
+18828,0,Destroyed,384,Protoss Zealot,(3461,898)
+18828,0,Discovered,394,Protoss Archon
+18833,1,Morph,431,Zerg Zergling,(3617,985)
+18840,0,Discovered,394,Protoss Archon
+18842,1,Created,442,Zerg Zergling,(3350,935)18847,0,Destroyed,395,Protoss Zealot,(3357,980)
+18848,1,Created,443,Zerg Zergling,(3610,988)18851,1,Morph,432,Zerg Zergling,(3740,1840)
+18852,1,Discovered,442,Zerg Zergling
+18852,1,Discovered,443,Zerg Zergling
+18852,0,Discovered,394,Protoss Archon
+18861,0,Destroyed,8,Protoss Probe,(181,1140)
+18864,0,Discovered,394,Protoss Archon
+18866,1,Created,444,Zerg Zergling,(3733,1843)18866,0,Destroyed,181,Protoss Probe,(228,1181)
+18876,0,Discovered,394,Protoss Archon
+18883,1,Created,445,Zerg Larva,(3365,944)18890,0,Destroyed,271,Protoss Probe,(144,1122)
+18921,0,Created,446,Protoss High Templar,(384,1456)18925,0,Created,447,Protoss High Templar,(256,1456)18929,0,Created,448,Protoss High Templar,(416,1328)18935,0,Created,449,Protoss Zealot,(544,1328)18936,0,Discovered,449,Protoss Zealot
+18951,1,Morph,445,Zerg Egg,(3351,934)
+18960,0,Discovered,394,Protoss Archon
+18972,0,Discovered,394,Protoss Archon
+18981,1,Created,450,Zerg Larva,(3616,986)18984,0,Discovered,394,Protoss Archon
+18996,0,Discovered,394,Protoss Archon
+19008,0,Discovered,394,Protoss Archon
+19019,1,Created,451,Zerg Larva,(3749,1840)19020,0,Discovered,394,Protoss Archon
+19159,1,Morph,440,Zerg Zergling,(3630,991)
+19169,1,Morph,439,Zerg Zergling,(3367,946)
+19174,1,Created,452,Zerg Zergling,(3623,994)19184,1,Created,453,Zerg Zergling,(3360,949)19188,0,Discovered,394,Protoss Archon
+19195,1,Morph,441,Zerg Zergling,(3748,1832)
+19200,0,Discovered,394,Protoss Archon
+19210,1,Created,454,Zerg Zergling,(3741,1835)19212,0,Discovered,394,Protoss Archon
+19223,1,Created,455,Zerg Larva,(3365,944)19224,0,Discovered,394,Protoss Archon
+19236,0,Discovered,394,Protoss Archon
+19298,0,Destroyed,370,Protoss High Templar,(2184,953)
+19302,0,Destroyed,407,Protoss High Templar,(2146,866)
+19302,0,Morph,408,Protoss Archon,(2143,863)
+19320,0,Discovered,394,Protoss Archon
+19321,1,Created,456,Zerg Larva,(3616,986)19332,0,Discovered,394,Protoss Archon
+19344,0,Discovered,394,Protoss Archon
+19356,0,Discovered,394,Protoss Archon
+19358,1,Created,457,Zerg Larva,(3749,1840)19368,0,Discovered,394,Protoss Archon
+19380,0,Discovered,394,Protoss Archon
+19389,1,Morph,445,Zerg Zergling,(3351,934)
+19392,0,Discovered,394,Protoss Archon
+19404,1,Created,458,Zerg Zergling,(3344,937)19453,1,Morph,456,Zerg Egg,(3586,991)
+19453,1,Morph,450,Zerg Egg,(3636,994)
+19464,0,Created,459,Protoss Photon Cannon,(448,2240)19475,1,Morph,455,Zerg Egg,(3367,954)
+19491,1,Morph,451,Zerg Egg,(3749,1809)
+19491,1,Morph,457,Zerg Egg,(3751,1850)
+19495,0,Created,460,Protoss Photon Cannon,(384,2240)19575,1,Created,461,Zerg Larva,(3365,944)19662,1,Created,462,Zerg Larva,(3557,912)19692,0,Discovered,421,Protoss Zealot
+19700,1,Created,463,Zerg Larva,(3749,1840)19711,1,Morph,462,Zerg Egg,(3559,904)
+19723,1,Morph,461,Zerg Egg,(3352,954)
+19741,1,Morph,463,Zerg Egg,(3751,1850)
+19771,1,Morph,456,Zerg Drone,(3586,991)
+19771,1,Morph,450,Zerg Drone,(3636,994)
+19795,0,Destroyed,446,Protoss High Templar,(349,1613)
+19795,0,Morph,447,Protoss Archon,(347,1613)
+19908,1,Created,464,Zerg Larva,(3365,944)19995,1,Created,465,Zerg Larva,(3557,912)20042,1,Created,466,Zerg Larva,(3749,1840)20057,0,Created,467,Protoss Probe,(288,1232)20064,0,Discovered,467,Protoss Probe
+20093,1,Morph,455,Zerg Mutalisk,(3367,954)
+20109,1,Morph,451,Zerg Mutalisk,(3749,1809)
+20109,1,Morph,457,Zerg Mutalisk,(3751,1850)
+20149,1,Morph,462,Zerg Hydralisk,(3559,904)
+20161,1,Morph,461,Zerg Hydralisk,(3352,954)
+20170,1,Morph,354,Zerg Hatchery,(3424,240)
+20179,1,Morph,463,Zerg Hydralisk,(3751,1850)
+20232,0,Discovered,394,Protoss Archon
+20244,0,Discovered,394,Protoss Archon
+20246,1,Created,468,Zerg Larva,(3365,944)20256,0,Discovered,394,Protoss Archon
+20268,0,Discovered,394,Protoss Archon
+20280,0,Discovered,394,Protoss Archon
+20286,0,Destroyed,380,Protoss Cybernetics Core,(336,992)
+20292,0,Discovered,394,Protoss Archon
+20304,0,Discovered,394,Protoss Archon
+20304,0,Discovered,447,Protoss Archon
+20316,0,Discovered,394,Protoss Archon
+20316,0,Discovered,447,Protoss Archon
+20328,0,Discovered,394,Protoss Archon
+20328,0,Discovered,447,Protoss Archon
+20334,1,Created,469,Zerg Larva,(3616,986)20340,0,Discovered,394,Protoss Archon
+20340,0,Discovered,447,Protoss Archon
+20352,0,Discovered,394,Protoss Archon
+20352,0,Discovered,447,Protoss Archon
+20359,0,Created,470,Protoss Probe,(288,1232)20364,0,Discovered,394,Protoss Archon
+20364,0,Discovered,447,Protoss Archon
+20376,0,Discovered,447,Protoss Archon
+20376,0,Discovered,394,Protoss Archon
+20381,1,Created,471,Zerg Larva,(3749,1840)20388,0,Discovered,447,Protoss Archon
+20388,0,Discovered,394,Protoss Archon
+20400,0,Discovered,394,Protoss Archon
+20400,0,Discovered,447,Protoss Archon
+20400,0,Discovered,448,Protoss High Templar
+20412,1,Discovered,454,Zerg Zergling
+20412,1,Discovered,452,Zerg Zergling
+20412,1,Discovered,444,Zerg Zergling
+20412,0,Discovered,394,Protoss Archon
+20412,0,Discovered,447,Protoss Archon
+20424,0,Discovered,394,Protoss Archon
+20424,0,Discovered,447,Protoss Archon
+20424,0,Discovered,428,Protoss Nexus
+20424,0,Discovered,429,Protoss Pylon
+20424,0,Discovered,459,Protoss Photon Cannon
+20436,0,Discovered,394,Protoss Archon
+20436,0,Discovered,447,Protoss Archon
+20445,1,Destroyed,432,Zerg Zergling,(550,2157)
+20448,0,Discovered,394,Protoss Archon
+20448,0,Discovered,447,Protoss Archon
+20448,0,Discovered,460,Protoss Photon Cannon
+20459,1,Destroyed,445,Zerg Zergling,(509,2211)
+20502,1,Destroyed,431,Zerg Zergling,(436,2274)
+20511,1,Destroyed,441,Zerg Zergling,(541,2253)
+20528,1,Destroyed,440,Zerg Zergling,(443,2268)
+20528,1,Destroyed,442,Zerg Zergling,(488,2265)
+20528,1,Destroyed,454,Zerg Zergling,(419,2262)
+20528,1,Destroyed,452,Zerg Zergling,(459,2272)
+20535,0,Created,472,Protoss Probe,(480,2160)20544,0,Discovered,472,Protoss Probe
+20556,0,Destroyed,448,Protoss High Templar,(505,2287)
+20557,1,Destroyed,443,Zerg Zergling,(640,2317)
+20571,1,Destroyed,430,Zerg Zergling,(512,2291)
+20590,1,Created,473,Zerg Larva,(3365,944)20599,1,Destroyed,444,Zerg Zergling,(508,2267)
+20619,1,Destroyed,439,Zerg Zergling,(488,2265)
+20661,0,Created,474,Protoss Probe,(288,1232)20670,1,Created,475,Zerg Larva,(3616,986)20679,1,Morph,469,Zerg Egg,(3646,985)
+20679,1,Morph,465,Zerg Egg,(3544,913)
+20679,1,Morph,475,Zerg Egg,(3616,985)
+20721,1,Morph,464,Zerg Egg,(3357,914)
+20741,1,Created,476,Zerg Larva,(3749,1840)20762,0,Created,477,Protoss Photon Cannon,(576,2240)20765,0,Created,478,Protoss Photon Cannon,(576,2176)20837,0,Created,479,Protoss Probe,(480,2160)20904,0,Discovered,470,Protoss Probe
+20904,0,Discovered,474,Protoss Probe
+20928,0,Destroyed,172,Protoss Probe,(107,1227)
+20963,0,Created,480,Protoss Probe,(288,1232)20964,0,Discovered,480,Protoss Probe
+20964,0,Discovered,394,Protoss Archon
+20973,0,Destroyed,201,Protoss Probe,(139,1332)
+20976,0,Discovered,394,Protoss Archon
+20988,0,Discovered,394,Protoss Archon
+20988,0,Discovered,447,Protoss Archon
+20998,1,Destroyed,413,Zerg Mutalisk,(143,1350)
+21000,0,Discovered,394,Protoss Archon
+21000,0,Discovered,447,Protoss Archon
+21010,1,Destroyed,416,Zerg Mutalisk,(145,1359)
+21012,0,Discovered,394,Protoss Archon
+21012,0,Discovered,447,Protoss Archon
+21012,0,Discovered,359,Protoss Gateway
+21013,1,Created,481,Zerg Larva,(3616,986)21022,1,Destroyed,418,Zerg Mutalisk,(138,1355)
+21024,0,Discovered,394,Protoss Archon
+21024,0,Discovered,447,Protoss Archon
+21036,0,Discovered,394,Protoss Archon
+21036,0,Discovered,447,Protoss Archon
+21048,0,Discovered,394,Protoss Archon
+21048,0,Discovered,447,Protoss Archon
+21053,1,Destroyed,451,Zerg Mutalisk,(139,1360)
+21058,1,Created,482,Zerg Larva,(3365,944)21060,0,Discovered,394,Protoss Archon
+21060,0,Discovered,447,Protoss Archon
+21072,1,Destroyed,457,Zerg Mutalisk,(156,1339)
+21072,0,Discovered,394,Protoss Archon
+21072,0,Discovered,447,Protoss Archon
+21084,0,Discovered,394,Protoss Archon
+21084,0,Discovered,447,Protoss Archon
+21093,1,Destroyed,455,Zerg Mutalisk,(184,1360)
+21096,0,Discovered,394,Protoss Archon
+21108,0,Discovered,394,Protoss Archon
+21117,1,Morph,469,Zerg Hydralisk,(3646,985)
+21117,1,Morph,465,Zerg Hydralisk,(3544,913)
+21117,1,Morph,475,Zerg Hydralisk,(3616,985)
+21120,0,Discovered,394,Protoss Archon
+21132,0,Discovered,394,Protoss Archon
+21144,0,Discovered,394,Protoss Archon
+21153,1,Destroyed,404,Zerg Mutalisk,(124,1296)
+21156,0,Discovered,394,Protoss Archon
+21159,1,Morph,464,Zerg Hydralisk,(3357,914)
+21168,0,Discovered,394,Protoss Archon
+21177,1,Destroyed,401,Zerg Mutalisk,(123,1293)
+21180,0,Discovered,394,Protoss Archon
+21192,0,Discovered,394,Protoss Archon
+21204,0,Discovered,394,Protoss Archon
+21216,0,Discovered,394,Protoss Archon
+21228,0,Discovered,447,Protoss Archon
+21240,0,Discovered,447,Protoss Archon
+21247,1,Morph,469,Zerg Lurker Egg,(3440,1093)
+21247,1,Morph,464,Zerg Lurker Egg,(3321,865)
+21247,1,Morph,463,Zerg Lurker Egg,(3417,1024)
+21247,1,Morph,462,Zerg Lurker Egg,(3383,1061)
+21247,1,Morph,465,Zerg Lurker Egg,(3394,1027)
+21247,1,Morph,475,Zerg Lurker Egg,(3413,1064)
+21252,1,Discovered,458,Zerg Zergling
+21252,0,Discovered,447,Protoss Archon
+21264,0,Discovered,447,Protoss Archon
+21265,0,Created,483,Protoss Probe,(288,1232)21265,1,Destroyed,398,Zerg Mutalisk,(144,1276)
+21269,1,Morph,468,Zerg Egg,(3358,932)
+21269,1,Morph,482,Zerg Egg,(3367,974)
+21269,1,Morph,473,Zerg Egg,(3367,954)
+21276,1,Discovered,453,Zerg Zergling
+21276,0,Discovered,447,Protoss Archon
+21276,0,Discovered,478,Protoss Photon Cannon
+21276,0,Discovered,477,Protoss Photon Cannon
+21288,0,Discovered,447,Protoss Archon
+21300,0,Discovered,447,Protoss Archon
+21312,0,Discovered,447,Protoss Archon
+21324,0,Discovered,447,Protoss Archon
+21345,1,Created,484,Zerg Larva,(3616,986)21345,1,Destroyed,453,Zerg Zergling,(3329,228)
+21353,1,Destroyed,458,Zerg Zergling,(3333,212)
+21360,0,Discovered,394,Protoss Archon
+21372,0,Discovered,394,Protoss Archon
+21384,0,Discovered,394,Protoss Archon
+21395,0,Created,485,Protoss Cybernetics Core,(304,1312)21396,0,Discovered,394,Protoss Archon
+21408,0,Discovered,394,Protoss Archon
+21420,0,Discovered,394,Protoss Archon
+21428,1,Destroyed,461,Zerg Hydralisk,(289,1714)
+21493,1,Morph,481,Zerg Egg,(3587,1005)
+21493,1,Morph,484,Zerg Egg,(3636,987)
+21581,0,Created,486,Protoss High Templar,(544,1328)21585,0,Created,487,Protoss High Templar,(416,1328)21589,0,Created,488,Protoss High Templar,(384,1456)21593,1,Destroyed,354,Zerg Hatchery,(3424,240)
+21594,1,Created,489,Zerg Larva,(3365,944)21595,0,Created,490,Protoss Zealot,(256,1456)21667,0,Created,491,Protoss Probe,(480,2160)21681,1,Created,492,Zerg Larva,(3616,986)21707,1,Morph,468,Zerg Zergling,(3358,932)
+21707,1,Morph,482,Zerg Zergling,(3367,974)
+21707,1,Morph,473,Zerg Zergling,(3367,954)
+21722,1,Created,493,Zerg Zergling,(3351,935)21722,1,Created,494,Zerg Zergling,(3360,957)21722,1,Created,495,Zerg Zergling,(3360,977)21811,1,Morph,481,Zerg Drone,(3587,1005)
+21811,1,Morph,484,Zerg Drone,(3636,987)
+21819,0,Created,496,Protoss Probe,(288,1232)21849,1,Morph,469,Zerg Lurker,(3440,1093)
+21849,1,Morph,464,Zerg Lurker,(3321,865)
+21849,1,Morph,463,Zerg Lurker,(3417,1024)
+21849,1,Morph,462,Zerg Lurker,(3383,1061)
+21849,1,Morph,465,Zerg Lurker,(3394,1027)
+21849,1,Morph,475,Zerg Lurker,(3413,1064)
+21940,1,Created,497,Zerg Larva,(3365,944)21969,0,Created,498,Protoss Probe,(480,2160)22030,1,Created,499,Zerg Larva,(3616,986)22121,0,Created,500,Protoss Probe,(288,1232)22271,0,Created,501,Protoss Probe,(480,2160)22274,1,Created,502,Zerg Larva,(3365,944)22299,1,Morph,471,Zerg Egg,(3748,1836)
+22299,1,Morph,466,Zerg Egg,(3751,1860)
+22299,1,Morph,476,Zerg Egg,(3741,1830)
+22321,1,Morph,502,Zerg Egg,(3359,964)
+22321,1,Morph,497,Zerg Egg,(3355,944)
+22321,1,Morph,489,Zerg Egg,(3367,924)
+22329,1,Morph,499,Zerg Egg,(3626,995)
+22329,1,Morph,492,Zerg Egg,(3586,995)
+22366,1,Created,503,Zerg Larva,(3616,986)22381,0,Created,504,Protoss Robotics Facility,(464,1120)22477,0,Created,505,Protoss Probe,(288,1232)22548,1,Discovered,493,Zerg Zergling
+22548,1,Discovered,494,Zerg Zergling
+22548,1,Discovered,495,Zerg Zergling
+22628,1,Created,506,Zerg Larva,(3749,1840)22662,1,Created,507,Zerg Larva,(3365,944)22666,0,Created,508,Protoss Pylon,(160,2912)22707,1,Created,509,Zerg Larva,(3616,986)22713,0,Created,510,Protoss Probe,(480,2160)22737,1,Morph,471,Zerg Hydralisk,(3748,1836)
+22737,1,Morph,466,Zerg Hydralisk,(3751,1860)
+22737,1,Morph,476,Zerg Hydralisk,(3741,1830)
+22741,1,Morph,507,Zerg Egg,(3367,904)
+22757,1,Morph,509,Zerg Egg,(3636,989)
+22757,1,Morph,503,Zerg Egg,(3650,999)
+22759,1,Morph,502,Zerg Hydralisk,(3359,964)
+22759,1,Morph,497,Zerg Hydralisk,(3355,944)
+22759,1,Morph,489,Zerg Hydralisk,(3367,924)
+22767,1,Morph,499,Zerg Hydralisk,(3626,995)
+22767,1,Morph,492,Zerg Hydralisk,(3586,995)
+22809,1,Morph,502,Zerg Lurker Egg,(3303,938)
+22809,1,Morph,471,Zerg Lurker Egg,(3725,1766)
+22809,1,Morph,466,Zerg Lurker Egg,(3703,1747)
+22809,1,Morph,476,Zerg Lurker Egg,(3682,1770)
+22837,0,Created,511,Protoss Dragoon,(384,1456)22843,0,Created,512,Protoss Dragoon,(256,1456)22897,1,Morph,506,Zerg Egg,(3742,1810)
+22931,1,Morph,456,Zerg Hatchery,(3424,240)
+22959,1,Created,513,Zerg Larva,(3749,1840)22963,0,Created,514,Protoss Pylon,(96,2240)22994,1,Created,515,Zerg Larva,(3365,944)22997,1,Morph,513,Zerg Egg,(3751,1831)
+23015,0,Created,516,Protoss Probe,(480,2160)23017,0,Created,517,Protoss Probe,(288,1232)23039,1,Created,518,Zerg Larva,(3616,986)23061,1,Morph,515,Zerg Egg,(3367,964)
+23093,1,Morph,499,Zerg Lurker Egg,(3217,846)
+23179,1,Morph,507,Zerg Zergling,(3367,904)
+23183,0,Created,519,Protoss Corsair,(160,1008)23194,1,Created,520,Zerg Zergling,(3360,907)23195,1,Morph,509,Zerg Zergling,(3636,989)
+23195,1,Morph,503,Zerg Zergling,(3650,999)
+23210,1,Created,521,Zerg Zergling,(3643,1002)23210,1,Created,522,Zerg Zergling,(3629,992)23304,1,Created,523,Zerg Larva,(3749,1840)23330,1,Created,524,Zerg Larva,(3365,944)23335,1,Morph,506,Zerg Zergling,(3742,1810)
+23337,0,Created,525,Protoss Probe,(288,1232)23350,1,Created,526,Zerg Zergling,(3735,1813)23375,1,Created,527,Zerg Larva,(3616,986)23379,0,Created,528,Protoss Dragoon,(416,1328)23411,1,Morph,502,Zerg Lurker,(3303,938)
+23411,1,Morph,471,Zerg Lurker,(3725,1766)
+23411,1,Morph,466,Zerg Lurker,(3703,1747)
+23411,1,Morph,476,Zerg Lurker,(3682,1770)
+23435,1,Morph,513,Zerg Zergling,(3751,1831)
+23450,1,Created,529,Zerg Zergling,(3744,1834)23457,1,Morph,524,Zerg Egg,(3367,922)
+23499,1,Morph,515,Zerg Zergling,(3367,964)
+23514,1,Created,530,Zerg Zergling,(3360,967)23603,0,Created,531,Protoss Dragoon,(544,1328)23623,0,Created,532,Protoss Dragoon,(384,1456)23648,1,Created,533,Zerg Larva,(3749,1840)23653,1,Morph,523,Zerg Egg,(3751,1800)
+23667,0,Created,534,Protoss Observatory,(464,1056)23683,1,Created,535,Zerg Larva,(3365,944)23695,1,Morph,499,Zerg Lurker,(3217,846)
+23730,1,Created,536,Zerg Larva,(3616,986)23763,0,Created,537,Protoss Probe,(288,1232)23766,-1,Destroyed,105,Resource Mineral Field,(96,1296)
+23775,0,Created,538,Protoss Probe,(480,2160)23809,1,Morph,535,Zerg Egg,(3364,961)
+23819,1,Morph,527,Zerg Egg,(3668,995)
+23819,1,Morph,536,Zerg Egg,(3603,991)
+23819,1,Morph,518,Zerg Egg,(3660,1003)
+23837,0,Created,539,Protoss Pylon,(224,1312)23855,1,Morph,533,Zerg Egg,(3751,1820)
+23895,1,Morph,524,Zerg Zergling,(3367,922)
+23910,1,Created,540,Zerg Zergling,(3360,925)23984,1,Created,541,Zerg Larva,(3749,1840)24027,1,Created,542,Zerg Larva,(3365,944)24035,1,Morph,541,Zerg Egg,(3751,1860)
+24091,1,Morph,523,Zerg Zergling,(3751,1800)
+24106,1,Created,543,Zerg Zergling,(3744,1803)24133,0,Created,544,Protoss Dragoon,(416,1328)24141,0,Created,545,Protoss Dragoon,(256,1456)24153,1,Created,546,Zerg Larva,(3616,986)24156,1,Morph,348,Zerg Evolution Chamber,(3600,1856)
+24209,0,Created,547,Protoss Observer,(464,1120)24247,1,Morph,535,Zerg Zergling,(3364,961)
+24252,1,Discovered,530,Zerg Zergling
+24252,1,Discovered,540,Zerg Zergling
+24257,1,Morph,527,Zerg Zergling,(3668,995)
+24257,1,Morph,536,Zerg Zergling,(3603,991)
+24257,1,Morph,518,Zerg Zergling,(3660,1003)
+24262,1,Created,548,Zerg Zergling,(3357,964)24272,1,Created,549,Zerg Zergling,(3653,1006)24272,1,Created,550,Zerg Zergling,(3596,994)24272,1,Created,551,Zerg Zergling,(3661,998)24288,1,Discovered,526,Zerg Zergling
+24288,1,Discovered,529,Zerg Zergling
+24293,1,Morph,533,Zerg Zergling,(3751,1820)
+24305,0,Destroyed,449,Protoss Zealot,(1766,217)
+24308,1,Created,552,Zerg Zergling,(3744,1823)24319,-1,Destroyed,62,Resource Mineral Field,(96,1200)
+24321,1,Created,553,Zerg Larva,(3749,1840)24357,0,Created,554,Protoss Dragoon,(544,1328)24374,1,Created,555,Zerg Larva,(3365,944)24375,0,Created,556,Protoss Dragoon,(384,1456)24499,0,Created,557,Protoss Pylon,(192,1152)24502,1,Created,558,Zerg Larva,(3616,986)24504,1,Discovered,543,Zerg Zergling
+24516,1,Discovered,550,Zerg Zergling
+24516,1,Discovered,552,Zerg Zergling
+24516,1,Discovered,548,Zerg Zergling
+24516,1,Discovered,551,Zerg Zergling
+24528,1,Discovered,549,Zerg Zergling
+24528,0,Discovered,519,Protoss Corsair
+24615,1,Morph,368,Zerg Creep Colony,(3264,800)
+24653,1,Morph,541,Zerg Overlord,(3751,1860)
+24656,1,Created,559,Zerg Larva,(3749,1840)24667,1,Morph,555,Zerg Egg,(3358,955)
+24718,1,Created,560,Zerg Larva,(3365,944)24719,1,Morph,558,Zerg Egg,(3674,985)
+24719,1,Morph,546,Zerg Egg,(3606,985)
+24731,1,Morph,560,Zerg Egg,(3355,934)
+24731,1,Morph,542,Zerg Egg,(3357,914)
+24739,1,Created,561,Zerg Larva,(3424,282)24811,0,Created,562,Protoss Observer,(464,1120)24844,1,Created,563,Zerg Larva,(3616,986)24855,1,Morph,561,Zerg Egg,(3424,287)
+24941,-1,Destroyed,15,Resource Mineral Field,(288,2032)
+25001,1,Created,564,Zerg Larva,(3749,1840)25037,1,Morph,558,Zerg Drone,(3674,985)
+25037,1,Morph,546,Zerg Drone,(3606,985)
+25044,0,Discovered,531,Protoss Dragoon
+25054,1,Created,565,Zerg Larva,(3365,944)25056,0,Discovered,490,Protoss Zealot
+25082,1,Created,566,Zerg Larva,(3424,282)25116,1,Discovered,521,Zerg Zergling
+25116,1,Discovered,522,Zerg Zergling
+25116,1,Discovered,520,Zerg Zergling
+25116,0,Discovered,534,Protoss Observatory
+25135,1,Morph,555,Zerg Scourge,(3358,955)
+25139,0,Created,567,Protoss High Templar,(544,1328)25140,0,Discovered,562,Protoss Observer
+25140,0,Discovered,504,Protoss Robotics Facility
+25145,0,Created,568,Protoss Zealot,(416,1328)25149,0,Created,569,Protoss Zealot,(384,1456)25150,1,Created,570,Zerg Scourge,(3367,914)25153,0,Created,571,Protoss Zealot,(256,1456)25169,1,Morph,560,Zerg Hydralisk,(3355,934)
+25169,1,Morph,542,Zerg Hydralisk,(3357,914)
+25173,1,Morph,561,Zerg Drone,(3424,287)
+25176,0,Discovered,557,Protoss Pylon
+25177,1,Created,572,Zerg Larva,(3616,986)25188,0,Discovered,517,Protoss Probe
+25188,0,Discovered,505,Protoss Probe
+25188,0,Discovered,500,Protoss Probe
+25272,0,Discovered,485,Protoss Cybernetics Core
+25274,0,Destroyed,480,Protoss Probe,(321,1152)
+25282,0,Destroyed,272,Protoss Probe,(344,1146)
+25315,0,Destroyed,198,Protoss Probe,(320,1119)
+25320,0,Discovered,483,Protoss Probe
+25385,1,Created,573,Zerg Larva,(3365,944)25413,0,Created,574,Protoss Observer,(464,1120)25416,0,Discovered,574,Protoss Observer
+25416,0,Discovered,539,Protoss Pylon
+25416,0,Discovered,568,Protoss Zealot
+25425,1,Created,575,Zerg Larva,(3424,282)25428,0,Discovered,567,Protoss High Templar
+25510,1,Created,576,Zerg Larva,(3616,986)25524,0,Created,577,Protoss Nexus,(672,2832)25560,0,Destroyed,574,Protoss Observer,(464,1120)
+25560,0,Discovered,547,Protoss Observer
+25569,0,Destroyed,427,Protoss Pylon,(384,1056)
+25573,1,Morph,573,Zerg Egg,(3347,955)
+25573,1,Morph,565,Zerg Egg,(3357,922)
+25584,0,Discovered,569,Protoss Zealot
+25584,0,Discovered,556,Protoss Dragoon
+25584,0,Discovered,554,Protoss Dragoon
+25590,0,Destroyed,504,Protoss Robotics Facility,(464,1120)
+25596,0,Discovered,544,Protoss Dragoon
+25599,1,Morph,560,Zerg Lurker Egg,(3147,873)
+25599,1,Morph,542,Zerg Lurker Egg,(3103,850)
+25608,0,Discovered,394,Protoss Archon
+25608,0,Discovered,545,Protoss Dragoon
+25608,0,Discovered,487,Protoss High Templar
+25620,0,Discovered,394,Protoss Archon
+25632,0,Discovered,394,Protoss Archon
+25643,1,Morph,575,Zerg Egg,(3413,291)
+25644,0,Discovered,394,Protoss Archon
+25656,0,Discovered,394,Protoss Archon
+25658,1,Destroyed,515,Zerg Zergling,(1148,1514)
+25668,0,Discovered,394,Protoss Archon
+25678,1,Destroyed,540,Zerg Zergling,(1155,1542)
+25680,0,Discovered,394,Protoss Archon
+25691,0,Destroyed,386,Protoss Pylon,(256,928)
+25692,0,Discovered,394,Protoss Archon
+25698,1,Destroyed,524,Zerg Zergling,(1171,1549)
+25698,1,Destroyed,506,Zerg Zergling,(1187,1551)
+25704,0,Discovered,394,Protoss Archon
+25706,0,Destroyed,534,Protoss Observatory,(464,1056)
+25716,0,Discovered,394,Protoss Archon
+25718,1,Destroyed,513,Zerg Zergling,(1146,1526)
+25724,1,Created,578,Zerg Larva,(3365,944)25726,1,Destroyed,507,Zerg Zergling,(660,1348)
+25728,0,Discovered,394,Protoss Archon
+25739,1,Destroyed,530,Zerg Zergling,(1152,1545)
+25739,1,Destroyed,529,Zerg Zergling,(1168,1552)
+25740,0,Discovered,394,Protoss Archon
+25742,1,Morph,561,Zerg Creep Colony,(3296,224)
+25747,1,Destroyed,494,Zerg Zergling,(600,1248)
+25752,0,Discovered,394,Protoss Archon
+25759,1,Destroyed,526,Zerg Zergling,(1149,1510)
+25766,1,Created,579,Zerg Larva,(3424,282)25788,0,Discovered,528,Protoss Dragoon
+25788,0,Discovered,447,Protoss Archon
+25791,0,Destroyed,376,Protoss Pylon,(384,1120)
+25800,0,Discovered,447,Protoss Archon
+25812,0,Discovered,447,Protoss Archon
+25824,0,Discovered,447,Protoss Archon
+25836,0,Discovered,447,Protoss Archon
+25848,0,Discovered,447,Protoss Archon
+25860,0,Discovered,447,Protoss Archon
+25872,0,Discovered,447,Protoss Archon
+25884,0,Discovered,447,Protoss Archon
+25885,-1,Morph,119,Resource Vespene Geyser,(288,1056)
+25896,0,Discovered,447,Protoss Archon
+25908,0,Discovered,447,Protoss Archon
+25920,0,Discovered,447,Protoss Archon
+25932,0,Discovered,447,Protoss Archon
+25936,0,Destroyed,289,Protoss Pylon,(256,992)
+25944,0,Discovered,447,Protoss Archon
+25956,0,Discovered,447,Protoss Archon
+25961,1,Morph,575,Zerg Drone,(3413,291)
+25968,0,Discovered,447,Protoss Archon
+25980,0,Discovered,447,Protoss Archon
+25992,0,Discovered,447,Protoss Archon
+26004,0,Discovered,447,Protoss Archon
+26011,1,Morph,573,Zerg Hydralisk,(3347,955)
+26011,1,Morph,565,Zerg Hydralisk,(3357,922)
+26016,0,Discovered,447,Protoss Archon
+26028,0,Discovered,447,Protoss Archon
+26040,0,Discovered,447,Protoss Archon
+26052,0,Discovered,447,Protoss Archon
+26057,0,Destroyed,282,Protoss Templar Archives,(400,1184)
+26060,1,Created,580,Zerg Larva,(3365,944)26064,0,Discovered,447,Protoss Archon
+26076,0,Discovered,447,Protoss Archon
+26088,0,Discovered,447,Protoss Archon
+26098,1,Destroyed,521,Zerg Zergling,(364,1144)
+26100,0,Discovered,447,Protoss Archon
+26100,0,Discovered,486,Protoss High Templar
+26105,1,Created,581,Zerg Larva,(3424,282)26107,1,Destroyed,471,Zerg Lurker,(488,1001)
+26112,0,Discovered,447,Protoss Archon
+26123,1,Destroyed,503,Zerg Zergling,(367,1127)
+26124,0,Discovered,447,Protoss Archon
+26133,1,Morph,564,Zerg Egg,(3733,1812)
+26133,1,Morph,559,Zerg Egg,(3741,1890)
+26133,1,Morph,553,Zerg Egg,(3741,1831)
+26136,0,Discovered,447,Protoss Archon
+26137,1,Destroyed,465,Zerg Lurker,(384,998)
+26141,0,Created,582,Protoss Pylon,(192,1248)26142,1,Destroyed,489,Zerg Hydralisk,(429,1025)
+26143,1,Destroyed,493,Zerg Zergling,(383,1150)
+26148,0,Discovered,582,Protoss Pylon
+26148,0,Discovered,447,Protoss Archon
+26151,0,Created,583,Protoss Pylon,(160,1312)26160,0,Discovered,447,Protoss Archon
+26165,1,Destroyed,468,Zerg Zergling,(375,1111)
+26172,1,Destroyed,495,Zerg Zergling,(456,1171)
+26172,0,Discovered,447,Protoss Archon
+26178,1,Destroyed,497,Zerg Hydralisk,(358,1006)
+26184,0,Discovered,447,Protoss Archon
+26193,1,Destroyed,482,Zerg Zergling,(399,1135)
+26195,1,Destroyed,492,Zerg Hydralisk,(445,1080)
+26196,0,Discovered,447,Protoss Archon
+26199,0,Destroyed,406,Protoss Zealot,(312,917)
+26201,1,Morph,560,Zerg Lurker,(3147,873)
+26201,1,Morph,542,Zerg Lurker,(3103,850)
+26205,0,Destroyed,423,Protoss Zealot,(381,981)
+26206,1,Destroyed,473,Zerg Zergling,(449,1137)
+26208,0,Discovered,447,Protoss Archon
+26209,1,Destroyed,522,Zerg Zergling,(401,1151)
+26215,1,Destroyed,520,Zerg Zergling,(465,1127)
+26220,0,Discovered,447,Protoss Archon
+26232,0,Discovered,447,Protoss Archon
+26244,0,Discovered,447,Protoss Archon
+26256,0,Discovered,447,Protoss Archon
+26261,1,Destroyed,509,Zerg Zergling,(275,960)
+26267,1,Morph,578,Zerg Egg,(3358,932)
+26267,1,Morph,580,Zerg Egg,(3357,932)
+26268,0,Discovered,447,Protoss Archon
+26270,1,Destroyed,475,Zerg Lurker,(288,899)
+26275,1,Morph,572,Zerg Egg,(3554,989)
+26275,1,Morph,563,Zerg Egg,(3560,985)
+26275,1,Morph,576,Zerg Egg,(3579,1001)
+26280,1,Morph,368,Zerg Sunken Colony,(3264,800)
+26280,0,Discovered,447,Protoss Archon
+26350,0,Morph,119,Protoss Assimilator,(288,1056)
+26385,0,Created,584,Protoss Pylon,(768,2816)26398,1,Created,585,Zerg Larva,(3365,944)26413,1,Morph,566,Zerg Egg,(3367,221)
+26413,1,Morph,579,Zerg Egg,(3388,281)
+26413,1,Morph,581,Zerg Egg,(3367,281)
+26418,1,Morph,561,Zerg Sunken Colony,(3296,224)
+26479,1,Created,586,Zerg Larva,(3749,1840)26505,1,Morph,575,Zerg Hatchery,(3424,144)
+26571,1,Morph,564,Zerg Zergling,(3733,1812)
+26571,1,Morph,559,Zerg Zergling,(3741,1890)
+26571,1,Morph,553,Zerg Zergling,(3741,1831)
+26586,1,Created,587,Zerg Zergling,(3726,1815)26586,1,Created,588,Zerg Zergling,(3734,1893)26586,1,Created,589,Zerg Zergling,(3734,1834)26610,0,Created,590,Protoss Robotics Facility,(400,1184)26618,1,Created,591,Zerg Larva,(3616,986)26643,1,Morph,573,Zerg Lurker Egg,(3144,803)
+26643,1,Morph,565,Zerg Lurker Egg,(3122,821)
+26661,1,Morph,585,Zerg Egg,(3354,976)
+26679,1,Morph,591,Zerg Egg,(3596,985)
+26705,1,Morph,578,Zerg Zergling,(3358,932)
+26705,1,Morph,580,Zerg Zergling,(3357,932)
+26713,1,Morph,572,Zerg Zergling,(3554,989)
+26713,1,Morph,563,Zerg Zergling,(3560,985)
+26713,1,Morph,576,Zerg Zergling,(3579,1001)
+26720,1,Created,592,Zerg Zergling,(3351,935)26720,1,Created,593,Zerg Zergling,(3350,935)26728,1,Created,594,Zerg Zergling,(3547,992)26728,1,Created,595,Zerg Zergling,(3553,988)26728,1,Created,596,Zerg Zergling,(3572,1004)26731,1,Morph,566,Zerg Drone,(3367,221)
+26731,1,Morph,579,Zerg Drone,(3388,281)
+26731,1,Morph,581,Zerg Drone,(3367,281)
+26747,1,Created,597,Zerg Larva,(3365,944)26750,1,Created,598,Zerg Larva,(3365,240)26829,1,Created,599,Zerg Larva,(3749,1840)26831,1,Morph,586,Zerg Egg,(3751,1850)
+26833,0,Created,600,Protoss Citadel of Adun,(400,1120)26881,1,Morph,598,Zerg Egg,(3354,277)
+26892,0,Discovered,584,Protoss Pylon
+26904,1,Discovered,570,Zerg Scourge
+26904,0,Discovered,538,Protoss Probe
+26913,1,Morph,599,Zerg Egg,(3746,1862)
+26916,0,Discovered,512,Protoss Dragoon
+26916,0,Discovered,577,Protoss Nexus
+26928,0,Discovered,532,Protoss Dragoon
+26944,0,Destroyed,577,Protoss Nexus,(672,2832)
+26950,1,Destroyed,570,Zerg Scourge,(1533,879)
+26962,1,Created,601,Zerg Larva,(3557,912)26981,0,Destroyed,538,Protoss Probe,(827,2774)
+26994,1,Destroyed,555,Zerg Scourge,(1461,898)
+27012,0,Discovered,537,Protoss Probe
+27012,0,Discovered,496,Protoss Probe
+27012,0,Discovered,479,Protoss Probe
+27012,0,Discovered,491,Protoss Probe
+27081,1,Created,602,Zerg Larva,(3365,944)27090,0,Destroyed,584,Protoss Pylon,(768,2816)
+27093,1,Created,603,Zerg Larva,(3365,240)27099,1,Morph,585,Zerg Zergling,(3354,976)
+27114,1,Created,604,Zerg Zergling,(3347,979)27117,1,Morph,591,Zerg Zergling,(3596,985)
+27132,1,Created,605,Zerg Zergling,(3589,988)27152,0,Destroyed,491,Protoss Probe,(738,2828)
+27171,1,Created,606,Zerg Larva,(3749,1840)27200,0,Destroyed,517,Protoss Probe,(586,2699)
+27205,0,Destroyed,175,Protoss Probe,(596,2699)
+27221,0,Destroyed,163,Protoss Probe,(596,2699)
+27235,0,Destroyed,470,Protoss Probe,(743,2828)
+27236,0,Destroyed,168,Protoss Probe,(596,2699)
+27240,0,Discovered,508,Protoss Pylon
+27245,1,Morph,573,Zerg Lurker,(3144,803)
+27245,1,Morph,565,Zerg Lurker,(3122,821)
+27250,0,Destroyed,479,Protoss Probe,(596,2699)
+27269,1,Morph,586,Zerg Hydralisk,(3751,1850)
+27273,0,Destroyed,210,Protoss Probe,(791,2766)
+27275,0,Destroyed,286,Protoss Probe,(603,2705)
+27296,1,Created,607,Zerg Larva,(3616,986)27307,1,Morph,606,Zerg Egg,(3743,1832)
+27308,0,Destroyed,496,Protoss Probe,(799,2836)
+27319,1,Morph,598,Zerg Hydralisk,(3354,277)
+27327,0,Destroyed,537,Protoss Probe,(724,2667)
+27351,1,Morph,599,Zerg Hydralisk,(3746,1862)
+27373,1,Morph,586,Zerg Lurker Egg,(3613,1475)
+27408,1,Destroyed,523,Zerg Zergling,(1029,2851)
+27420,1,Destroyed,550,Zerg Zergling,(1013,2864)
+27422,1,Created,608,Zerg Larva,(3365,944)27439,1,Created,609,Zerg Larva,(3365,240)27442,1,Destroyed,552,Zerg Zergling,(997,2863)
+27459,1,Destroyed,549,Zerg Zergling,(1030,2875)
+27462,0,Destroyed,422,Protoss Zealot,(1009,2932)
+27477,1,Destroyed,536,Zerg Zergling,(1021,2891)
+27488,0,Destroyed,382,Protoss Zealot,(911,2972)
+27508,-1,Destroyed,50,Resource Mineral Field,(64,1232)
+27509,1,Destroyed,527,Zerg Zergling,(1047,2942)
+27509,1,Destroyed,533,Zerg Zergling,(997,2923)
+27510,-1,Destroyed,78,Resource Mineral Field,(64,1264)
+27514,1,Destroyed,535,Zerg Zergling,(922,2955)
+27515,1,Created,610,Zerg Larva,(3749,1840)27516,0,Destroyed,421,Protoss Zealot,(935,2972)
+27534,0,Destroyed,490,Protoss Zealot,(991,2917)
+27536,0,Destroyed,402,Protoss Probe,(1019,2942)
+27541,0,Destroyed,547,Protoss Observer,(775,2908)
+27552,1,Destroyed,560,Zerg Lurker,(848,2915)
+27553,1,Destroyed,518,Zerg Zergling,(965,2944)
+27580,1,Destroyed,551,Zerg Zergling,(968,2927)
+27595,1,Destroyed,548,Zerg Zergling,(968,2961)
+27610,1,Destroyed,543,Zerg Zergling,(967,2943)
+27636,1,Created,611,Zerg Larva,(3557,912)27745,1,Morph,606,Zerg Hydralisk,(3743,1832)
+27755,0,Created,612,Protoss Dragoon,(544,1328)27759,0,Created,613,Protoss Dragoon,(416,1328)27763,0,Created,614,Protoss Zealot,(384,1456)27767,0,Created,615,Protoss Zealot,(256,1456)27769,1,Created,616,Zerg Larva,(3365,240)27780,0,Discovered,394,Protoss Archon
+27792,0,Discovered,394,Protoss Archon
+27804,0,Discovered,394,Protoss Archon
+27815,1,Morph,597,Zerg Egg,(3351,945)
+27815,1,Morph,602,Zerg Egg,(3347,904)
+27815,1,Morph,608,Zerg Egg,(3358,914)
+27816,0,Discovered,394,Protoss Archon
+27827,1,Morph,607,Zerg Egg,(3567,997)
+27827,1,Morph,601,Zerg Egg,(3546,922)
+27827,1,Morph,611,Zerg Egg,(3557,927)
+27828,0,Discovered,394,Protoss Archon
+27840,0,Discovered,394,Protoss Archon
+27841,1,Morph,603,Zerg Egg,(3367,279)
+27841,1,Morph,616,Zerg Egg,(3347,240)
+27841,1,Morph,609,Zerg Egg,(3360,225)
+27848,1,Created,617,Zerg Larva,(3749,1840)27852,0,Discovered,394,Protoss Archon
+27864,0,Discovered,394,Protoss Archon
+27864,0,Discovered,511,Protoss Dragoon
+27876,0,Discovered,394,Protoss Archon
+27876,0,Discovered,571,Protoss Zealot
+27883,0,Created,618,Protoss Templar Archives,(400,1024)27885,0,Destroyed,508,Protoss Pylon,(160,2912)
+27888,0,Discovered,394,Protoss Archon
+27900,0,Discovered,394,Protoss Archon
+27905,1,Morph,598,Zerg Lurker Egg,(3338,293)
+27912,0,Discovered,394,Protoss Archon
+27923,1,Destroyed,464,Zerg Lurker,(3141,97)
+27924,0,Discovered,394,Protoss Archon
+27925,0,Destroyed,532,Protoss Dragoon,(3193,42)
+27936,0,Discovered,394,Protoss Archon
+27948,0,Discovered,394,Protoss Archon
+27959,0,Destroyed,554,Protoss Dragoon,(3107,113)
+27960,0,Discovered,394,Protoss Archon
+27972,0,Discovered,394,Protoss Archon
+27975,1,Morph,586,Zerg Lurker,(3613,1475)
+27984,0,Discovered,394,Protoss Archon
+28008,0,Discovered,394,Protoss Archon
+28020,0,Discovered,394,Protoss Archon
+28055,1,Morph,610,Zerg Egg,(3741,1830)
+28055,1,Morph,617,Zerg Egg,(3735,1820)
+28080,1,Discovered,587,Zerg Zergling
+28092,1,Discovered,588,Zerg Zergling
+28092,0,Discovered,447,Protoss Archon
+28104,0,Discovered,447,Protoss Archon
+28116,1,Discovered,595,Zerg Zergling
+28116,0,Discovered,447,Protoss Archon
+28128,0,Discovered,447,Protoss Archon
+28128,0,Discovered,488,Protoss High Templar
+28140,0,Discovered,447,Protoss Archon
+28152,0,Discovered,447,Protoss Archon
+28152,0,Discovered,394,Protoss Archon
+28159,1,Morph,603,Zerg Drone,(3367,279)
+28159,1,Morph,616,Zerg Drone,(3347,240)
+28159,1,Morph,609,Zerg Drone,(3360,225)
+28161,1,Created,619,Zerg Larva,(3365,944)28164,0,Discovered,447,Protoss Archon
+28164,0,Discovered,394,Protoss Archon
+28170,1,Created,620,Zerg Larva,(3557,912)28170,1,Destroyed,591,Zerg Zergling,(2535,510)
+28174,1,Created,621,Zerg Larva,(3365,240)28176,0,Discovered,447,Protoss Archon
+28176,0,Discovered,394,Protoss Archon
+28183,1,Destroyed,564,Zerg Zergling,(2432,544)
+28183,1,Destroyed,585,Zerg Zergling,(2558,426)
+28188,1,Destroyed,587,Zerg Zergling,(2563,409)
+28188,1,Destroyed,595,Zerg Zergling,(2541,509)
+28188,0,Discovered,394,Protoss Archon
+28188,0,Discovered,447,Protoss Archon
+28189,1,Created,622,Zerg Larva,(3749,1840)28200,0,Discovered,394,Protoss Archon
+28200,0,Discovered,447,Protoss Archon
+28201,1,Destroyed,553,Zerg Zergling,(2539,539)
+28204,1,Destroyed,580,Zerg Zergling,(2571,393)
+28210,1,Destroyed,599,Zerg Hydralisk,(2480,532)
+28212,0,Discovered,394,Protoss Archon
+28212,0,Discovered,447,Protoss Archon
+28224,0,Discovered,394,Protoss Archon
+28253,1,Morph,597,Zerg Hydralisk,(3351,945)
+28253,1,Morph,602,Zerg Hydralisk,(3347,904)
+28253,1,Morph,621,Zerg Egg,(3347,220)
+28253,1,Morph,608,Zerg Hydralisk,(3358,914)
+28265,1,Morph,607,Zerg Hydralisk,(3567,997)
+28265,1,Morph,601,Zerg Hydralisk,(3546,922)
+28265,1,Morph,611,Zerg Hydralisk,(3557,927)
+28277,1,Destroyed,588,Zerg Zergling,(2845,729)
+28313,1,Created,623,Zerg Larva,(3365,144)28362,1,Morph,609,Zerg Creep Colony,(3232,96)
+28379,1,Morph,623,Zerg Egg,(3362,149)
+28383,0,Created,624,Protoss Observatory,(496,1120)28403,0,Created,625,Protoss Zealot,(384,1456)28407,0,Created,626,Protoss Zealot,(256,1456)28437,1,Morph,622,Zerg Egg,(3731,1830)
+28438,1,Morph,603,Zerg Creep Colony,(3168,160)
+28459,1,Morph,616,Zerg Creep Colony,(3296,320)
+28493,1,Morph,610,Zerg Zergling,(3741,1830)
+28493,1,Morph,617,Zerg Zergling,(3735,1820)
+28500,1,Discovered,592,Zerg Zergling
+28500,1,Discovered,589,Zerg Zergling
+28500,1,Discovered,605,Zerg Zergling
+28500,1,Discovered,593,Zerg Zergling
+28500,1,Discovered,596,Zerg Zergling
+28501,1,Created,627,Zerg Larva,(3365,944)28507,0,Created,628,Protoss Zealot,(544,1328)28507,1,Morph,598,Zerg Lurker,(3338,293)
+28508,1,Created,629,Zerg Larva,(3365,240)28508,1,Created,630,Zerg Zergling,(3734,1833)28508,1,Created,631,Zerg Zergling,(3728,1823)28511,0,Created,632,Protoss Zealot,(416,1328)28512,1,Discovered,594,Zerg Zergling
+28512,1,Discovered,604,Zerg Zergling
+28512,0,Discovered,624,Protoss Observatory
+28512,0,Discovered,628,Protoss Zealot
+28513,1,Created,633,Zerg Larva,(3557,912)28523,1,Created,634,Zerg Larva,(3749,1840)28536,0,Discovered,394,Protoss Archon
+28548,0,Discovered,600,Protoss Citadel of Adun
+28548,0,Discovered,590,Protoss Robotics Facility
+28548,0,Discovered,632,Protoss Zealot
+28548,0,Discovered,394,Protoss Archon
+28560,0,Discovered,618,Protoss Templar Archives
+28560,0,Discovered,394,Protoss Archon
+28572,0,Discovered,501,Protoss Probe
+28572,0,Discovered,394,Protoss Archon
+28576,0,Destroyed,569,Protoss Zealot,(3135,879)
+28578,0,Destroyed,396,Protoss Zealot,(275,2949)
+28584,0,Discovered,625,Protoss Zealot
+28584,0,Discovered,394,Protoss Archon
+28584,0,Discovered,447,Protoss Archon
+28589,1,Destroyed,602,Zerg Hydralisk,(3120,828)
+28596,0,Discovered,613,Protoss Dragoon
+28596,0,Discovered,394,Protoss Archon
+28596,0,Discovered,447,Protoss Archon
+28608,1,Destroyed,608,Zerg Hydralisk,(3157,861)
+28608,0,Discovered,612,Protoss Dragoon
+28608,0,Discovered,394,Protoss Archon
+28608,0,Discovered,447,Protoss Archon
+28620,0,Discovered,583,Protoss Pylon
+28620,0,Discovered,626,Protoss Zealot
+28620,0,Discovered,394,Protoss Archon
+28620,0,Discovered,447,Protoss Archon
+28622,1,Destroyed,597,Zerg Hydralisk,(3142,836)
+28632,1,Discovered,630,Zerg Zergling
+28632,0,Discovered,394,Protoss Archon
+28632,0,Discovered,447,Protoss Archon
+28644,1,Discovered,631,Zerg Zergling
+28644,0,Discovered,447,Protoss Archon
+28644,0,Discovered,394,Protoss Archon
+28656,1,Destroyed,576,Zerg Zergling,(613,1325)
+28656,0,Discovered,447,Protoss Archon
+28656,0,Discovered,394,Protoss Archon
+28663,1,Destroyed,601,Zerg Hydralisk,(3221,841)
+28664,0,Destroyed,394,Protoss Archon,(3138,896)
+28666,1,Created,635,Zerg Larva,(3365,144)28668,0,Discovered,447,Protoss Archon
+28669,1,Destroyed,607,Zerg Hydralisk,(3201,818)
+28678,1,Destroyed,610,Zerg Zergling,(3227,964)
+28680,0,Discovered,447,Protoss Archon
+28680,0,Discovered,614,Protoss Zealot
+28689,-1,Destroyed,87,Resource Mineral Field,(4000,1808)
+28691,1,Morph,621,Zerg Zergling,(3347,220)
+28692,0,Discovered,615,Protoss Zealot
+28692,0,Discovered,447,Protoss Archon
+28694,0,Destroyed,568,Protoss Zealot,(3078,886)
+28703,0,Destroyed,567,Protoss High Templar,(264,2954)
+28704,0,Discovered,447,Protoss Archon
+28706,1,Created,636,Zerg Zergling,(3340,223)28712,1,Destroyed,594,Zerg Zergling,(535,1408)
+28716,0,Discovered,447,Protoss Archon
+28728,0,Discovered,447,Protoss Archon
+28740,0,Discovered,447,Protoss Archon
+28747,1,Destroyed,630,Zerg Zergling,(3024,830)
+28751,1,Destroyed,596,Zerg Zergling,(255,1407)
+28752,0,Discovered,447,Protoss Archon
+28761,0,Destroyed,483,Protoss Probe,(320,1132)
+28764,0,Destroyed,408,Protoss Archon,(3304,805)
+28764,0,Discovered,447,Protoss Archon
+28772,1,Destroyed,631,Zerg Zergling,(3029,854)
+28776,0,Discovered,447,Protoss Archon
+28780,1,Destroyed,605,Zerg Zergling,(136,1298)
+28788,0,Discovered,447,Protoss Archon
+28798,0,Destroyed,505,Protoss Probe,(328,1132)
+28800,1,Destroyed,593,Zerg Zergling,(525,1401)
+28800,0,Discovered,447,Protoss Archon
+28812,0,Discovered,447,Protoss Archon
+28816,1,Destroyed,592,Zerg Zergling,(646,1208)
+28817,1,Destroyed,572,Zerg Zergling,(194,1366)
+28817,1,Morph,623,Zerg Zergling,(3362,149)
+28824,0,Discovered,447,Protoss Archon
+28832,1,Created,637,Zerg Zergling,(3355,152)28836,0,Destroyed,501,Protoss Probe,(320,1132)
+28836,0,Discovered,447,Protoss Archon
+28849,1,Created,638,Zerg Larva,(3365,240)28852,1,Created,639,Zerg Larva,(3365,944)28859,1,Destroyed,611,Zerg Hydralisk,(3242,834)
+28860,0,Discovered,447,Protoss Archon
+28861,1,Created,640,Zerg Larva,(3557,912)28861,1,Destroyed,578,Zerg Zergling,(178,1368)
+28861,0,Destroyed,615,Protoss Zealot,(729,1296)
+28862,1,Created,641,Zerg Larva,(3749,1840)28865,1,Destroyed,604,Zerg Zergling,(522,1420)
+28865,1,Morph,619,Zerg Egg,(3367,936)
+28865,1,Morph,639,Zerg Egg,(3355,954)
+28865,1,Morph,627,Zerg Egg,(3357,914)
+28872,0,Discovered,447,Protoss Archon
+28875,1,Morph,622,Zerg Zergling,(3731,1830)
+28877,1,Morph,620,Zerg Egg,(3559,904)
+28877,1,Morph,633,Zerg Egg,(3559,904)
+28877,1,Morph,640,Zerg Egg,(3551,924)
+28884,0,Discovered,447,Protoss Archon
+28890,1,Created,642,Zerg Zergling,(3724,1833)28892,1,Destroyed,617,Zerg Zergling,(2432,512)
+28894,0,Destroyed,571,Protoss Zealot,(3220,810)
+28896,0,Discovered,447,Protoss Archon
+28908,0,Discovered,447,Protoss Archon
+28920,0,Discovered,447,Protoss Archon
+28932,0,Destroyed,613,Protoss Dragoon,(560,1487)
+28932,0,Discovered,447,Protoss Archon
+28944,1,Destroyed,411,Zerg Overlord,(386,1354)
+28949,1,Morph,634,Zerg Egg,(3739,1831)
+28949,1,Morph,641,Zerg Egg,(3751,1870)
+28956,0,Discovered,447,Protoss Archon
+28976,1,Morph,609,Zerg Sunken Colony,(3232,96)
+28984,1,Morph,603,Zerg Sunken Colony,(3168,160)
+28992,1,Morph,616,Zerg Sunken Colony,(3296,320)
+29008,1,Created,643,Zerg Larva,(3365,144)29013,1,Morph,635,Zerg Egg,(3367,114)
+29015,1,Destroyed,589,Zerg Zergling,(500,1622)
+29081,0,Created,644,Protoss Zealot,(384,1456)29083,0,Created,645,Protoss Zealot,(256,1456)29093,1,Morph,606,Zerg Lurker Egg,(3200,805)
+29103,1,Destroyed,563,Zerg Zergling,(2865,959)
+29109,0,Created,646,Protoss Zealot,(544,1328)29112,0,Discovered,646,Protoss Zealot
+29113,0,Created,647,Protoss Zealot,(416,1328)29124,0,Discovered,647,Protoss Zealot
+29171,0,Created,648,Protoss Observer,(400,1184)29172,0,Discovered,648,Protoss Observer
+29182,1,Created,649,Zerg Larva,(3365,240)29196,0,Discovered,447,Protoss Archon
+29201,1,Created,650,Zerg Larva,(3365,944)29202,1,Created,651,Zerg Larva,(3749,1840)29208,0,Discovered,447,Protoss Archon
+29210,1,Created,652,Zerg Larva,(3616,902)29219,1,Morph,651,Zerg Egg,(3751,1840)
+29220,1,Discovered,637,Zerg Zergling
+29220,0,Discovered,447,Protoss Archon
+29232,0,Discovered,447,Protoss Archon
+29244,1,Discovered,636,Zerg Zergling
+29244,0,Discovered,447,Protoss Archon
+29256,0,Discovered,447,Protoss Archon
+29256,0,Discovered,514,Protoss Pylon
+29268,0,Discovered,447,Protoss Archon
+29280,0,Discovered,447,Protoss Archon
+29292,0,Discovered,447,Protoss Archon
+29303,1,Morph,619,Zerg Zergling,(3367,936)
+29303,1,Morph,639,Zerg Zergling,(3355,954)
+29303,1,Morph,627,Zerg Zergling,(3357,914)
+29304,0,Discovered,447,Protoss Archon
+29304,0,Discovered,510,Protoss Probe
+29315,1,Morph,620,Zerg Zergling,(3559,904)
+29315,1,Morph,633,Zerg Zergling,(3559,904)
+29315,1,Morph,640,Zerg Zergling,(3551,924)
+29316,0,Discovered,447,Protoss Archon
+29316,0,Discovered,525,Protoss Probe
+29316,0,Discovered,516,Protoss Probe
+29318,1,Created,653,Zerg Zergling,(3360,939)29318,1,Created,654,Zerg Zergling,(3350,917)29318,1,Created,655,Zerg Zergling,(3348,957)29328,0,Discovered,447,Protoss Archon
+29330,1,Created,656,Zerg Zergling,(3552,907)29330,1,Created,657,Zerg Zergling,(3552,907)29330,1,Created,658,Zerg Zergling,(3544,927)29340,0,Discovered,447,Protoss Archon
+29352,0,Discovered,447,Protoss Archon
+29352,0,Discovered,498,Protoss Probe
+29354,1,Created,659,Zerg Larva,(3365,144)29364,0,Discovered,447,Protoss Archon
+29376,1,Destroyed,349,Zerg Overlord,(2324,1084)
+29386,0,Destroyed,224,Protoss Probe,(344,2109)
+29386,0,Destroyed,467,Protoss Probe,(342,2109)
+29386,0,Destroyed,500,Protoss Probe,(320,2129)
+29386,0,Destroyed,474,Protoss Probe,(321,2128)
+29387,1,Morph,634,Zerg Zergling,(3739,1831)
+29387,1,Morph,641,Zerg Zergling,(3751,1870)
+29402,1,Created,660,Zerg Zergling,(3744,1873)29402,1,Created,661,Zerg Zergling,(3732,1834)29405,1,Destroyed,412,Zerg Overlord,(2311,1061)
+29447,1,Destroyed,541,Zerg Overlord,(2309,1132)
+29451,1,Morph,635,Zerg Zergling,(3367,114)
+29459,1,Morph,650,Zerg Egg,(3367,924)
+29466,1,Created,662,Zerg Zergling,(3360,117)29471,1,Morph,652,Zerg Egg,(3579,900)
+29534,-1,Destroyed,75,Resource Mineral Field,(4000,1904)
+29538,1,Created,663,Zerg Larva,(3365,944)29539,1,Created,664,Zerg Larva,(3749,1840)29547,1,Created,665,Zerg Larva,(3616,902)29553,0,Destroyed,364,Protoss Gateway,(544,1328)
+29554,0,Destroyed,646,Protoss Zealot,(544,1328)
+29573,0,Created,666,Protoss Pylon,(128,1248)29606,0,Destroyed,600,Protoss Citadel of Adun,(400,1120)
+29620,0,Destroyed,624,Protoss Observatory,(496,1120)
+29657,1,Morph,651,Zerg Zergling,(3751,1840)
+29664,0,Discovered,644,Protoss Zealot
+29672,1,Created,667,Zerg Zergling,(3744,1843)29695,1,Morph,606,Zerg Lurker,(3200,805)
+29707,1,Created,668,Zerg Larva,(3365,144)29709,1,Morph,664,Zerg Egg,(3747,1830)
+29773,0,Created,669,Protoss Observer,(400,1184)29784,0,Discovered,669,Protoss Observer
+29797,1,Morph,663,Zerg Egg,(3367,904)
+29803,1,Destroyed,542,Zerg Lurker,(125,2189)
+29839,1,Morph,665,Zerg Egg,(3616,891)
+29860,1,Destroyed,499,Zerg Lurker,(640,1352)
+29878,1,Created,670,Zerg Larva,(3365,944)29879,1,Created,671,Zerg Larva,(3749,1840)29881,1,Destroyed,502,Zerg Lurker,(479,1207)
+29887,1,Created,672,Zerg Larva,(3557,912)29937,1,Morph,659,Zerg Egg,(3354,136)
+29937,1,Morph,643,Zerg Egg,(3357,125)
+29937,1,Morph,668,Zerg Egg,(3357,125)
+29948,1,Destroyed,476,Zerg Lurker,(476,1143)
+29949,0,Destroyed,647,Protoss Zealot,(349,1111)
+29964,0,Discovered,447,Protoss Archon
+29978,0,Destroyed,614,Protoss Zealot,(506,1106)
+29989,1,Destroyed,573,Zerg Lurker,(512,1086)
+30012,0,Discovered,447,Protoss Archon
+30024,1,Morph,176,Zerg Creep Colony,(3136,704)
+30035,1,Destroyed,565,Zerg Lurker,(292,1096)
+30060,0,Discovered,447,Protoss Archon
+30072,1,Discovered,654,Zerg Zergling
+30072,0,Discovered,447,Protoss Archon
+30077,1,Morph,650,Zerg Overlord,(3367,924)
+30084,1,Discovered,658,Zerg Zergling
+30084,1,Discovered,655,Zerg Zergling
+30084,0,Discovered,645,Protoss Zealot
+30084,0,Discovered,447,Protoss Archon
+30089,1,Morph,652,Zerg Overlord,(3579,900)
+30096,1,Discovered,653,Zerg Zergling
+30096,1,Discovered,657,Zerg Zergling
+30096,0,Discovered,447,Protoss Archon
+30103,1,Destroyed,559,Zerg Zergling,(679,2329)
+30108,1,Discovered,642,Zerg Zergling
+30108,0,Discovered,447,Protoss Archon
+30118,1,Destroyed,655,Zerg Zergling,(706,2301)
+30120,0,Discovered,447,Protoss Archon
+30127,1,Destroyed,654,Zerg Zergling,(687,2338)
+30132,0,Discovered,447,Protoss Archon
+30134,1,Destroyed,622,Zerg Zergling,(687,2313)
+30144,0,Discovered,447,Protoss Archon
+30149,1,Destroyed,627,Zerg Zergling,(736,2267)
+30156,1,Discovered,656,Zerg Zergling
+30156,0,Discovered,447,Protoss Archon
+30157,1,Destroyed,639,Zerg Zergling,(684,2291)
+30168,0,Discovered,447,Protoss Archon
+30175,1,Destroyed,637,Zerg Zergling,(615,2138)
+30179,1,Destroyed,636,Zerg Zergling,(652,2281)
+30180,0,Discovered,447,Protoss Archon
+30182,1,Destroyed,621,Zerg Zergling,(615,2154)
+30182,1,Destroyed,658,Zerg Zergling,(691,2354)
+30192,0,Discovered,447,Protoss Archon
+30204,0,Discovered,447,Protoss Archon
+30206,1,Destroyed,633,Zerg Zergling,(689,2312)
+30208,0,Destroyed,644,Protoss Zealot,(655,2309)
+30214,1,Created,673,Zerg Larva,(3749,1840)30216,0,Discovered,447,Protoss Archon
+30220,1,Destroyed,619,Zerg Zergling,(630,2300)
+30221,1,Destroyed,623,Zerg Zergling,(636,2284)
+30222,1,Created,674,Zerg Larva,(3365,944)30224,1,Destroyed,642,Zerg Zergling,(693,2328)
+30228,0,Discovered,447,Protoss Archon
+30232,1,Created,675,Zerg Larva,(3557,912)30240,0,Discovered,447,Protoss Archon
+30245,1,Destroyed,657,Zerg Zergling,(652,2297)
+30252,0,Discovered,447,Protoss Archon
+30253,1,Destroyed,620,Zerg Zergling,(683,2312)
+30253,1,Destroyed,653,Zerg Zergling,(636,2306)
+30253,1,Destroyed,656,Zerg Zergling,(613,2264)
+30261,0,Destroyed,645,Protoss Zealot,(659,2328)
+30264,0,Discovered,447,Protoss Archon
+30267,1,Created,676,Zerg Larva,(3365,144)30267,1,Destroyed,640,Zerg Zergling,(690,2328)
+30275,1,Destroyed,598,Zerg Lurker,(298,2019)
+30276,0,Discovered,447,Protoss Archon
+30288,0,Discovered,447,Protoss Archon
+30299,1,Destroyed,586,Zerg Lurker,(335,2031)
+30300,0,Discovered,447,Protoss Archon
+30302,0,Destroyed,488,Protoss High Templar,(652,2354)
+30312,0,Discovered,447,Protoss Archon
+30324,0,Discovered,447,Protoss Archon
+30327,1,Morph,664,Zerg Overlord,(3747,1830)
+30336,0,Discovered,447,Protoss Archon
+30345,1,Morph,673,Zerg Egg,(3751,1800)
+30345,1,Morph,671,Zerg Egg,(3741,1830)
+30348,0,Discovered,447,Protoss Archon
+30360,0,Discovered,447,Protoss Archon
+30372,0,Discovered,447,Protoss Archon
+30379,1,Destroyed,466,Zerg Lurker,(121,2135)
+30415,1,Morph,663,Zerg Overlord,(3367,904)
+30434,1,Morph,176,Zerg Sunken Colony,(3136,704)
+30451,1,Morph,670,Zerg Egg,(3362,965)
+30451,1,Morph,674,Zerg Egg,(3367,904)
+30457,0,Created,677,Protoss Zealot,(416,1328)30457,1,Morph,665,Zerg Overlord,(3616,891)
+30459,1,Morph,672,Zerg Egg,(3559,924)
+30459,1,Morph,675,Zerg Egg,(3559,928)
+30461,0,Created,678,Protoss Zealot,(384,1456)30465,0,Created,679,Protoss Zealot,(256,1456)30479,1,Morph,629,Zerg Egg,(3357,248)
+30479,1,Morph,638,Zerg Egg,(3367,238)
+30479,1,Morph,649,Zerg Egg,(3363,220)
+30485,1,Morph,676,Zerg Egg,(3367,171)
+30516,0,Destroyed,678,Protoss Zealot,(384,1456)
+30520,0,Destroyed,679,Protoss Zealot,(256,1456)
+30544,0,Destroyed,677,Protoss Zealot,(416,1328)
+30552,1,Created,680,Zerg Larva,(3749,1840)30553,0,Created,681,Protoss Dragoon,(384,1456)30555,1,Morph,659,Zerg Overlord,(3354,136)
+30555,1,Morph,643,Zerg Overlord,(3357,125)
+30555,1,Morph,668,Zerg Overlord,(3357,125)
+30557,0,Created,682,Protoss Dragoon,(256,1456)30560,1,Created,683,Zerg Larva,(3365,944)30563,0,Created,684,Protoss Dragoon,(416,1328)30570,1,Created,685,Zerg Larva,(3557,912)30601,1,Morph,680,Zerg Egg,(3751,1830)
+30605,0,Created,686,Protoss Probe,(288,1232)30607,1,Created,687,Zerg Larva,(3365,144)30621,1,Morph,685,Zerg Egg,(3549,894)
+30627,1,Morph,683,Zerg Egg,(3367,944)
+30783,1,Morph,673,Zerg Hydralisk,(3751,1800)
+30783,1,Morph,671,Zerg Hydralisk,(3741,1830)
+30784,0,Created,688,Protoss Observatory,(400,1088)30790,-1,Destroyed,91,Resource Mineral Field,(4032,1840)
+30818,1,Created,689,Zerg Larva,(3365,240)30885,1,Morph,673,Zerg Lurker Egg,(3591,1625)
+30885,1,Morph,671,Zerg Lurker Egg,(3604,1591)
+30889,1,Morph,670,Zerg Hydralisk,(3362,965)
+30889,1,Morph,674,Zerg Hydralisk,(3367,904)
+30897,1,Morph,672,Zerg Hydralisk,(3559,924)
+30897,1,Morph,675,Zerg Hydralisk,(3559,928)
+30901,1,Created,690,Zerg Larva,(3749,1840)30907,0,Created,691,Protoss Probe,(288,1232)30911,1,Created,692,Zerg Larva,(3365,944)30917,1,Morph,629,Zerg Zergling,(3357,248)
+30917,1,Morph,638,Zerg Zergling,(3367,238)
+30917,1,Morph,649,Zerg Zergling,(3363,220)
+30919,1,Morph,672,Zerg Lurker Egg,(3532,917)
+30919,1,Morph,670,Zerg Lurker Egg,(3317,992)
+30919,1,Morph,675,Zerg Lurker Egg,(3535,921)
+30919,1,Morph,674,Zerg Lurker Egg,(3358,893)
+30921,1,Created,693,Zerg Larva,(3616,986)30923,1,Morph,676,Zerg Hydralisk,(3367,171)
+30932,1,Created,694,Zerg Zergling,(3350,251)30932,1,Created,695,Zerg Zergling,(3356,223)30932,1,Created,696,Zerg Zergling,(3360,241)30939,1,Morph,689,Zerg Egg,(3367,250)
+30941,1,Created,697,Zerg Larva,(3365,144)30945,1,Morph,687,Zerg Egg,(3367,184)
+30995,0,Created,698,Protoss Probe,(480,2160)31023,1,Morph,676,Zerg Lurker Egg,(3495,171)
+31033,1,Morph,697,Zerg Egg,(3357,134)
+31039,1,Morph,680,Zerg Hydralisk,(3751,1830)
+31059,1,Morph,685,Zerg Hydralisk,(3549,894)
+31065,1,Morph,683,Zerg Hydralisk,(3367,944)
+31157,1,Created,699,Zerg Larva,(3365,240)31208,-1,Destroyed,95,Resource Mineral Field,(4000,1712)
+31236,1,Created,700,Zerg Larva,(3749,1840)31245,1,Morph,692,Zerg Egg,(3347,904)
+31253,1,Created,701,Zerg Larva,(3365,944)31254,1,Created,702,Zerg Larva,(3557,912)31279,1,Morph,685,Zerg Lurker Egg,(3201,818)
+31279,1,Morph,680,Zerg Lurker Egg,(3282,932)
+31279,1,Morph,683,Zerg Lurker Egg,(3120,828)
+31281,-1,Destroyed,76,Resource Mineral Field,(4032,1872)
+31283,1,Created,703,Zerg Larva,(3365,144)31299,1,Morph,702,Zerg Egg,(3549,922)
+31299,1,Morph,693,Zerg Egg,(3684,995)
+31305,1,Morph,701,Zerg Egg,(3367,944)
+31319,1,Morph,700,Zerg Egg,(3751,1840)
+31332,1,Discovered,667,Zerg Zergling
+31344,1,Discovered,661,Zerg Zergling
+31344,1,Discovered,660,Zerg Zergling
+31351,1,Morph,697,Zerg Drone,(3357,134)
+31376,1,Destroyed,667,Zerg Zergling,(1444,1518)
+31377,1,Morph,689,Zerg Zergling,(3367,250)
+31383,1,Morph,687,Zerg Zergling,(3367,184)
+31392,1,Created,704,Zerg Zergling,(3360,253)31398,1,Created,705,Zerg Zergling,(3360,187)31400,1,Destroyed,661,Zerg Zergling,(1397,1653)
+31487,1,Morph,673,Zerg Lurker,(3591,1625)
+31487,1,Morph,671,Zerg Lurker,(3604,1591)
+31495,1,Created,706,Zerg Larva,(3365,240)31496,1,Morph,5,Zerg Creep Colony,(3040,800)
+31497,1,Destroyed,634,Zerg Zergling,(1439,1595)
+31521,1,Morph,672,Zerg Lurker,(3532,917)
+31521,1,Morph,670,Zerg Lurker,(3317,992)
+31521,1,Morph,675,Zerg Lurker,(3535,921)
+31521,1,Morph,674,Zerg Lurker,(3358,893)
+31552,1,Destroyed,660,Zerg Zergling,(1504,1502)
+31574,1,Created,707,Zerg Larva,(3749,1840)31591,1,Created,708,Zerg Larva,(3365,944)31592,1,Created,709,Zerg Larva,(3675,944)31621,1,Created,710,Zerg Larva,(3365,144)31625,1,Morph,676,Zerg Lurker,(3495,171)
+31627,0,Created,711,Protoss High Templar,(384,1456)31633,0,Created,712,Protoss Dragoon,(416,1328)31639,0,Created,713,Protoss Dragoon,(256,1456)31656,1,Destroyed,663,Zerg Overlord,(1188,25)
+31699,-1,Destroyed,86,Resource Mineral Field,(4000,1968)
+31713,1,Morph,692,Zerg Scourge,(3347,904)
+31728,1,Created,714,Zerg Scourge,(3356,863)31737,1,Morph,702,Zerg Zergling,(3549,922)
+31737,1,Morph,693,Zerg Zergling,(3684,995)
+31743,1,Morph,701,Zerg Zergling,(3367,944)
+31752,1,Created,715,Zerg Zergling,(3542,925)31752,1,Created,716,Zerg Zergling,(3677,998)31757,1,Morph,700,Zerg Zergling,(3751,1840)
+31758,1,Created,717,Zerg Zergling,(3360,947)31766,1,Morph,697,Zerg Creep Colony,(3136,64)
+31772,1,Created,718,Zerg Zergling,(3744,1843)31829,1,Created,719,Zerg Larva,(3365,240)31881,1,Morph,685,Zerg Lurker,(3201,818)
+31881,1,Morph,680,Zerg Lurker,(3282,932)
+31881,1,Morph,683,Zerg Lurker,(3120,828)
+31891,0,Created,720,Protoss Probe,(288,1232)31910,1,Created,721,Zerg Larva,(3749,1840)31923,1,Morph,708,Zerg Egg,(3367,924)
+31927,1,Created,722,Zerg Larva,(3365,944)31928,1,Created,723,Zerg Larva,(3616,902)31933,1,Morph,709,Zerg Egg,(3674,964)
+31941,-1,Destroyed,136,Resource Mineral Field,(3808,944)
+31949,1,Morph,721,Zerg Egg,(3731,1820)
+31949,1,Morph,690,Zerg Egg,(3741,1871)
+31949,1,Morph,707,Zerg Egg,(3751,1830)
+31966,1,Created,724,Zerg Larva,(3365,144)31968,0,Discovered,447,Protoss Archon
+31980,0,Discovered,447,Protoss Archon
+31986,1,Morph,5,Zerg Spore Colony,(3040,800)
+31992,0,Discovered,447,Protoss Archon
+32004,0,Discovered,447,Protoss Archon
+32016,1,Discovered,718,Zerg Zergling
+32040,0,Discovered,684,Protoss Dragoon
+32040,0,Discovered,682,Protoss Dragoon
+32088,0,Discovered,681,Protoss Dragoon
+32100,0,Discovered,447,Protoss Archon
+32116,1,Morph,697,Zerg Sunken Colony,(3136,64)
+32161,1,Morph,724,Zerg Egg,(3367,185)
+32161,1,Morph,710,Zerg Egg,(3367,154)
+32161,1,Morph,703,Zerg Egg,(3357,134)
+32168,1,Destroyed,718,Zerg Zergling,(2339,452)
+32169,1,Morph,719,Zerg Egg,(3366,225)
+32169,1,Morph,706,Zerg Egg,(3358,259)
+32169,1,Morph,699,Zerg Egg,(3367,230)
+32193,0,Created,725,Protoss Probe,(288,1232)32262,1,Created,726,Zerg Larva,(3365,944)32272,1,Created,727,Zerg Larva,(3675,944)32290,1,Created,728,Zerg Larva,(3749,1840)32352,1,Discovered,717,Zerg Zergling
+32361,1,Morph,708,Zerg Zergling,(3367,924)
+32371,1,Morph,709,Zerg Zergling,(3674,964)
+32376,1,Created,729,Zerg Zergling,(3360,927)32376,1,Discovered,729,Zerg Zergling
+32386,1,Created,730,Zerg Zergling,(3667,967)32387,1,Morph,721,Zerg Zergling,(3731,1820)
+32387,1,Morph,690,Zerg Zergling,(3741,1871)
+32387,1,Morph,707,Zerg Zergling,(3751,1830)
+32388,1,Discovered,730,Zerg Zergling
+32402,1,Created,731,Zerg Zergling,(3744,1833)32402,1,Created,732,Zerg Zergling,(3724,1823)32402,1,Created,733,Zerg Zergling,(3734,1874)32460,1,Discovered,732,Zerg Zergling
+32472,1,Discovered,731,Zerg Zergling
+32472,1,Discovered,733,Zerg Zergling
+32498,1,Created,734,Zerg Larva,(3365,144)32513,1,Created,735,Zerg Larva,(3365,240)32532,1,Discovered,694,Zerg Zergling
+32544,1,Discovered,662,Zerg Zergling
+32544,1,Discovered,704,Zerg Zergling
+32544,1,Discovered,695,Zerg Zergling
+32544,0,Discovered,713,Protoss Dragoon
+32555,1,Destroyed,635,Zerg Zergling,(673,2108)
+32556,1,Discovered,705,Zerg Zergling
+32556,1,Discovered,696,Zerg Zergling
+32568,0,Discovered,712,Protoss Dragoon
+32580,1,Discovered,715,Zerg Zergling
+32580,1,Discovered,716,Zerg Zergling
+32580,0,Discovered,711,Protoss High Templar
+32591,1,Destroyed,704,Zerg Zergling,(608,2143)
+32592,1,Destroyed,649,Zerg Zergling,(624,2156)
+32595,1,Created,736,Zerg Larva,(3365,944)32601,1,Destroyed,689,Zerg Zergling,(541,2108)
+32603,1,Destroyed,687,Zerg Zergling,(557,2108)
+32607,1,Morph,719,Zerg Zergling,(3366,225)
+32607,1,Morph,706,Zerg Zergling,(3358,259)
+32607,1,Morph,699,Zerg Zergling,(3367,230)
+32614,1,Created,737,Zerg Larva,(3616,902)32622,1,Created,738,Zerg Zergling,(3359,228)32622,1,Created,739,Zerg Zergling,(3360,233)32622,1,Created,740,Zerg Zergling,(3351,262)32629,1,Morph,724,Zerg Scourge,(3367,185)
+32629,1,Morph,710,Zerg Scourge,(3367,154)
+32629,1,Morph,703,Zerg Scourge,(3357,134)
+32632,1,Created,741,Zerg Larva,(3749,1840)32639,1,Destroyed,716,Zerg Zergling,(688,2173)
+32640,1,Destroyed,696,Zerg Zergling,(688,2207)
+32644,1,Created,742,Zerg Scourge,(3376,113)32644,1,Created,743,Zerg Scourge,(3366,93)32644,1,Created,744,Zerg Scourge,(3376,144)32645,1,Destroyed,695,Zerg Zergling,(595,2276)
+32651,1,Destroyed,693,Zerg Zergling,(688,2191)
+32661,1,Destroyed,629,Zerg Zergling,(583,2209)
+32666,1,Destroyed,694,Zerg Zergling,(587,2133)
+32671,0,Destroyed,713,Protoss Dragoon,(650,2186)
+32683,1,Destroyed,702,Zerg Zergling,(684,2157)
+32693,1,Destroyed,662,Zerg Zergling,(613,2232)
+32698,0,Destroyed,477,Protoss Photon Cannon,(576,2240)
+32700,0,Discovered,698,Protoss Probe
+32707,1,Destroyed,715,Zerg Zergling,(614,2216)
+32711,1,Destroyed,638,Zerg Zergling,(569,2271)
+32739,1,Destroyed,705,Zerg Zergling,(607,2207)
+32749,1,Destroyed,700,Zerg Zergling,(591,2203)
+32827,0,Destroyed,472,Protoss Probe,(484,1906)
+32835,1,Created,745,Zerg Larva,(3365,144)32857,0,Destroyed,478,Protoss Photon Cannon,(576,2176)
+32862,1,Created,746,Zerg Larva,(3365,240)32871,1,Destroyed,674,Zerg Lurker,(439,2030)
+32899,1,Morph,728,Zerg Egg,(3732,1828)
+32899,1,Morph,741,Zerg Egg,(3751,1840)
+32912,1,Destroyed,672,Zerg Lurker,(650,2081)
+32921,1,Morph,727,Zerg Egg,(3678,940)
+32921,1,Morph,723,Zerg Egg,(3597,902)
+32921,1,Morph,737,Zerg Egg,(3584,897)
+32931,1,Morph,736,Zerg Egg,(3357,974)
+32931,1,Morph,722,Zerg Egg,(3367,923)
+32931,1,Morph,726,Zerg Egg,(3357,930)
+32942,1,Destroyed,670,Zerg Lurker,(652,2049)
+32971,1,Morph,745,Zerg Egg,(3358,165)
+32971,1,Morph,734,Zerg Egg,(3349,143)
+32979,1,Created,747,Zerg Larva,(3749,1840)33029,0,Created,748,Protoss Nexus,(672,2832)33042,1,Destroyed,675,Zerg Lurker,(430,1917)
+33142,0,Destroyed,487,Protoss High Templar,(1030,2032)
+33158,1,Destroyed,732,Zerg Zergling,(990,2088)
+33179,1,Destroyed,721,Zerg Zergling,(1020,2070)
+33181,1,Created,749,Zerg Larva,(3365,144)33188,1,Destroyed,690,Zerg Zergling,(998,2085)
+33194,1,Created,750,Zerg Larva,(3365,240)33206,1,Destroyed,707,Zerg Zergling,(1004,2068)
+33220,1,Destroyed,733,Zerg Zergling,(1020,2077)
+33240,1,Discovered,742,Zerg Scourge
+33240,1,Discovered,744,Zerg Scourge
+33242,1,Destroyed,731,Zerg Zergling,(1036,2066)
+33248,1,Created,751,Zerg Larva,(3557,912)33272,1,Destroyed,742,Zerg Scourge,(3617,1874)
+33273,1,Destroyed,744,Zerg Scourge,(3612,1881)
+33274,1,Created,752,Zerg Larva,(3365,944)33278,0,Destroyed,519,Protoss Corsair,(3606,1885)
+33289,1,Morph,745,Zerg Drone,(3358,165)
+33289,1,Morph,734,Zerg Drone,(3349,143)
+33307,1,Morph,747,Zerg Egg,(3748,1817)
+33310,1,Created,753,Zerg Larva,(3749,1840)33315,1,Morph,752,Zerg Egg,(3356,953)
+33325,1,Morph,751,Zerg Egg,(3559,908)
+33359,1,Morph,727,Zerg Zergling,(3678,940)
+33359,1,Morph,723,Zerg Zergling,(3597,902)
+33359,1,Morph,737,Zerg Zergling,(3584,897)
+33367,1,Morph,728,Zerg Scourge,(3732,1828)
+33367,1,Morph,741,Zerg Scourge,(3751,1840)
+33369,1,Morph,736,Zerg Zergling,(3357,974)
+33369,1,Morph,722,Zerg Zergling,(3367,923)
+33369,1,Morph,726,Zerg Zergling,(3357,930)
+33374,1,Created,754,Zerg Zergling,(3590,905)33374,1,Created,755,Zerg Zergling,(3671,943)33374,1,Created,756,Zerg Zergling,(3577,900)33380,-1,Destroyed,135,Resource Mineral Field,(3808,1008)
+33382,1,Created,757,Zerg Scourge,(3760,1799)33382,1,Created,758,Zerg Scourge,(3741,1787)33384,1,Created,759,Zerg Zergling,(3360,926)33384,1,Created,760,Zerg Zergling,(3350,933)33384,1,Created,761,Zerg Zergling,(3350,977)33420,0,Discovered,748,Protoss Nexus
+33441,1,Destroyed,546,Zerg Drone,(3648,256)
+33441,1,Morph,70,Zerg Extractor,(3648,256)
+33505,1,Morph,749,Zerg Egg,(3367,185)
+33517,1,Morph,735,Zerg Egg,(3354,273)
+33517,1,Morph,750,Zerg Egg,(3367,200)
+33517,1,Morph,746,Zerg Egg,(3353,241)
+33519,0,Created,762,Protoss High Templar,(384,1456)33520,1,Created,763,Zerg Larva,(3365,144)33525,0,Created,764,Protoss High Templar,(416,1328)33529,0,Created,765,Protoss High Templar,(256,1456)33584,1,Created,766,Zerg Larva,(3557,912)33612,0,Discovered,447,Protoss Archon
+33621,1,Created,767,Zerg Larva,(3365,944)33621,1,Destroyed,651,Zerg Zergling,(1418,2745)
+33625,1,Morph,747,Zerg Drone,(3748,1817)
+33633,1,Morph,752,Zerg Drone,(3356,953)
+33643,1,Morph,751,Zerg Drone,(3559,908)
+33649,1,Created,768,Zerg Larva,(3749,1840)33813,1,Morph,766,Zerg Egg,(3559,928)
+33827,1,Morph,767,Zerg Egg,(3367,935)
+33841,1,Morph,768,Zerg Egg,(3741,1830)
+33841,1,Morph,753,Zerg Egg,(3746,1824)
+33842,0,Created,769,Protoss Pylon,(768,2848)33852,1,Created,770,Zerg Larva,(3365,240)33860,1,Created,771,Zerg Larva,(3365,144)33917,1,Created,772,Zerg Larva,(3616,986)33943,1,Morph,749,Zerg Zergling,(3367,185)
+33955,1,Morph,735,Zerg Zergling,(3354,273)
+33955,1,Morph,750,Zerg Zergling,(3367,200)
+33955,1,Morph,746,Zerg Zergling,(3353,241)
+33958,1,Created,773,Zerg Zergling,(3360,188)33961,1,Created,774,Zerg Larva,(3365,944)33970,1,Created,775,Zerg Zergling,(3346,244)33970,1,Created,776,Zerg Zergling,(3347,276)33970,1,Created,777,Zerg Zergling,(3360,203)33980,1,Created,778,Zerg Larva,(3749,1840)33991,1,Morph,771,Zerg Egg,(3367,134)
+33991,1,Morph,763,Zerg Egg,(3367,124)
+34005,1,Morph,770,Zerg Egg,(3357,240)
+34068,1,Discovered,754,Zerg Zergling
+34080,1,Discovered,756,Zerg Zergling
+34115,1,Destroyed,754,Zerg Zergling,(1620,2596)
+34116,1,Discovered,761,Zerg Zergling
+34128,1,Discovered,755,Zerg Zergling
+34177,1,Morph,774,Zerg Egg,(3361,948)
+34185,1,Morph,772,Zerg Egg,(3607,1003)
+34190,1,Created,779,Zerg Larva,(3365,240)34207,1,Created,780,Zerg Larva,(3365,144)34248,1,Discovered,714,Zerg Scourge
+34262,1,Created,781,Zerg Larva,(3616,986)34265,1,Morph,767,Zerg Zergling,(3367,935)
+34271,0,Created,782,Protoss High Templar,(384,1456)34277,0,Created,783,Protoss Zealot,(416,1328)34279,1,Morph,768,Zerg Hydralisk,(3741,1830)
+34279,1,Morph,753,Zerg Hydralisk,(3746,1824)
+34280,1,Created,784,Zerg Zergling,(3360,938)34281,0,Created,785,Protoss High Templar,(256,1456)34281,1,Morph,766,Zerg Scourge,(3559,928)
+34296,1,Created,786,Zerg Scourge,(3568,887)34306,1,Created,787,Zerg Larva,(3365,944)34313,0,Created,788,Protoss Probe,(480,2160)34325,1,Created,789,Zerg Larva,(3749,1840)34405,1,Morph,787,Zerg Egg,(3367,904)
+34419,1,Morph,789,Zerg Egg,(3751,1840)
+34419,1,Morph,778,Zerg Egg,(3749,1851)
+34429,1,Morph,771,Zerg Zergling,(3367,134)
+34429,1,Morph,763,Zerg Zergling,(3367,124)
+34443,1,Morph,770,Zerg Zergling,(3357,240)
+34444,1,Created,790,Zerg Zergling,(3360,137)34444,1,Created,791,Zerg Zergling,(3360,127)34458,1,Created,792,Zerg Zergling,(3350,243)34479,1,Morph,768,Zerg Lurker Egg,(3433,1078)
+34479,1,Morph,753,Zerg Lurker Egg,(3455,1193)
+34495,0,Destroyed,762,Protoss High Templar,(572,2015)
+34495,0,Morph,765,Protoss Archon,(569,2012)
+34526,1,Created,793,Zerg Larva,(3365,240)34553,1,Created,794,Zerg Larva,(3365,144)34598,1,Created,795,Zerg Larva,(3616,986)34615,0,Created,796,Protoss Probe,(480,2160)34615,1,Morph,774,Zerg Zergling,(3361,948)
+34623,1,Morph,772,Zerg Hydralisk,(3607,1003)
+34630,1,Created,797,Zerg Zergling,(3354,951)34638,0,Destroyed,711,Protoss High Templar,(489,2090)
+34638,0,Morph,764,Protoss Archon,(490,2088)
+34662,1,Created,798,Zerg Larva,(3365,944)34663,1,Created,799,Zerg Larva,(3749,1840)34716,1,Discovered,739,Zerg Zergling
+34716,1,Discovered,738,Zerg Zergling
+34716,1,Discovered,740,Zerg Zergling
+34740,0,Discovered,688,Protoss Observatory
+34764,0,Discovered,783,Protoss Zealot
+34788,1,Discovered,757,Zerg Scourge
+34824,0,Discovered,720,Protoss Probe
+34824,0,Discovered,782,Protoss High Templar
+34838,-1,Destroyed,133,Resource Mineral Field,(3808,880)
+34843,1,Morph,787,Zerg Zergling,(3367,904)
+34857,1,Morph,789,Zerg Hydralisk,(3751,1840)
+34857,1,Morph,778,Zerg Hydralisk,(3749,1851)
+34858,1,Created,800,Zerg Zergling,(3360,907)34870,1,Created,801,Zerg Larva,(3365,240)34874,0,Destroyed,510,Protoss Probe,(344,1092)
+34894,0,Destroyed,4,Protoss Probe,(320,1106)
+34894,0,Destroyed,249,Protoss Probe,(320,1099)
+34897,1,Created,802,Zerg Larva,(3365,144)34917,0,Created,803,Protoss Probe,(480,2160)34925,1,Morph,772,Zerg Lurker Egg,(3204,840)
+34942,1,Created,804,Zerg Larva,(3616,986)34949,1,Morph,798,Zerg Egg,(3367,952)
+34956,0,Discovered,686,Protoss Probe
+34965,1,Morph,795,Zerg Egg,(3647,1005)
+34965,1,Morph,781,Zerg Egg,(3626,999)
+34965,1,Morph,804,Zerg Egg,(3616,985)
+34968,0,Discovered,725,Protoss Probe
+34991,1,Morph,789,Zerg Lurker Egg,(3577,1374)
+34991,1,Morph,778,Zerg Lurker Egg,(3595,1406)
+35007,1,Created,805,Zerg Larva,(3365,944)35008,1,Created,806,Zerg Larva,(3749,1840)35016,0,Discovered,447,Protoss Archon
+35019,1,Morph,793,Zerg Egg,(3367,250)
+35019,1,Morph,779,Zerg Egg,(3357,291)
+35027,0,Destroyed,688,Protoss Observatory,(400,1088)
+35028,0,Discovered,447,Protoss Archon
+35040,0,Discovered,447,Protoss Archon
+35052,0,Discovered,447,Protoss Archon
+35062,1,Destroyed,685,Zerg Lurker,(535,1275)
+35064,0,Discovered,447,Protoss Archon
+35076,0,Discovered,447,Protoss Archon
+35077,1,Destroyed,719,Zerg Zergling,(615,1399)
+35081,1,Morph,768,Zerg Lurker,(3433,1078)
+35081,1,Morph,753,Zerg Lurker,(3455,1193)
+35102,-1,Destroyed,77,Resource Mineral Field,(96,1360)
+35144,0,Destroyed,782,Protoss High Templar,(386,1628)
+35144,0,Morph,785,Protoss Archon,(386,1632)
+35162,1,Destroyed,738,Zerg Zergling,(470,1177)
+35164,1,Destroyed,680,Zerg Lurker,(503,1159)
+35172,0,Discovered,447,Protoss Archon
+35180,1,Destroyed,739,Zerg Zergling,(573,1266)
+35184,0,Discovered,447,Protoss Archon
+35196,1,Destroyed,757,Zerg Scourge,(561,1364)
+35196,0,Discovered,447,Protoss Archon
+35199,1,Destroyed,699,Zerg Zergling,(515,1325)
+35201,0,Destroyed,648,Protoss Observer,(534,1373)
+35208,0,Discovered,447,Protoss Archon
+35216,1,Destroyed,706,Zerg Zergling,(499,1277)
+35219,0,Created,807,Protoss Probe,(480,2160)35220,1,Destroyed,728,Zerg Scourge,(548,1384)
+35220,1,Destroyed,741,Zerg Scourge,(562,1394)
+35220,0,Discovered,447,Protoss Archon
+35232,1,Discovered,797,Zerg Zergling
+35232,0,Discovered,447,Protoss Archon
+35244,1,Discovered,784,Zerg Zergling
+35244,0,Discovered,447,Protoss Archon
+35256,0,Discovered,447,Protoss Archon
+35264,-1,Destroyed,98,Resource Mineral Field,(64,1328)
+35268,0,Discovered,447,Protoss Archon
+35270,1,Destroyed,643,Zerg Overlord,(607,1144)
+35280,0,Discovered,447,Protoss Archon
+35292,0,Discovered,447,Protoss Archon
+35297,1,Created,808,Zerg Larva,(3616,986)35300,1,Destroyed,736,Zerg Zergling,(948,2851)
+35304,0,Discovered,447,Protoss Archon
+35316,0,Discovered,447,Protoss Archon
+35328,0,Discovered,447,Protoss Archon
+35328,0,Discovered,769,Protoss Pylon
+35329,1,Destroyed,740,Zerg Zergling,(547,1109)
+35331,1,Destroyed,723,Zerg Zergling,(940,2853)
+35340,0,Discovered,447,Protoss Archon
+35341,1,Created,809,Zerg Larva,(3365,944)35342,1,Created,810,Zerg Larva,(3749,1840)35351,1,Created,811,Zerg Larva,(3365,240)35352,1,Destroyed,797,Zerg Zergling,(938,2869)
+35352,0,Discovered,447,Protoss Archon
+35364,0,Discovered,447,Protoss Archon
+35375,1,Destroyed,787,Zerg Zergling,(1152,2874)
+35375,1,Destroyed,774,Zerg Zergling,(1047,2885)
+35376,0,Discovered,447,Protoss Archon
+35382,1,Destroyed,717,Zerg Zergling,(1087,2847)
+35382,1,Destroyed,726,Zerg Zergling,(1152,2886)
+35382,1,Destroyed,761,Zerg Zergling,(1156,2858)
+35387,1,Morph,798,Zerg Hydralisk,(3367,952)
+35388,0,Discovered,447,Protoss Archon
+35389,1,Destroyed,784,Zerg Zergling,(1152,2859)
+35400,0,Discovered,447,Protoss Archon
+35403,1,Morph,795,Zerg Hydralisk,(3647,1005)
+35403,1,Morph,781,Zerg Hydralisk,(3626,999)
+35403,1,Morph,804,Zerg Hydralisk,(3616,985)
+35412,0,Discovered,447,Protoss Archon
+35424,0,Discovered,447,Protoss Archon
+35436,0,Discovered,447,Protoss Archon
+35448,0,Discovered,447,Protoss Archon
+35457,1,Morph,793,Zerg Zergling,(3367,250)
+35457,1,Morph,779,Zerg Zergling,(3357,291)
+35460,0,Discovered,447,Protoss Archon
+35472,1,Created,812,Zerg Zergling,(3360,253)35472,1,Created,813,Zerg Zergling,(3350,294)35472,0,Discovered,447,Protoss Archon
+35489,0,Created,814,Protoss Probe,(672,2832)35527,1,Morph,772,Zerg Lurker,(3204,840)
+35591,1,Morph,806,Zerg Egg,(3751,1820)
+35591,1,Morph,810,Zerg Egg,(3743,1793)
+35591,1,Morph,799,Zerg Egg,(3749,1834)
+35593,1,Morph,789,Zerg Lurker,(3577,1374)
+35593,1,Morph,778,Zerg Lurker,(3595,1406)
+35599,1,Morph,809,Zerg Egg,(3353,930)
+35599,1,Morph,805,Zerg Egg,(3357,914)
+35607,1,Morph,808,Zerg Egg,(3586,985)
+35629,0,Created,815,Protoss Observatory,(48,1216)35638,1,Created,816,Zerg Larva,(3616,986)35681,1,Created,817,Zerg Larva,(3365,944)35685,0,Created,818,Protoss High Templar,(256,1456)35689,0,Created,819,Protoss High Templar,(384,1456)35692,1,Created,820,Zerg Larva,(3365,240)35693,0,Created,821,Protoss Zealot,(416,1328)35715,1,Morph,817,Zerg Egg,(3367,935)
+35731,1,Morph,816,Zerg Egg,(3626,995)
+35741,1,Morph,820,Zerg Egg,(3359,217)
+35741,1,Morph,811,Zerg Egg,(3358,201)
+35741,1,Morph,801,Zerg Egg,(3367,281)
+35791,0,Created,822,Protoss Probe,(672,2832)35852,0,Morph,153,Protoss Assimilator,(448,2816)
+35926,1,Created,823,Zerg Larva,(3749,1840)35976,0,Discovered,785,Protoss Archon
+35980,1,Created,824,Zerg Larva,(3616,986)35988,0,Discovered,447,Protoss Archon
+35988,0,Discovered,785,Protoss Archon
+36000,0,Discovered,785,Protoss Archon
+36022,1,Created,825,Zerg Larva,(3365,944)36029,1,Morph,806,Zerg Zergling,(3751,1820)
+36029,1,Morph,810,Zerg Zergling,(3743,1793)
+36029,1,Morph,799,Zerg Zergling,(3749,1834)
+36037,1,Morph,809,Zerg Zergling,(3353,930)
+36037,1,Morph,805,Zerg Zergling,(3357,914)
+36044,1,Created,826,Zerg Zergling,(3744,1823)36044,1,Created,827,Zerg Zergling,(3742,1837)36044,1,Created,828,Zerg Zergling,(3736,1796)36045,1,Morph,808,Zerg Zergling,(3586,985)
+36052,1,Created,829,Zerg Zergling,(3350,917)36052,1,Created,830,Zerg Zergling,(3346,933)36060,1,Created,831,Zerg Zergling,(3579,988)36072,1,Discovered,759,Zerg Zergling
+36077,1,Created,832,Zerg Larva,(3365,240)36084,1,Discovered,800,Zerg Zergling
+36093,0,Created,833,Protoss Probe,(672,2832)36097,1,Destroyed,759,Zerg Zergling,(929,2964)
+36108,1,Discovered,760,Zerg Zergling
+36108,1,Discovered,776,Zerg Zergling
+36108,1,Discovered,777,Zerg Zergling
+36108,1,Discovered,773,Zerg Zergling
+36120,1,Discovered,791,Zerg Zergling
+36121,1,Destroyed,730,Zerg Zergling,(852,3019)
+36132,0,Discovered,833,Protoss Probe
+36132,0,Discovered,822,Protoss Probe
+36151,1,Destroyed,750,Zerg Zergling,(922,2927)
+36153,1,Morph,817,Zerg Zergling,(3367,935)
+36168,1,Created,834,Zerg Zergling,(3360,938)36169,1,Morph,816,Zerg Zergling,(3626,995)
+36179,1,Morph,820,Zerg Zergling,(3359,217)
+36179,1,Morph,811,Zerg Zergling,(3358,201)
+36179,1,Morph,801,Zerg Zergling,(3367,281)
+36184,1,Created,835,Zerg Zergling,(3619,998)36189,1,Destroyed,767,Zerg Zergling,(905,2967)
+36194,1,Created,836,Zerg Zergling,(3360,284)36194,1,Created,837,Zerg Zergling,(3352,220)36194,1,Created,838,Zerg Zergling,(3351,204)36195,0,Destroyed,684,Protoss Dragoon,(877,2851)
+36206,1,Destroyed,708,Zerg Zergling,(813,2841)
+36209,1,Destroyed,737,Zerg Zergling,(827,2999)
+36214,1,Destroyed,727,Zerg Zergling,(886,3019)
+36214,1,Destroyed,701,Zerg Zergling,(904,3010)
+36219,0,Destroyed,511,Protoss Dragoon,(836,2968)
+36233,1,Destroyed,771,Zerg Zergling,(931,2949)
+36237,1,Destroyed,776,Zerg Zergling,(868,2843)
+36240,1,Destroyed,722,Zerg Zergling,(929,2911)
+36240,1,Destroyed,729,Zerg Zergling,(945,2927)
+36240,1,Destroyed,709,Zerg Zergling,(959,2890)
+36240,1,Destroyed,749,Zerg Zergling,(929,2895)
+36240,1,Destroyed,756,Zerg Zergling,(963,2917)
+36251,1,Destroyed,760,Zerg Zergling,(892,2847)
+36253,0,Destroyed,712,Protoss Dragoon,(842,2877)
+36268,0,Destroyed,632,Protoss Zealot,(896,2937)
+36269,0,Destroyed,682,Protoss Dragoon,(868,2998)
+36272,1,Created,839,Zerg Larva,(3749,1840)36272,1,Destroyed,800,Zerg Zergling,(833,2957)
+36282,0,Destroyed,625,Protoss Zealot,(902,2918)
+36287,0,Destroyed,544,Protoss Dragoon,(868,2966)
+36297,0,Destroyed,545,Protoss Dragoon,(877,2889)
+36312,1,Discovered,813,Zerg Zergling
+36312,1,Discovered,790,Zerg Zergling
+36324,1,Discovered,792,Zerg Zergling
+36331,1,Created,840,Zerg Larva,(3616,986)36336,1,Discovered,812,Zerg Zergling
+36338,1,Destroyed,781,Zerg Hydralisk,(1010,2986)
+36357,1,Created,841,Zerg Larva,(3365,944)36372,0,Discovered,788,Protoss Probe
+36384,0,Discovered,814,Protoss Probe
+36427,0,Destroyed,822,Protoss Probe,(508,2852)
+36430,1,Created,842,Zerg Larva,(3365,240)36435,0,Destroyed,216,Protoss Probe,(752,2699)
+36444,0,Destroyed,833,Protoss Probe,(673,2884)
+36459,0,Destroyed,372,Protoss High Templar,(456,2921)
+36496,0,Destroyed,361,Protoss Dark Archon,(894,3024)
+36496,0,Destroyed,814,Protoss Probe,(491,2868)
+36501,1,Morph,839,Zerg Egg,(3741,1830)
+36501,1,Morph,823,Zerg Egg,(3731,1800)
+36511,0,Destroyed,618,Protoss Templar Archives,(400,1024)
+36513,1,Morph,842,Zerg Egg,(3352,225)
+36513,1,Morph,832,Zerg Egg,(3365,241)
+36528,1,Discovered,775,Zerg Zergling
+36567,0,Created,843,Protoss Zealot,(384,1456)36571,0,Created,844,Protoss Zealot,(416,1328)36577,0,Created,845,Protoss Zealot,(256,1456)36581,1,Morph,841,Zerg Egg,(3367,923)
+36581,1,Morph,825,Zerg Egg,(3358,942)
+36587,1,Destroyed,763,Zerg Zergling,(1447,2747)
+36589,1,Morph,840,Zerg Egg,(3618,995)
+36589,1,Morph,824,Zerg Egg,(3614,992)
+36620,1,Created,846,Zerg Larva,(3749,1840)36626,0,Destroyed,628,Protoss Zealot,(1422,2740)
+36636,0,Destroyed,769,Protoss Pylon,(768,2848)
+36643,1,Destroyed,770,Zerg Zergling,(1440,2708)
+36662,1,Destroyed,746,Zerg Zergling,(1440,2682)
+36674,1,Created,847,Zerg Larva,(3616,986)36700,1,Created,848,Zerg Larva,(3365,944)36708,0,Discovered,785,Protoss Archon
+36720,0,Discovered,785,Protoss Archon
+36726,1,Destroyed,775,Zerg Zergling,(1456,2675)
+36749,0,Created,849,Protoss Probe,(480,2160)36769,1,Created,850,Zerg Larva,(3365,240)36833,0,Destroyed,748,Protoss Nexus,(672,2832)
+36930,1,Morph,747,Zerg Hatchery,(2080,208)
+36939,1,Morph,839,Zerg Hydralisk,(3741,1830)
+36939,1,Morph,823,Zerg Hydralisk,(3731,1800)
+36954,1,Created,851,Zerg Larva,(3749,1840)36958,1,Destroyed,673,Zerg Lurker,(497,1043)
+36960,0,Discovered,807,Protoss Probe
+36960,0,Discovered,849,Protoss Probe
+36960,0,Discovered,796,Protoss Probe
+36960,0,Discovered,803,Protoss Probe
+36962,1,Destroyed,755,Zerg Zergling,(351,2146)
+36981,1,Morph,842,Zerg Scourge,(3352,225)
+36981,1,Morph,832,Zerg Scourge,(3365,241)
+36982,1,Destroyed,793,Zerg Zergling,(329,2090)
+36996,1,Created,852,Zerg Scourge,(3361,184)36996,1,Created,853,Zerg Scourge,(3374,200)36997,1,Destroyed,791,Zerg Zergling,(371,2191)
+37008,1,Created,854,Zerg Larva,(3616,986)37008,0,Discovered,785,Protoss Archon
+37015,1,Destroyed,768,Zerg Lurker,(701,2947)
+37017,1,Destroyed,813,Zerg Zergling,(371,2206)
+37019,1,Morph,841,Zerg Zergling,(3367,923)
+37019,1,Morph,825,Zerg Zergling,(3358,942)
+37020,0,Discovered,785,Protoss Archon
+37025,1,Destroyed,779,Zerg Zergling,(355,2207)
+37027,1,Morph,840,Zerg Zergling,(3618,995)
+37027,1,Morph,824,Zerg Zergling,(3614,992)
+37032,0,Discovered,785,Protoss Archon
+37034,1,Created,855,Zerg Zergling,(3360,926)37034,1,Created,856,Zerg Zergling,(3351,945)37042,1,Created,857,Zerg Zergling,(3611,998)37042,1,Created,858,Zerg Zergling,(3607,995)37043,1,Created,859,Zerg Larva,(3365,944)37043,1,Morph,848,Zerg Egg,(3367,975)
+37044,0,Discovered,447,Protoss Archon
+37044,0,Discovered,785,Protoss Archon
+37051,0,Created,860,Protoss Probe,(480,2160)37055,1,Morph,854,Zerg Egg,(3596,1004)
+37055,1,Morph,847,Zerg Egg,(3646,994)
+37056,0,Discovered,447,Protoss Archon
+37056,0,Discovered,785,Protoss Archon
+37056,0,Discovered,764,Protoss Archon
+37068,0,Discovered,447,Protoss Archon
+37068,0,Discovered,785,Protoss Archon
+37068,0,Discovered,765,Protoss Archon
+37068,0,Discovered,764,Protoss Archon
+37075,1,Morph,851,Zerg Egg,(3741,1840)
+37075,1,Morph,846,Zerg Egg,(3742,1870)
+37077,1,Destroyed,772,Zerg Lurker,(779,2734)
+37097,1,Morph,839,Zerg Lurker Egg,(3548,1176)
+37108,1,Created,861,Zerg Larva,(3365,240)37116,0,Discovered,447,Protoss Archon
+37116,0,Discovered,785,Protoss Archon
+37128,0,Discovered,785,Protoss Archon
+37128,0,Discovered,447,Protoss Archon
+37140,0,Discovered,785,Protoss Archon
+37140,0,Discovered,447,Protoss Archon
+37146,1,Destroyed,798,Zerg Hydralisk,(533,2836)
+37147,1,Destroyed,773,Zerg Zergling,(519,2814)
+37152,0,Discovered,447,Protoss Archon
+37152,0,Discovered,785,Protoss Archon
+37152,0,Discovered,764,Protoss Archon
+37161,-1,Morph,153,Resource Vespene Geyser,(448,2816)
+37164,0,Discovered,447,Protoss Archon
+37164,0,Discovered,785,Protoss Archon
+37164,0,Discovered,764,Protoss Archon
+37174,1,Destroyed,804,Zerg Hydralisk,(516,2839)
+37176,0,Discovered,447,Protoss Archon
+37176,0,Discovered,785,Protoss Archon
+37176,0,Discovered,764,Protoss Archon
+37183,1,Destroyed,777,Zerg Zergling,(535,2813)
+37188,0,Discovered,447,Protoss Archon
+37188,0,Discovered,785,Protoss Archon
+37188,0,Discovered,764,Protoss Archon
+37200,1,Destroyed,790,Zerg Zergling,(503,2852)
+37200,0,Discovered,447,Protoss Archon
+37200,0,Discovered,785,Protoss Archon
+37200,0,Discovered,764,Protoss Archon
+37203,1,Destroyed,812,Zerg Zergling,(552,2788)
+37203,1,Destroyed,735,Zerg Zergling,(536,2785)
+37212,0,Discovered,447,Protoss Archon
+37212,0,Discovered,785,Protoss Archon
+37212,0,Discovered,764,Protoss Archon
+37220,0,Destroyed,381,Protoss Zealot,(544,2814)
+37221,1,Destroyed,792,Zerg Zergling,(520,2785)
+37224,0,Discovered,447,Protoss Archon
+37224,0,Discovered,785,Protoss Archon
+37236,0,Discovered,447,Protoss Archon
+37236,0,Discovered,785,Protoss Archon
+37237,0,Created,862,Protoss Zealot,(416,1328)37241,1,Destroyed,795,Zerg Hydralisk,(451,2877)
+37243,0,Created,863,Protoss Zealot,(384,1456)37247,0,Created,864,Protoss Zealot,(256,1456)37259,-1,Destroyed,49,Resource Mineral Field,(64,1168)
+37294,1,Created,865,Zerg Larva,(3749,1840)37330,-1,Destroyed,114,Resource Mineral Field,(3840,976)
+37348,1,Created,866,Zerg Larva,(3616,986)37381,1,Created,867,Zerg Larva,(3365,944)37449,1,Created,868,Zerg Larva,(3365,240)37471,-1,Destroyed,126,Resource Mineral Field,(3840,848)
+37481,1,Morph,848,Zerg Zergling,(3367,975)
+37493,1,Morph,854,Zerg Hydralisk,(3596,1004)
+37493,1,Morph,847,Zerg Hydralisk,(3646,994)
+37496,1,Created,869,Zerg Zergling,(3360,978)37513,1,Morph,851,Zerg Hydralisk,(3741,1840)
+37513,1,Morph,846,Zerg Hydralisk,(3742,1870)
+37607,1,Morph,851,Zerg Lurker Egg,(3613,1504)
+37607,1,Morph,846,Zerg Lurker Egg,(3614,1534)
+37611,-1,Destroyed,121,Resource Mineral Field,(3840,912)
+37625,1,Morph,859,Zerg Egg,(3367,904)
+37625,1,Morph,867,Zerg Egg,(3350,950)
+37639,1,Created,870,Zerg Larva,(3749,1840)37656,0,Discovered,845,Protoss Zealot
+37686,1,Created,871,Zerg Larva,(3616,986)37692,0,Discovered,843,Protoss Zealot
+37699,1,Morph,839,Zerg Lurker,(3548,1176)
+37712,1,Created,872,Zerg Larva,(3365,944)37785,1,Morph,872,Zerg Egg,(3367,964)
+37812,1,Discovered,834,Zerg Zergling
+37812,1,Discovered,835,Zerg Zergling
+37812,1,Discovered,831,Zerg Zergling
+37812,1,Discovered,829,Zerg Zergling
+37812,1,Discovered,830,Zerg Zergling
+37860,0,Discovered,691,Protoss Probe
+37944,1,Discovered,826,Zerg Zergling
+37944,1,Discovered,827,Zerg Zergling
+37944,1,Discovered,828,Zerg Zergling
+37971,1,Created,873,Zerg Larva,(3749,1840)38016,0,Discovered,666,Protoss Pylon
+38025,1,Created,874,Zerg Larva,(3616,986)38030,0,Destroyed,590,Protoss Robotics Facility,(400,1184)
+38040,0,Discovered,815,Protoss Observatory
+38051,1,Created,875,Zerg Larva,(3365,944)38053,0,Created,876,Protoss Nexus,(672,2832)38063,1,Morph,859,Zerg Zergling,(3367,904)
+38063,1,Morph,867,Zerg Zergling,(3350,950)
+38078,1,Created,877,Zerg Zergling,(3343,953)38078,1,Created,878,Zerg Zergling,(3360,907)38100,0,Discovered,447,Protoss Archon
+38112,0,Discovered,447,Protoss Archon
+38124,0,Discovered,447,Protoss Archon
+38136,0,Discovered,447,Protoss Archon
+38140,0,Destroyed,531,Protoss Dragoon,(582,1378)
+38148,0,Discovered,447,Protoss Archon
+38156,-1,Destroyed,92,Resource Mineral Field,(4032,1776)
+38156,1,Destroyed,810,Zerg Zergling,(584,1336)
+38160,0,Discovered,447,Protoss Archon
+38160,0,Discovered,785,Protoss Archon
+38167,1,Destroyed,829,Zerg Zergling,(555,1346)
+38168,0,Destroyed,626,Protoss Zealot,(530,1348)
+38172,0,Discovered,447,Protoss Archon
+38172,0,Discovered,785,Protoss Archon
+38174,1,Destroyed,830,Zerg Zergling,(613,1361)
+38184,1,Discovered,758,Zerg Scourge
+38184,0,Discovered,447,Protoss Archon
+38184,0,Discovered,785,Protoss Archon
+38194,1,Destroyed,817,Zerg Zergling,(565,1397)
+38194,1,Destroyed,826,Zerg Zergling,(599,1390)
+38196,1,Destroyed,806,Zerg Zergling,(645,1361)
+38196,1,Destroyed,827,Zerg Zergling,(629,1358)
+38196,0,Discovered,447,Protoss Archon
+38196,0,Discovered,785,Protoss Archon
+38199,0,Destroyed,119,Protoss Assimilator,(288,1056)
+38199,1,Destroyed,809,Zerg Zergling,(613,1352)
+38200,-1,Created,879,Resource Vespene Geyser,(288,1056)38208,0,Discovered,447,Protoss Archon
+38208,0,Discovered,785,Protoss Archon
+38209,1,Morph,851,Zerg Lurker,(3613,1504)
+38209,1,Morph,846,Zerg Lurker,(3614,1534)
+38215,1,Destroyed,758,Zerg Scourge,(475,895)
+38215,1,Destroyed,808,Zerg Zergling,(606,1371)
+38218,0,Destroyed,556,Protoss Dragoon,(708,1327)
+38220,0,Destroyed,669,Protoss Observer,(439,893)
+38220,0,Discovered,447,Protoss Archon
+38220,0,Discovered,785,Protoss Archon
+38223,1,Morph,872,Zerg Zergling,(3367,964)
+38232,0,Discovered,447,Protoss Archon
+38232,0,Discovered,785,Protoss Archon
+38238,1,Created,880,Zerg Zergling,(3360,967)38241,1,Destroyed,799,Zerg Zergling,(667,1354)
+38244,0,Discovered,785,Protoss Archon
+38256,0,Discovered,785,Protoss Archon
+38268,0,Discovered,447,Protoss Archon
+38268,0,Discovered,785,Protoss Archon
+38280,0,Discovered,785,Protoss Archon
+38280,0,Discovered,447,Protoss Archon
+38289,0,Destroyed,232,Protoss Pylon,(256,1152)
+38292,0,Discovered,785,Protoss Archon
+38292,0,Discovered,447,Protoss Archon
+38304,0,Discovered,447,Protoss Archon
+38304,0,Discovered,785,Protoss Archon
+38316,1,Destroyed,828,Zerg Zergling,(486,1164)
+38316,0,Discovered,447,Protoss Archon
+38316,0,Discovered,785,Protoss Archon
+38328,0,Discovered,447,Protoss Archon
+38328,0,Discovered,785,Protoss Archon
+38328,0,Discovered,765,Protoss Archon
+38328,0,Discovered,821,Protoss Zealot
+38335,1,Destroyed,835,Zerg Zergling,(572,1281)
+38340,0,Discovered,447,Protoss Archon
+38340,0,Discovered,785,Protoss Archon
+38340,0,Discovered,765,Protoss Archon
+38352,0,Discovered,447,Protoss Archon
+38352,0,Discovered,785,Protoss Archon
+38352,0,Discovered,765,Protoss Archon
+38364,0,Discovered,447,Protoss Archon
+38364,0,Discovered,785,Protoss Archon
+38364,0,Discovered,765,Protoss Archon
+38364,0,Discovered,818,Protoss High Templar
+38376,0,Discovered,447,Protoss Archon
+38376,0,Discovered,785,Protoss Archon
+38376,0,Discovered,765,Protoss Archon
+38376,0,Discovered,819,Protoss High Templar
+38387,1,Destroyed,753,Zerg Lurker,(544,1057)
+38388,0,Discovered,447,Protoss Archon
+38388,0,Discovered,785,Protoss Archon
+38388,0,Discovered,765,Protoss Archon
+38388,0,Discovered,764,Protoss Archon
+38392,1,Created,881,Zerg Larva,(3365,944)38392,-1,Destroyed,84,Resource Mineral Field,(3968,1680)
+38400,0,Discovered,447,Protoss Archon
+38400,0,Discovered,785,Protoss Archon
+38400,0,Discovered,765,Protoss Archon
+38400,0,Discovered,764,Protoss Archon
+38412,0,Discovered,447,Protoss Archon
+38412,0,Discovered,765,Protoss Archon
+38412,0,Discovered,764,Protoss Archon
+38412,0,Discovered,785,Protoss Archon
+38416,1,Destroyed,831,Zerg Zergling,(337,1179)
+38421,1,Morph,873,Zerg Egg,(3751,1820)
+38421,1,Morph,870,Zerg Egg,(3741,1810)
+38421,1,Morph,865,Zerg Egg,(3748,1875)
+38424,1,Discovered,855,Zerg Zergling
+38424,0,Discovered,447,Protoss Archon
+38424,0,Discovered,765,Protoss Archon
+38424,0,Discovered,764,Protoss Archon
+38424,0,Discovered,862,Protoss Zealot
+38424,0,Discovered,785,Protoss Archon
+38436,1,Discovered,858,Zerg Zergling
+38436,1,Discovered,857,Zerg Zergling
+38436,1,Discovered,869,Zerg Zergling
+38436,0,Discovered,765,Protoss Archon
+38436,0,Discovered,764,Protoss Archon
+38436,0,Discovered,863,Protoss Zealot
+38436,0,Discovered,864,Protoss Zealot
+38436,0,Discovered,447,Protoss Archon
+38436,0,Discovered,785,Protoss Archon
+38439,1,Destroyed,387,Zerg Overlord,(716,1365)
+38448,1,Discovered,856,Zerg Zergling
+38448,0,Discovered,764,Protoss Archon
+38448,0,Discovered,447,Protoss Archon
+38448,0,Discovered,785,Protoss Archon
+38448,0,Discovered,765,Protoss Archon
+38454,1,Destroyed,805,Zerg Zergling,(405,1012)
+38460,0,Discovered,764,Protoss Archon
+38460,0,Discovered,447,Protoss Archon
+38460,0,Discovered,785,Protoss Archon
+38460,0,Discovered,765,Protoss Archon
+38472,0,Discovered,764,Protoss Archon
+38472,0,Discovered,447,Protoss Archon
+38472,0,Discovered,785,Protoss Archon
+38472,0,Discovered,765,Protoss Archon
+38479,1,Destroyed,841,Zerg Zergling,(677,2324)
+38484,0,Discovered,447,Protoss Archon
+38484,0,Discovered,785,Protoss Archon
+38484,0,Discovered,765,Protoss Archon
+38486,1,Destroyed,789,Zerg Lurker,(377,995)
+38493,-1,Destroyed,151,Resource Mineral Field,(288,2160)
+38496,0,Discovered,447,Protoss Archon
+38496,0,Discovered,785,Protoss Archon
+38496,0,Discovered,765,Protoss Archon
+38496,0,Discovered,764,Protoss Archon
+38508,0,Discovered,447,Protoss Archon
+38508,0,Discovered,785,Protoss Archon
+38508,0,Discovered,765,Protoss Archon
+38508,0,Discovered,764,Protoss Archon
+38513,1,Destroyed,857,Zerg Zergling,(601,2241)
+38520,0,Discovered,785,Protoss Archon
+38520,0,Discovered,447,Protoss Archon
+38520,0,Discovered,765,Protoss Archon
+38520,0,Discovered,764,Protoss Archon
+38523,1,Destroyed,840,Zerg Zergling,(589,2228)
+38532,0,Discovered,785,Protoss Archon
+38532,0,Discovered,764,Protoss Archon
+38532,0,Discovered,860,Protoss Probe
+38532,0,Discovered,447,Protoss Archon
+38532,0,Discovered,765,Protoss Archon
+38539,1,Morph,802,Zerg Egg,(3367,104)
+38539,1,Morph,780,Zerg Egg,(3367,105)
+38539,1,Morph,794,Zerg Egg,(3357,114)
+38542,1,Destroyed,816,Zerg Zergling,(334,1128)
+38542,1,Destroyed,825,Zerg Zergling,(589,2168)
+38544,1,Destroyed,778,Zerg Lurker,(266,958)
+38544,0,Discovered,785,Protoss Archon
+38544,0,Discovered,764,Protoss Archon
+38544,0,Discovered,765,Protoss Archon
+38544,0,Discovered,447,Protoss Archon
+38556,0,Discovered,785,Protoss Archon
+38556,0,Discovered,764,Protoss Archon
+38556,0,Discovered,447,Protoss Archon
+38556,0,Discovered,765,Protoss Archon
+38561,1,Destroyed,855,Zerg Zergling,(557,2162)
+38561,0,Destroyed,862,Protoss Zealot,(604,2149)
+38563,1,Destroyed,824,Zerg Zergling,(573,2169)
+38566,1,Destroyed,834,Zerg Zergling,(328,1144)
+38568,0,Discovered,447,Protoss Archon
+38568,0,Discovered,785,Protoss Archon
+38568,0,Discovered,765,Protoss Archon
+38580,0,Discovered,765,Protoss Archon
+38592,1,Destroyed,856,Zerg Zergling,(605,2174)
+38593,0,Destroyed,864,Protoss Zealot,(581,2142)
+38604,0,Discovered,765,Protoss Archon
+38609,1,Destroyed,869,Zerg Zergling,(589,2169)
+38628,0,Discovered,844,Protoss Zealot
+38634,1,Destroyed,858,Zerg Zergling,(593,2158)
+38655,1,Destroyed,848,Zerg Zergling,(588,2142)
+38705,1,Destroyed,839,Zerg Lurker,(522,2028)
+38712,1,Discovered,837,Zerg Zergling
+38712,1,Discovered,838,Zerg Zergling
+38724,1,Discovered,836,Zerg Zergling
+38726,1,Created,882,Zerg Larva,(3365,944)38736,1,Discovered,877,Zerg Zergling
+38736,1,Discovered,880,Zerg Zergling
+38737,0,Destroyed,863,Protoss Zealot,(691,2162)
+38738,1,Created,883,Zerg Larva,(2080,250)38745,1,Created,884,Zerg Larva,(3749,1840)38755,1,Destroyed,820,Zerg Zergling,(2068,159)
+38760,1,Discovered,878,Zerg Zergling
+38761,1,Morph,875,Zerg Egg,(3367,964)
+38761,1,Morph,882,Zerg Egg,(3362,948)
+38761,1,Morph,881,Zerg Egg,(3350,941)
+38767,1,Morph,874,Zerg Egg,(3668,999)
+38767,1,Morph,871,Zerg Egg,(3681,991)
+38767,1,Morph,866,Zerg Egg,(3638,1005)
+38769,1,Destroyed,872,Zerg Zergling,(678,2119)
+38774,1,Destroyed,811,Zerg Zergling,(2064,142)
+38799,1,Destroyed,877,Zerg Zergling,(686,2103)
+38808,1,Destroyed,859,Zerg Zergling,(676,2149)
+38809,0,Destroyed,844,Protoss Zealot,(656,2117)
+38830,1,Destroyed,878,Zerg Zergling,(637,2050)
+38839,1,Morph,883,Zerg Egg,(2080,269)
+38842,1,Destroyed,836,Zerg Zergling,(1931,89)
+38844,0,Discovered,785,Protoss Archon
+38844,0,Discovered,764,Protoss Archon
+38850,1,Destroyed,880,Zerg Zergling,(579,2065)
+38856,0,Discovered,764,Protoss Archon
+38856,0,Discovered,785,Protoss Archon
+38859,1,Destroyed,867,Zerg Zergling,(596,1994)
+38859,1,Morph,873,Zerg Hydralisk,(3751,1820)
+38859,1,Morph,870,Zerg Hydralisk,(3741,1810)
+38859,1,Morph,865,Zerg Hydralisk,(3748,1875)
+38868,0,Discovered,764,Protoss Archon
+38870,1,Created,885,Zerg Larva,(3365,144)38880,0,Discovered,785,Protoss Archon
+38880,0,Discovered,764,Protoss Archon
+38888,1,Destroyed,837,Zerg Zergling,(1940,112)
+38892,0,Discovered,785,Protoss Archon
+38892,0,Discovered,764,Protoss Archon
+38899,1,Destroyed,838,Zerg Zergling,(1941,77)
+38904,0,Discovered,785,Protoss Archon
+38904,0,Discovered,764,Protoss Archon
+38905,1,Destroyed,854,Zerg Hydralisk,(714,2107)
+38913,0,Created,886,Protoss Zealot,(384,1456)38916,0,Discovered,785,Protoss Archon
+38916,0,Discovered,764,Protoss Archon
+38919,0,Created,887,Protoss Zealot,(256,1456)38923,0,Created,888,Protoss Zealot,(416,1328)38923,1,Destroyed,801,Zerg Zergling,(1944,96)
+38928,0,Discovered,785,Protoss Archon
+38928,0,Discovered,764,Protoss Archon
+38937,1,Destroyed,847,Zerg Hydralisk,(660,2184)
+38977,1,Morph,802,Zerg Zergling,(3367,104)
+38977,1,Morph,780,Zerg Zergling,(3367,105)
+38977,1,Morph,794,Zerg Zergling,(3357,114)
+38992,1,Created,889,Zerg Zergling,(3360,107)38992,1,Created,890,Zerg Zergling,(3360,108)38992,1,Created,891,Zerg Zergling,(3350,117)39081,1,Created,892,Zerg Larva,(3749,1840)39086,1,Created,893,Zerg Larva,(2080,250)39089,1,Created,894,Zerg Larva,(3365,944)39099,1,Created,895,Zerg Larva,(3616,986)39121,1,Morph,861,Zerg Egg,(3359,212)
+39121,1,Morph,850,Zerg Egg,(3348,279)
+39121,1,Morph,868,Zerg Egg,(3357,210)
+39129,1,Morph,885,Zerg Egg,(3364,135)
+39157,1,Morph,883,Zerg Drone,(2080,269)
+39194,0,Created,896,Protoss Pylon,(768,2816)39199,1,Morph,875,Zerg Zergling,(3367,964)
+39199,1,Morph,882,Zerg Zergling,(3362,948)
+39199,1,Morph,881,Zerg Zergling,(3350,941)
+39205,1,Morph,874,Zerg Zergling,(3668,999)
+39205,1,Morph,871,Zerg Zergling,(3681,991)
+39205,1,Morph,866,Zerg Zergling,(3638,1005)
+39208,1,Created,897,Zerg Larva,(3365,144)39213,1,Morph,865,Zerg Lurker Egg,(2915,692)
+39214,1,Created,898,Zerg Zergling,(3360,967)39214,1,Created,899,Zerg Zergling,(3343,944)39214,1,Created,900,Zerg Zergling,(3355,951)39220,1,Created,901,Zerg Zergling,(3661,1002)39220,1,Created,902,Zerg Zergling,(3631,1008)39220,1,Created,903,Zerg Zergling,(3674,994)39223,1,Destroyed,883,Zerg Drone,(2080,262)
+39228,1,Discovered,889,Zerg Zergling
+39228,1,Discovered,891,Zerg Zergling
+39300,0,Discovered,896,Protoss Pylon
+39336,0,Discovered,876,Protoss Nexus
+39418,1,Created,904,Zerg Larva,(3749,1840)39420,1,Discovered,890,Zerg Zergling
+39420,0,Discovered,785,Protoss Archon
+39426,1,Created,905,Zerg Larva,(3365,944)39432,0,Discovered,785,Protoss Archon
+39433,1,Created,906,Zerg Larva,(2080,250)39436,1,Created,907,Zerg Larva,(3616,986)39444,0,Discovered,785,Protoss Archon
+39456,0,Discovered,785,Protoss Archon
+39456,0,Discovered,764,Protoss Archon
+39457,1,Destroyed,891,Zerg Zergling,(1874,209)
+39461,1,Created,908,Zerg Larva,(3365,240)39468,0,Discovered,785,Protoss Archon
+39468,0,Discovered,764,Protoss Archon
+39480,0,Discovered,785,Protoss Archon
+39539,1,Created,909,Zerg Larva,(3365,144)39559,1,Morph,861,Zerg Zergling,(3359,212)
+39559,1,Morph,850,Zerg Zergling,(3348,279)
+39559,1,Morph,868,Zerg Zergling,(3357,210)
+39564,0,Discovered,764,Protoss Archon
+39567,1,Morph,885,Zerg Zergling,(3364,135)
+39574,1,Created,910,Zerg Zergling,(3341,282)39574,1,Created,911,Zerg Zergling,(3352,215)39574,1,Created,912,Zerg Zergling,(3350,213)39576,0,Discovered,785,Protoss Archon
+39576,0,Discovered,764,Protoss Archon
+39582,1,Created,913,Zerg Zergling,(3357,138)39588,0,Discovered,785,Protoss Archon
+39588,0,Discovered,764,Protoss Archon
+39590,1,Destroyed,780,Zerg Zergling,(1470,459)
+39592,1,Destroyed,889,Zerg Zergling,(1486,454)
+39600,0,Discovered,785,Protoss Archon
+39600,0,Discovered,764,Protoss Archon
+39610,1,Destroyed,802,Zerg Zergling,(1489,475)
+39612,0,Discovered,785,Protoss Archon
+39612,0,Discovered,764,Protoss Archon
+39620,0,Destroyed,845,Protoss Zealot,(1437,440)
+39621,1,Destroyed,890,Zerg Zergling,(1461,417)
+39639,0,Created,914,Protoss Zealot,(384,1456)39645,0,Created,915,Protoss Zealot,(416,1328)39649,0,Created,916,Protoss Zealot,(256,1456)39727,0,Created,917,Protoss Photon Cannon,(768,2880)39732,0,Discovered,917,Protoss Photon Cannon
+39759,1,Created,918,Zerg Larva,(3365,944)39775,1,Created,919,Zerg Larva,(2080,250)39778,1,Created,920,Zerg Larva,(3616,986)39792,0,Discovered,785,Protoss Archon
+39795,0,Created,921,Protoss Photon Cannon,(768,2752)39802,1,Created,922,Zerg Larva,(3365,240)39804,0,Discovered,921,Protoss Photon Cannon
+39804,0,Discovered,785,Protoss Archon
+39813,1,Morph,904,Zerg Egg,(3751,1888)
+39813,1,Morph,884,Zerg Egg,(3742,1889)
+39813,1,Morph,892,Zerg Egg,(3741,1860)
+39815,1,Morph,865,Zerg Lurker,(2915,692)
+39816,0,Discovered,785,Protoss Archon
+39816,0,Discovered,447,Protoss Archon
+39822,1,Destroyed,794,Zerg Zergling,(1851,247)
+39828,0,Discovered,785,Protoss Archon
+39828,0,Discovered,764,Protoss Archon
+39830,-1,Destroyed,132,Resource Mineral Field,(3808,816)
+39840,1,Discovered,853,Zerg Scourge
+39840,0,Discovered,785,Protoss Archon
+39840,0,Discovered,764,Protoss Archon
+39852,1,Discovered,852,Zerg Scourge
+39852,1,Discovered,911,Zerg Zergling
+39852,0,Discovered,785,Protoss Archon
+39852,0,Discovered,764,Protoss Archon
+39864,0,Discovered,785,Protoss Archon
+39864,0,Discovered,764,Protoss Archon
+39864,0,Discovered,447,Protoss Archon
+39864,0,Discovered,765,Protoss Archon
+39876,1,Destroyed,850,Zerg Zergling,(2001,217)
+39876,1,Destroyed,868,Zerg Zergling,(1985,233)
+39876,1,Discovered,898,Zerg Zergling
+39876,1,Discovered,786,Zerg Scourge
+39876,1,Discovered,743,Zerg Scourge
+39876,1,Discovered,903,Zerg Zergling
+39876,0,Discovered,785,Protoss Archon
+39876,0,Discovered,765,Protoss Archon
+39876,0,Discovered,764,Protoss Archon
+39876,0,Discovered,447,Protoss Archon
+39888,1,Created,923,Zerg Larva,(3365,144)39888,1,Discovered,901,Zerg Zergling
+39888,1,Discovered,902,Zerg Zergling
+39888,0,Discovered,886,Protoss Zealot
+39888,0,Discovered,887,Protoss Zealot
+39888,0,Discovered,785,Protoss Archon
+39888,0,Discovered,765,Protoss Archon
+39888,0,Discovered,764,Protoss Archon
+39888,0,Discovered,447,Protoss Archon
+39892,1,Destroyed,842,Zerg Scourge,(2009,238)
+39892,1,Destroyed,853,Zerg Scourge,(2002,235)
+39900,1,Discovered,900,Zerg Zergling
+39900,0,Discovered,888,Protoss Zealot
+39900,0,Discovered,785,Protoss Archon
+39900,0,Discovered,764,Protoss Archon
+39900,0,Discovered,447,Protoss Archon
+39900,0,Discovered,765,Protoss Archon
+39903,1,Destroyed,911,Zerg Zergling,(2138,181)
+39912,0,Discovered,785,Protoss Archon
+39912,0,Discovered,765,Protoss Archon
+39912,0,Discovered,764,Protoss Archon
+39912,0,Discovered,447,Protoss Archon
+39920,1,Destroyed,786,Zerg Scourge,(2003,191)
+39920,1,Destroyed,743,Zerg Scourge,(2021,196)
+39923,1,Destroyed,703,Zerg Scourge,(2013,197)
+39924,1,Destroyed,874,Zerg Zergling,(1373,2806)
+39924,1,Discovered,899,Zerg Zergling
+39924,0,Discovered,765,Protoss Archon
+39924,0,Discovered,447,Protoss Archon
+39924,0,Discovered,785,Protoss Archon
+39924,0,Discovered,764,Protoss Archon
+39936,0,Discovered,765,Protoss Archon
+39936,0,Discovered,447,Protoss Archon
+39936,0,Discovered,785,Protoss Archon
+39936,0,Discovered,764,Protoss Archon
+39943,1,Destroyed,852,Zerg Scourge,(2221,384)
+39948,0,Discovered,785,Protoss Archon
+39948,0,Discovered,764,Protoss Archon
+39948,0,Discovered,447,Protoss Archon
+39948,0,Discovered,765,Protoss Archon
+39950,1,Destroyed,903,Zerg Zergling,(1354,2815)
+39957,1,Destroyed,881,Zerg Zergling,(1400,2833)
+39958,0,Destroyed,887,Protoss Zealot,(1405,2807)
+39960,0,Discovered,785,Protoss Archon
+39960,0,Discovered,764,Protoss Archon
+39960,0,Discovered,447,Protoss Archon
+39960,0,Discovered,765,Protoss Archon
+39963,1,Destroyed,747,Zerg Hatchery,(2080,208)
+39972,0,Discovered,785,Protoss Archon
+39972,0,Discovered,764,Protoss Archon
+39972,0,Discovered,765,Protoss Archon
+39984,0,Discovered,785,Protoss Archon
+39984,0,Discovered,764,Protoss Archon
+39984,0,Discovered,765,Protoss Archon
+39993,1,Destroyed,899,Zerg Zergling,(1416,2770)
+39993,1,Destroyed,919,Zerg Larva,(2064,253)
+39996,0,Discovered,785,Protoss Archon
+39996,0,Discovered,764,Protoss Archon
+39996,0,Discovered,447,Protoss Archon
+39996,0,Discovered,765,Protoss Archon
+39997,0,Destroyed,821,Protoss Zealot,(2127,238)
+39998,1,Destroyed,606,Zerg Lurker,(2217,303)
+40002,1,Destroyed,906,Zerg Larva,(2087,236)
+40005,1,Destroyed,866,Zerg Zergling,(1377,2827)
+40007,0,Destroyed,888,Protoss Zealot,(1383,2788)
+40008,0,Discovered,447,Protoss Archon
+40008,0,Discovered,785,Protoss Archon
+40008,0,Discovered,765,Protoss Archon
+40008,0,Discovered,764,Protoss Archon
+40012,1,Destroyed,893,Zerg Larva,(2147,283)
+40017,0,Destroyed,917,Protoss Photon Cannon,(768,2880)
+40019,1,Destroyed,671,Zerg Lurker,(2108,341)
+40026,0,Destroyed,843,Protoss Zealot,(2115,337)
+40042,0,Destroyed,886,Protoss Zealot,(1360,2809)
+40044,0,Discovered,764,Protoss Archon
+40056,0,Discovered,764,Protoss Archon
+40068,0,Destroyed,921,Protoss Photon Cannon,(768,2752)
+40068,0,Discovered,764,Protoss Archon
+40080,0,Discovered,764,Protoss Archon
+40092,0,Discovered,764,Protoss Archon
+40104,0,Discovered,764,Protoss Archon
+40129,1,Destroyed,832,Zerg Scourge,(2299,473)
+40141,1,Created,924,Zerg Larva,(3365,240)40144,1,Created,925,Zerg Larva,(3749,1840)40209,0,Created,926,Protoss Citadel of Adun,(592,2112)40238,0,Destroyed,896,Protoss Pylon,(768,2816)
+40251,1,Morph,904,Zerg Zergling,(3751,1888)
+40251,1,Morph,884,Zerg Zergling,(3742,1889)
+40251,1,Morph,892,Zerg Zergling,(3741,1860)
+40266,1,Created,927,Zerg Zergling,(3734,1863)40266,1,Created,928,Zerg Zergling,(3735,1892)40266,1,Created,929,Zerg Zergling,(3744,1891)40285,1,Morph,925,Zerg Egg,(3747,1880)
+40300,-1,Destroyed,148,Resource Mineral Field,(288,2224)
+40332,0,Destroyed,525,Protoss Probe,(562,2784)
+40389,-1,Destroyed,124,Resource Mineral Field,(288,2096)
+40478,1,Created,930,Zerg Larva,(3749,1840)40515,1,Morph,897,Zerg Egg,(3359,102)
+40515,1,Morph,909,Zerg Egg,(3365,102)
+40519,0,Destroyed,876,Protoss Nexus,(672,2832)
+40584,0,Discovered,785,Protoss Archon
+40596,0,Discovered,785,Protoss Archon
+40608,0,Discovered,785,Protoss Archon
+40620,0,Discovered,785,Protoss Archon
+40632,0,Discovered,785,Protoss Archon
+40644,0,Discovered,785,Protoss Archon
+40656,0,Discovered,785,Protoss Archon
+40668,0,Discovered,785,Protoss Archon
+40669,-1,Destroyed,115,Resource Mineral Field,(288,2256)
+40680,0,Discovered,785,Protoss Archon
+40681,1,Destroyed,251,Zerg Overlord,(2110,1594)
+40704,0,Discovered,914,Protoss Zealot
+40704,0,Discovered,916,Protoss Zealot
+40704,0,Discovered,915,Protoss Zealot
+40723,1,Morph,925,Zerg Zergling,(3747,1880)
+40738,1,Created,931,Zerg Zergling,(3740,1883)40774,1,Destroyed,870,Zerg Hydralisk,(1445,2890)
+40809,1,Created,932,Zerg Larva,(3749,1840)40848,1,Created,933,Zerg Larva,(3365,144)40906,0,Destroyed,514,Protoss Pylon,(96,2240)
+40941,-1,Destroyed,44,Resource Mineral Field,(3840,112)
+40953,1,Morph,897,Zerg Zergling,(3359,102)
+40953,1,Morph,909,Zerg Zergling,(3365,102)
+40958,-1,Destroyed,69,Resource Mineral Field,(3840,112)
+40959,-1,Destroyed,19,Resource Mineral Field,(3840,112)
+40962,1,Destroyed,900,Zerg Zergling,(1239,2852)
+40968,1,Created,934,Zerg Zergling,(3352,105)40968,1,Created,935,Zerg Zergling,(3358,105)40978,-1,Destroyed,48,Resource Mineral Field,(3840,112)
+41042,-1,Destroyed,52,Resource Mineral Field,(3840,112)
+41060,-1,Destroyed,47,Resource Mineral Field,(3840,112)
+41061,-1,Destroyed,28,Resource Mineral Field,(3840,112)
+41061,1,Destroyed,875,Zerg Zergling,(1403,2828)
+41071,-1,Destroyed,45,Resource Mineral Field,(3840,112)
+41081,-1,Destroyed,65,Resource Mineral Field,(3840,112)
+41096,-1,Destroyed,30,Resource Mineral Field,(3840,112)
+41107,-1,Destroyed,36,Resource Mineral Field,(3840,112)
+41146,-1,Destroyed,27,Resource Mineral Field,(3840,112)
+41147,1,Created,936,Zerg Larva,(3749,1840)41163,-1,Destroyed,31,Resource Mineral Field,(3840,112)
+41164,-1,Destroyed,20,Resource Mineral Field,(3840,112)
+41173,-1,Destroyed,21,Resource Mineral Field,(3840,112)
+41185,-1,Destroyed,29,Resource Mineral Field,(3840,112)
+41194,-1,Destroyed,26,Resource Mineral Field,(3840,112)
+41197,1,Created,937,Zerg Larva,(3365,144)41209,-1,Destroyed,25,Resource Mineral Field,(3840,112)
+41226,-1,Destroyed,24,Resource Mineral Field,(3840,112)
+41241,0,Created,938,Protoss Templar Archives,(368,2304)41248,-1,Destroyed,22,Resource Mineral Field,(3840,112)
+41352,0,Discovered,785,Protoss Archon
+41364,0,Discovered,785,Protoss Archon
+41376,0,Discovered,785,Protoss Archon
+41388,0,Discovered,785,Protoss Archon
+41400,0,Discovered,785,Protoss Archon
+41412,0,Discovered,447,Protoss Archon
+41412,0,Discovered,785,Protoss Archon
+41423,1,Destroyed,846,Zerg Lurker,(122,2137)
+41613,1,Morph,920,Zerg Egg,(3568,992)
+41613,1,Morph,895,Zerg Egg,(3565,997)
+41613,1,Morph,907,Zerg Egg,(3673,1004)
+41623,1,Morph,894,Zerg Egg,(3367,964)
+41623,1,Morph,905,Zerg Egg,(3367,912)
+41904,0,Discovered,765,Protoss Archon
+41916,0,Discovered,765,Protoss Archon
+41916,0,Discovered,764,Protoss Archon
+41928,0,Discovered,765,Protoss Archon
+41928,0,Discovered,764,Protoss Archon
+41940,0,Discovered,765,Protoss Archon
+41940,0,Discovered,764,Protoss Archon
+41943,1,Created,939,Zerg Larva,(3616,986)41951,1,Created,940,Zerg Larva,(3365,944)41952,0,Discovered,765,Protoss Archon
+41952,0,Discovered,764,Protoss Archon
+41963,-1,Destroyed,109,Resource Mineral Field,(288,2064)
+41964,0,Discovered,765,Protoss Archon
+41964,0,Discovered,764,Protoss Archon
+41976,0,Discovered,765,Protoss Archon
+41976,0,Discovered,764,Protoss Archon
+41988,0,Discovered,765,Protoss Archon
+41988,0,Discovered,764,Protoss Archon
+42000,0,Discovered,765,Protoss Archon
+42000,0,Discovered,764,Protoss Archon
+42001,1,Destroyed,665,Zerg Overlord,(753,2871)
+42051,1,Morph,920,Zerg Zergling,(3568,992)
+42051,1,Morph,895,Zerg Zergling,(3565,997)
+42051,1,Morph,907,Zerg Zergling,(3673,1004)
+42061,1,Morph,894,Zerg Zergling,(3367,964)
+42061,1,Morph,905,Zerg Zergling,(3367,912)
+42066,1,Created,941,Zerg Zergling,(3666,1007)42066,1,Created,942,Zerg Zergling,(3561,995)42066,1,Created,943,Zerg Zergling,(3558,1000)42076,1,Created,944,Zerg Zergling,(3360,915)42076,1,Created,945,Zerg Zergling,(3360,967)42279,1,Created,946,Zerg Larva,(3616,986)42287,1,Created,947,Zerg Larva,(3365,944)42336,1,Discovered,910,Zerg Zergling
+42336,1,Discovered,913,Zerg Zergling
+42336,1,Discovered,934,Zerg Zergling
+42336,1,Discovered,935,Zerg Zergling
+42360,1,Discovered,912,Zerg Zergling
+42364,0,Created,948,Protoss Nexus,(672,2832)42372,0,Discovered,948,Protoss Nexus
+42420,0,Destroyed,948,Protoss Nexus,(672,2832)
+42433,0,Destroyed,284,Protoss Probe,(705,2771)
+42531,1,Morph,918,Zerg Egg,(3367,904)
+42531,1,Morph,947,Zerg Egg,(3361,959)
+42531,1,Morph,940,Zerg Egg,(3348,931)
+[EndGame]
