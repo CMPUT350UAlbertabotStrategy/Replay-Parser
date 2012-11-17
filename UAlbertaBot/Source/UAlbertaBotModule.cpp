@@ -27,6 +27,8 @@ void UAlbertaBotModule::onStart()
 {
 	if (BWAPI::Broodwar->isReplay())
 	{
+		//const_cast<bool&>(Options::Modules::USING_GAMECOMMANDER) = false;
+
 		BWAPI::Broodwar->setLocalSpeed(0);
 		//Broodwar->setLatCom(false);
 		//Broodwar->setFrameSkip(0);
@@ -85,6 +87,7 @@ void UAlbertaBotModule::onStart()
 
 void UAlbertaBotModule::onEnd(bool isWinner) 
 {
+	//const_cast<bool&>(Options::Modules::USING_GAMECOMMANDER) = true;
 	
 	if (BWAPI::Broodwar->isReplay()){
 		this->replayDat << "[EndGame]" << std::endl;
@@ -303,7 +306,8 @@ void UAlbertaBotModule::onUnitRenegade(BWAPI::Unit * unit)
 { 
 	if(Broodwar->isReplay())
 	{
-		this->replayDat << Broodwar->getFrameCount() << "," << unit->getPlayer()->getID() << ",ChangedOwnership," << unit->getID() << "\n";
+		this->replayDat << Broodwar->getFrameCount() << "," << unit->getPlayer()->getID() 
+			<< ",ChangedOwnership," << unit->getType().getName() << std::endl;
 		for each(Player* p in this->activePlayers)
 		{
 			if(p != unit->getPlayer())
