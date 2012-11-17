@@ -6,12 +6,12 @@ namespace Options
 {
 	namespace Modules
 	{
-		extern const bool USING_GAMECOMMANDER;			// toggle GameCommander, effectively UAlbertaBot
-		extern const bool USING_ENHANCED_INTERFACE;		// toggle EnhancedUI, not needed for UAlbertaBot
-		extern const bool USING_REPLAY_VISUALIZER;		// toggle replay visualization tool for combat search demo
-		extern const bool USING_MICRO_SEARCH;			// toggle use of Micro Search, if false script used
-		extern const bool USING_MACRO_SEARCH;			// toggle use of Build Order Search, currently no backup
-		extern const bool USING_STRATEGY_IO;			// toggle the use of file io for strategy
+		extern bool USING_GAMECOMMANDER;			// toggle GameCommander, effectively UAlbertaBot
+		extern bool USING_ENHANCED_INTERFACE;		// toggle EnhancedUI, not needed for UAlbertaBot
+		extern bool USING_REPLAY_VISUALIZER;		// toggle replay visualization tool for combat search demo
+		extern bool USING_MICRO_SEARCH;			// toggle use of Micro Search, if false script used
+		extern bool USING_MACRO_SEARCH;			// toggle use of Build Order Search, currently no backup
+		extern bool USING_STRATEGY_IO;			// toggle the use of file io for strategy
 	}
 
 	namespace Tournament

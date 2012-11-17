@@ -4,12 +4,12 @@ namespace Options
 {
 	namespace Modules							// toggle various modules of UAlbertaBot, must be const
 	{
-		const bool USING_GAMECOMMANDER			= false;	// toggle GameCommander, effectively UAlbertaBot
-		const bool USING_ENHANCED_INTERFACE		= false;	// toggle EnhancedUI, not needed for UAlbertaBot
-		const bool USING_REPLAY_VISUALIZER		= false;		// cannot be on while gamecommander is on
-		const bool USING_MICRO_SEARCH			= false;	// toggle use of Micro Search, if false script used
-		const bool USING_MACRO_SEARCH			= false;		// toggle use of Build Order Search, currently no backup
-		const bool USING_STRATEGY_IO			= false;		// toggle the use of file io for strategy
+		bool USING_GAMECOMMANDER				= false;		// toggle GameCommander, effectively UAlbertaBot
+		bool USING_ENHANCED_INTERFACE			= false;		// toggle EnhancedUI, not needed for UAlbertaBot
+		bool USING_REPLAY_VISUALIZER			= false;		// cannot be on while gamecommander is on
+		bool USING_MICRO_SEARCH					= false;		// toggle use of Micro Search, if false script used
+		bool USING_MACRO_SEARCH					= false;		// toggle use of Build Order Search, currently no backup
+		bool USING_STRATEGY_IO					= false;		// toggle the use of file io for strategy
 	}
 
 	namespace Tournament						// settings for the AIIDE tournament
