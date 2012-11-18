@@ -12,6 +12,8 @@
 #include "ReplayVisualizer.h"
 #include <iomanip>
 
+#include <map>
+
 #include "EnhancedInterface.hpp"
 
 #include "Options.h"
@@ -44,6 +46,11 @@ public:
 	std::set<BWAPI::Player*> activePlayers;
 	std::map<BWAPI::Player*, std::set<std::pair<BWAPI::Unit*, BWAPI::UnitType> > > unseenUnits;
 
+	//test datatype
+	//each unit knows who owns it
+
+	std::map<std::pair<int, std::string>, int> unitsdestroyed; 
+	std::map<std::pair<int, std::string>, int> unitsmade; 
 	void	checkVision(BWAPI::Unit * unit);
 	void	handleVisionEvents();
 };

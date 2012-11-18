@@ -23,16 +23,17 @@ BWAPI::AIModule * __NewAIModule()
 UAlbertaBotModule::UAlbertaBotModule()  {}
 UAlbertaBotModule::~UAlbertaBotModule() {}
 
+std::string filepath;
+
 void UAlbertaBotModule::onStart()
 {
-	if (BWAPI::Broodwar->isReplay())
+	if (Broodwar->isReplay())
 	{
 		//const_cast<bool&>(Options::Modules::USING_GAMECOMMANDER) = false;
 
 		BWAPI::Broodwar->setLocalSpeed(0);
-		//Broodwar->setLatCom(false);
 		//Broodwar->setFrameSkip(0);
-		std::string filepath = BWAPI::Broodwar->mapPathName() + ".rgd";
+		filepath = BWAPI::Broodwar->mapPathName() + ".rgd";
 
 		replayDat.open(filepath.c_str());
 
@@ -48,7 +49,8 @@ void UAlbertaBotModule::onStart()
 			{
 				int startloc = -1;
 				bool foundstart = false;
-				for(std::set<BWAPI::TilePosition>::iterator it = BWAPI::Broodwar->getStartLocations().begin(); it != BWAPI::Broodwar->getStartLocations().end() && foundstart == false; it++)
+				for(std::set<BWAPI::TilePosition>::iterator it = BWAPI::Broodwar->getStartLocations().begin(); 
+					it != BWAPI::Broodwar->getStartLocations().end() && foundstart == false; it++)
 				{
 					startloc++;
 					if((*p)->getStartLocation() == (*it))
@@ -63,7 +65,7 @@ void UAlbertaBotModule::onStart()
 		replayDat << "Begin replay data:\n";
 	}
 
-	else{
+	if (!Broodwar->isReplay()){
 		BWAPI::Broodwar->setLocalSpeed(0);
 
 		BWAPI::Broodwar->enableFlag(BWAPI::Flag::UserInput);
@@ -89,11 +91,27 @@ void UAlbertaBotModule::onEnd(bool isWinner)
 {
 	//const_cast<bool&>(Options::Modules::USING_GAMECOMMANDER) = true;
 	
-	if (BWAPI::Broodwar->isReplay()){
-		this->replayDat << "[EndGame]" << std::endl;
+	if (BWAPI::Broodwar->isReplay())
+	{
+		std::map<std::pair<int, std::string>, int>::iterator it = this->unitsdestroyed.begin();
+		this->replayDat<< "units destroyed" << std::endl;
+		for (;it != this->unitsdestroyed.end();it++){
+			if(it->first.first != -1) 
+				this->replayDat <<it->first.first << " " << it->first.second << " "<< it->second << std::endl;
+		}
+		it = this->unitsmade.begin();
+		this->replayDat<< "units created" << std::endl;
+		for (;it != this->unitsmade.end();it++){
+			if(it->first.first != -1)
+				this->replayDat <<it->first.first << " " << it->first.second << " "<< it->second << std::endl;
+		}
+		this->replayDat << "elapsed time: "<<Broodwar->elapsedTime() << std::endl<< "[EndGame]" << std::endl;
 		this->replayDat.close();
+		this->unitsdestroyed.clear();
+		this->unitsmade.clear();
 	}
-	else if (Options::Modules::USING_GAMECOMMANDER){
+	if (!Broodwar->isReplay()){
+		if (Options::Modules::USING_GAMECOMMANDER){
 		
 			StrategyManager::Instance().onEnd(isWinner);
 
@@ -104,6 +122,7 @@ void UAlbertaBotModule::onEnd(bool isWinner)
 				" with strategy " << StrategyManager::Instance().getCurrentStrategy() << std::endl;
 
 			Logger::Instance().log(result.str());
+		}
 	}
 }
 
@@ -125,7 +144,7 @@ void UAlbertaBotModule::onFrame()
 		}
 
 	}
-	else{
+	if (!Broodwar->isReplay()){
 		if (Options::Modules::USING_GAMECOMMANDER) 
 		{ 
 			gameCommander.update(); 
@@ -164,8 +183,17 @@ void UAlbertaBotModule::onUnitDestroy(BWAPI::Unit * unit)
 	{
 		this->replayDat << BWAPI::Broodwar->getFrameCount() << "," << unit->getPlayer()->getID()  << ",Destroyed," 
 			<< unit->getID() << "," << unit->getType().getName() << ",(" << unit->getPosition().x() << "," << unit->getPosition().y() <<")" << std::endl;
+		
+		std::pair<int, std::string> theunit(unit->getPlayer()->getID(), unit->getType().getName());
+
+		if(this->unitsdestroyed.find(theunit) == this->unitsdestroyed.end())
+			this->unitsdestroyed[theunit] = 1;
+		else
+			this->unitsdestroyed.find(theunit)->second++;
+
 	}
-	else{
+	if (!Broodwar->isReplay())
+	{
 		if (Options::Modules::USING_GAMECOMMANDER) { gameCommander.onUnitDestroy(unit); }
 		if (Options::Modules::USING_ENHANCED_INTERFACE) { eui.onUnitDestroy(unit); }
 
@@ -178,39 +206,51 @@ void UAlbertaBotModule::onUnitMorph(BWAPI::Unit * unit)
 	{
 		this->replayDat << BWAPI::Broodwar->getFrameCount() << "," << unit->getPlayer()->getID() << ",Morph,"
 			<< unit->getID() << ","  << unit->getType().getName() << ",(" << unit->getPosition().x() << "," << unit->getPosition().y() <<")" << std::endl;
+		
+		std::pair<int, std::string> theunit(unit->getPlayer()->getID(), unit->getType().getName());
+
+		if(this->unitsmade.find(theunit) == this->unitsmade.end())
+			this->unitsmade[theunit] = 1;
+		else
+			this->unitsmade.find(theunit)->second++;
 	}
-	else{
+
+	if (!Broodwar->isReplay())
+	{	
 		if (Options::Modules::USING_GAMECOMMANDER) { gameCommander.onUnitMorph(unit); }
 	}
 }
+
 void UAlbertaBotModule::onSendText(std::string text) 
 { 
-	BWAPI::Broodwar->sendText(text.c_str());
-
-
-	if (Options::Modules::USING_REPLAY_VISUALIZER && (text.compare("sim") == 0))
+	if (!Broodwar->isReplay())
 	{
-		BWAPI::Unit * selected = NULL;
-		BOOST_FOREACH (BWAPI::Unit * unit, BWAPI::Broodwar->getAllUnits())
+		BWAPI::Broodwar->sendText(text.c_str());
+	
+		if (Options::Modules::USING_REPLAY_VISUALIZER && (text.compare("sim") == 0))
 		{
-			if (unit->isSelected())
+			BWAPI::Unit * selected = NULL;
+			BOOST_FOREACH (BWAPI::Unit * unit, BWAPI::Broodwar->getAllUnits())
 			{
-				selected = unit;
-				break;
+				if (unit->isSelected())
+				{
+					selected = unit;
+					break;
+				}
+			}
+
+			if (selected)
+			{
+				#ifdef USING_VISUALIZATION_LIBRARIES
+					ReplayVisualizer rv;
+					rv.launchSimulation(selected->getPosition(), 1000);
+				#endif
 			}
 		}
-
-		if (selected)
+		else if (text.compare("sim") != 0)
 		{
-			#ifdef USING_VISUALIZATION_LIBRARIES
-				ReplayVisualizer rv;
-				rv.launchSimulation(selected->getPosition(), 1000);
-			#endif
+			BWAPI::Broodwar->setLocalSpeed(atoi(text.c_str()));
 		}
-	}
-	else if (text.compare("sim") != 0)
-	{
-		BWAPI::Broodwar->setLocalSpeed(atoi(text.c_str()));
 	}
 }
 
@@ -269,6 +309,14 @@ void UAlbertaBotModule::onUnitCreate(BWAPI::Unit * unit)
 		this->replayDat << BWAPI::Broodwar->getFrameCount() << "," << unit->getPlayer()->getID()  
 			<< ",Created," << unit->getID() << "," << unit->getType().getName() << ",(" << unit->getPosition().x() << "," 
 			<< unit->getPosition().y() <<")" << std::endl;
+
+		std::pair<int, std::string> theunit(unit->getPlayer()->getID(), unit->getType().getName());
+
+		if(this->unitsmade.find(theunit) == this->unitsmade.end())
+			this->unitsmade[theunit] = 1;
+		else
+			this->unitsmade.find(theunit)->second++;
+
 		BWAPI::TilePosition tp(unit->getPosition());
 		if(unit->getType() != BWAPI::UnitTypes::Zerg_Larva)
 		{
@@ -287,7 +335,7 @@ void UAlbertaBotModule::onUnitCreate(BWAPI::Unit * unit)
 			}
 		}
 	}
-	else if (Options::Modules::USING_GAMECOMMANDER){
+	if (Options::Modules::USING_GAMECOMMANDER && !Broodwar->isReplay()){
 		  gameCommander.onUnitCreate(unit); 
 	}
 }
@@ -323,5 +371,6 @@ void UAlbertaBotModule::onUnitRenegade(BWAPI::Unit * unit)
 			}
 		}
 	}
-	else if (Options::Modules::USING_GAMECOMMANDER) { gameCommander.onUnitRenegade(unit); }
+	if (!Broodwar->isReplay())
+		if (Options::Modules::USING_GAMECOMMANDER) { gameCommander.onUnitRenegade(unit); }
 }
