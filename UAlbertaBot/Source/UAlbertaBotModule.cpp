@@ -94,18 +94,18 @@ void UAlbertaBotModule::onEnd(bool isWinner)
 	if (BWAPI::Broodwar->isReplay())
 	{
 		std::map<std::pair<int, std::string>, int>::iterator it = this->unitsdestroyed.begin();
-		this->replayDat<< "units destroyed" << std::endl;
+		this->replayDat<< "[UNITS LOST]" << std::endl;
 		for (;it != this->unitsdestroyed.end();it++){
 			if(it->first.first != -1) 
 				this->replayDat <<it->first.first << " " << it->first.second << " "<< it->second << std::endl;
 		}
 		it = this->unitsmade.begin();
-		this->replayDat<< "units created" << std::endl;
+		this->replayDat<< "[UNITS CREATED]" << std::endl;
 		for (;it != this->unitsmade.end();it++){
 			if(it->first.first != -1)
 				this->replayDat <<it->first.first << " " << it->first.second << " "<< it->second << std::endl;
 		}
-		this->replayDat << "elapsed time: "<<Broodwar->elapsedTime() << std::endl<< "[EndGame]" << std::endl;
+		this->replayDat << "ELAPSED TIME: "<<Broodwar->elapsedTime() << std::endl << "[EndGame]" << std::endl;
 		this->replayDat.close();
 		this->unitsdestroyed.clear();
 		this->unitsmade.clear();
@@ -181,7 +181,7 @@ void UAlbertaBotModule::onUnitDestroy(BWAPI::Unit * unit)
 {
 	if(BWAPI::Broodwar->isReplay())
 	{
-		this->replayDat << BWAPI::Broodwar->getFrameCount() << "," << unit->getPlayer()->getID()  << ",Destroyed," 
+		this->replayDat << BWAPI::Broodwar->elapsedTime() << "," << unit->getPlayer()->getID()  << ",Destroyed," 
 			<< unit->getID() << "," << unit->getType().getName() << ",(" << unit->getPosition().x() << "," << unit->getPosition().y() <<")" << std::endl;
 		
 		std::pair<int, std::string> theunit(unit->getPlayer()->getID(), unit->getType().getName());
@@ -204,7 +204,7 @@ void UAlbertaBotModule::onUnitMorph(BWAPI::Unit * unit)
 {
 	if(BWAPI::Broodwar->isReplay())
 	{
-		this->replayDat << BWAPI::Broodwar->getFrameCount() << "," << unit->getPlayer()->getID() << ",Morph,"
+		this->replayDat << BWAPI::Broodwar->elapsedTime() << "," << unit->getPlayer()->getID() << ",Morph,"
 			<< unit->getID() << ","  << unit->getType().getName() << ",(" << unit->getPosition().x() << "," << unit->getPosition().y() <<")" << std::endl;
 		
 		std::pair<int, std::string> theunit(unit->getPlayer()->getID(), unit->getType().getName());
@@ -277,7 +277,7 @@ void UAlbertaBotModule::checkVision(BWAPI::Unit* u)
 					if(this->seenThisTurn[u->getPlayer()].find(visionTarget) == this->seenThisTurn[u->getPlayer()].end())
 					{
 						//Broodwar->printf("Player %i Discovered Unit: %s [%i]", p->getID(), visionTarget->getType().getName().c_str());
-						this->replayDat << BWAPI::Broodwar->getFrameCount() << "," << p->getID() 
+						this->replayDat << BWAPI::Broodwar->elapsedTime() << "," << p->getID() 
 							<< ",Discovered," << visionTarget->getID() << "," << visionTarget->getType().getName() << std::endl;
 						this->seenThisTurn[u->getPlayer()].insert(visionTarget);
 					}
@@ -306,7 +306,7 @@ void UAlbertaBotModule::onUnitCreate(BWAPI::Unit * unit)
 	if(BWAPI::Broodwar->isReplay())
 	{
 		//Broodwar->sendText("A %s [%x] has been created at (%d,%d)",unit->getType().getName().c_str(),unit,unit->getPosition().x(),unit->getPosition().y());
-		this->replayDat << BWAPI::Broodwar->getFrameCount() << "," << unit->getPlayer()->getID()  
+		this->replayDat << BWAPI::Broodwar->elapsedTime() << "," << unit->getPlayer()->getID()  
 			<< ",Created," << unit->getID() << "," << unit->getType().getName() << ",(" << unit->getPosition().x() << "," 
 			<< unit->getPosition().y() <<")" << std::endl;
 
@@ -354,7 +354,7 @@ void UAlbertaBotModule::onUnitRenegade(BWAPI::Unit * unit)
 { 
 	if(Broodwar->isReplay())
 	{
-		this->replayDat << Broodwar->getFrameCount() << "," << unit->getPlayer()->getID() 
+		this->replayDat << Broodwar->elapsedTime() << "," << unit->getPlayer()->getID() 
 			<< ",ChangedOwnership," << unit->getType().getName() << std::endl;
 		for each(Player* p in this->activePlayers)
 		{
