@@ -65,7 +65,8 @@ private:
 	enum vectortype{DESTROYEDVECTOR, MADEVECTOR};
 	//these game units are an approximate unit of time - ~1 unit/s -
 	//ok for machine learning as long as this is kept the same.
-	enum gameunits{NUMBEROFGAMEUNITS = 3, EARLY = 240, MID = 540, LATE = 840};
+	//could enumerate different values for units made and units destroyed vector map 
+	enum gameunits{EARLYindex = 0, MIDindex = 1 , LATEindex = 2, NUMBEROFGAMEUNITS = 3, EARLY = 240, MID = 540, LATE = 840};
 	
 	//checkvision is used instead of BWAPI onunitshow because it makes text verboose with unhelpful information
 	void	checkVision(BWAPI::Unit * unit);

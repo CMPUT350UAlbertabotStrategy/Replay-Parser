@@ -218,54 +218,54 @@ void UAlbertaBotModule::intovectors(BWAPI::Unit * unit, UAlbertaBotModule::vecto
 
 	if(type == UAlbertaBotModule::MADEVECTOR )
 	{
-		if(time <=EARLY){
-			if(this->gameSummary.unitsmade[0].find(theunit) == this->gameSummary.unitsmade[0].end()){
-				this->gameSummary.unitsmade[0][theunit] = std::make_pair(EARLY, 1);
+		if(time <= EARLY){
+			if(this->gameSummary.unitsmade[EARLYindex].find(theunit) == this->gameSummary.unitsmade[0].end()){
+				this->gameSummary.unitsmade[EARLYindex][theunit] = std::make_pair(EARLY, 1);
 			}
 			else{
-				this->gameSummary.unitsmade[0].find(theunit)->second.second++;
+				this->gameSummary.unitsmade[EARLYindex].find(theunit)->second.second++;
 			}
 		}
-		else if(EARLY < time && time <= MID){
-			if(this->gameSummary.unitsmade[1].find(theunit) == this->gameSummary.unitsmade[1].end()){
-				this->gameSummary.unitsmade[1][theunit] = std::make_pair(MID, 1);
+		if(EARLY < time && time <= MID){
+			if(this->gameSummary.unitsmade[MIDindex].find(theunit) == this->gameSummary.unitsmade[1].end()){
+				this->gameSummary.unitsmade[MIDindex][theunit] = std::make_pair(MID, 1);
 			}
 			else{
-				this->gameSummary.unitsmade[1].find(theunit)->second.second++;
+				this->gameSummary.unitsmade[MIDindex].find(theunit)->second.second++;
 			}
 		}
-		else if(time > LATE){
-			if(this->gameSummary.unitsmade[2].find(theunit) == this->gameSummary.unitsmade[2].end()){
-				this->gameSummary.unitsmade[2][theunit] = std::make_pair(LATE, 1);
+		else{
+			if(this->gameSummary.unitsmade[LATEindex].find(theunit) == this->gameSummary.unitsmade[2].end()){
+				this->gameSummary.unitsmade[LATEindex][theunit] = std::make_pair(LATE, 1);
 			}
 			else{
-				this->gameSummary.unitsmade[2].find(theunit)->second.second++;
+				this->gameSummary.unitsmade[LATEindex].find(theunit)->second.second++;
 			}
 		}
 	}
 	if(type == UAlbertaBotModule::DESTROYEDVECTOR )
 	{
-		if(time <=EARLY){
-			if(this->gameSummary.unitsdestroyed[0].find(theunit) == this->gameSummary.unitsdestroyed[0].end()){
-				this->gameSummary.unitsdestroyed[0][theunit] = std::make_pair(EARLY, 1);
+		if(time <= EARLY){
+			if(this->gameSummary.unitsdestroyed[EARLYindex].find(theunit) == this->gameSummary.unitsdestroyed[0].end()){
+				this->gameSummary.unitsdestroyed[EARLYindex][theunit] = std::make_pair(EARLY, 1);
 			}
 			else{
-				this->gameSummary.unitsdestroyed[0].find(theunit)->second.second++;
+				this->gameSummary.unitsdestroyed[EARLYindex].find(theunit)->second.second++;
 			}
 		}
-		else if(EARLY < time && time <= MID){
-			if(this->gameSummary.unitsdestroyed[1].find(theunit) == this->gameSummary.unitsdestroyed[1].end())
-				this->gameSummary.unitsdestroyed[1][theunit] = std::make_pair(MID, 1);
+		if(EARLY < time && time <= MID){
+			if(this->gameSummary.unitsdestroyed[MIDindex].find(theunit) == this->gameSummary.unitsdestroyed[1].end())
+				this->gameSummary.unitsdestroyed[MIDindex][theunit] = std::make_pair(MID, 1);
 			else{
-				this->gameSummary.unitsdestroyed[1].find(theunit)->second.second++;
+				this->gameSummary.unitsdestroyed[MIDindex].find(theunit)->second.second++;
 			}
 		}
-		else if(time > LATE){
-			if(this->gameSummary.unitsdestroyed[2].find(theunit) == this->gameSummary.unitsdestroyed[2].end()){
-				this->gameSummary.unitsdestroyed[2][theunit] = std::make_pair(LATE, 1);
+		else{
+			if(this->gameSummary.unitsdestroyed[LATEindex].find(theunit) == this->gameSummary.unitsdestroyed[2].end()){
+				this->gameSummary.unitsdestroyed[LATEindex][theunit] = std::make_pair(LATE, 1);
 			}
 			else{
-				this->gameSummary.unitsdestroyed[2].find(theunit)->second.second++;
+				this->gameSummary.unitsdestroyed[LATEindex].find(theunit)->second.second++;
 			}
 		}
 	}
