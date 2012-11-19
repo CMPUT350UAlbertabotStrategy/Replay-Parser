@@ -54,7 +54,11 @@ public:
 	data gameSummary;
 
 	enum vectortype{DESTROYEDVECTOR, MADEVECTOR};
-	enum gameunits{NUMBEROFGAMEUNITS = 3, EARLY = 180, MID=360, LATE=540};
+	//these game units are an approximate unit of time - VERY APPROXIMATE - should be fine
+	// for machine learning as long as this is kept the same.
+	enum gameunits{NUMBEROFGAMEUNITS = 3, EARLY = 240, MID=540, LATE=840};
+	
+	//checkvision is used instead of BWAPI onunitshow because it makes text verboose with unhelpful information
 	void	checkVision(BWAPI::Unit * unit);
 	void	handleVisionEvents();
 	void	intovectors(BWAPI::Unit * unit, UAlbertaBotModule::vectortype);

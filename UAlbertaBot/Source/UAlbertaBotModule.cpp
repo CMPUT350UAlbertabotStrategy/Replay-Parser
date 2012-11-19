@@ -1,13 +1,13 @@
 /* 
- +----------------------------------------------------------------------+
- | UAlbertaBot                                                          |
- +----------------------------------------------------------------------+
- | University of Alberta - AIIDE StarCraft Competition                  |
- +----------------------------------------------------------------------+
- |                                                                      |
- +----------------------------------------------------------------------+
- | Author: David Churchill <dave.churchill@gmail.com>                   |
- +----------------------------------------------------------------------+
++----------------------------------------------------------------------+
+| UAlbertaBot                                                          |
++----------------------------------------------------------------------+
+| University of Alberta - AIIDE StarCraft Competition                  |
++----------------------------------------------------------------------+
+|                                                                      |
++----------------------------------------------------------------------+
+| Author: David Churchill <dave.churchill@gmail.com>                   |
++----------------------------------------------------------------------+
 */
 
 //TODO make ualbertabot/replay functions more streamlined so compiling doesnt have to happen
@@ -30,9 +30,7 @@ std::string filepath;
 
 void UAlbertaBotModule::onStart()
 {
-	if (Broodwar->isReplay())
-	{
-		//const_cast<bool&>(Options::Modules::USING_GAMECOMMANDER) = false;
+	if(Broodwar->isReplay()){
 		for(int i = 0; i<NUMBEROFGAMEUNITS; i++){
 			std::map<std::pair<int, std::string>, std::pair<int, int>> m;
 			this->gameSummary.unitsdestroyed.push_back(m);
@@ -40,15 +38,16 @@ void UAlbertaBotModule::onStart()
 			this->gameSummary.unitsmade.push_back(map);
 		}
 		BWAPI::Broodwar->setLocalSpeed(0);
-		//Broodwar->setFrameSkip(0);
+		//Broodwar->setFrameSkip(0); //i have no idea what this does
 		filepath = BWAPI::Broodwar->mapPathName() + ".rgd";
+
 		replayDat.open(filepath.c_str());
 
 		replayDat << "[Replay Start]\n" << std::fixed << std::setprecision(4)
-		 << "RepPath: " << BWAPI::Broodwar->mapPathName() << std::endl
-		 << "MapName: " << BWAPI::Broodwar->mapName() << std::endl
-		 << "NumStartPositions: " << BWAPI::Broodwar->getStartLocations().size() << std::endl
-		 << "The following players are in this replay:" << std::endl;
+			<< "RepPath: " << BWAPI::Broodwar->mapPathName() << std::endl
+			<< "MapName: " << BWAPI::Broodwar->mapName() << std::endl
+			<< "NumStartPositions: " << BWAPI::Broodwar->getStartLocations().size() << std::endl
+			<< "The following players are in this replay:" << std::endl;
 		for(std::set<BWAPI::Player*>::iterator p=BWAPI::Broodwar->getPlayers().begin();p!=BWAPI::Broodwar->getPlayers().end();p++)
 		{
 			if (!(*p)->getUnits().empty() && !(*p)->isNeutral())
@@ -82,7 +81,7 @@ void UAlbertaBotModule::onStart()
 			BWTA::readMap();
 			BWTA::analyze();
 		}
-	
+
 		if (Options::Modules::USING_MICRO_SEARCH)
 		{
 			Search::StarcraftData::init();
@@ -97,7 +96,7 @@ void UAlbertaBotModule::onEnd(bool isWinner)
 {
 	if (!Broodwar->isReplay()){
 		if (Options::Modules::USING_GAMECOMMANDER){
-		
+
 			StrategyManager::Instance().onEnd(isWinner);
 
 			std::stringstream result;
@@ -109,11 +108,7 @@ void UAlbertaBotModule::onEnd(bool isWinner)
 			Logger::Instance().log(result.str());
 		}
 	}
-	
-	if (BWAPI::Broodwar->isReplay())
-	{
-		//const_cast<bool&>(Options::Modules::USING_GAMECOMMANDER) = true;
-
+	if(Broodwar->isReplay()){
 		std::map<std::pair<int, std::string>, std::pair<int, int>>::iterator it;
 		this->replayDat<< "[UNITS LOST]" << std::endl;
 		for(unsigned int i =0; i< gameSummary.unitsdestroyed.size(); i++){
@@ -140,13 +135,13 @@ void UAlbertaBotModule::onEnd(bool isWinner)
 		this->seenThisTurn.clear();
 		this->unseenUnits.clear();
 		this->activePlayers.clear();
-	}
 
+	}
 }
 
 void UAlbertaBotModule::onFrame()
 {
-	if(BWAPI::Broodwar->isReplay()){
+	if(Broodwar->isReplay()){
 		if(BWAPI::Broodwar->getFrameCount() % 12 == 0)
 		{
 			handleVisionEvents();
@@ -167,7 +162,7 @@ void UAlbertaBotModule::onFrame()
 		{ 
 			gameCommander.update(); 
 		}
-	
+
 		if (Options::Modules::USING_ENHANCED_INTERFACE)
 		{
 			eui.update();
@@ -197,11 +192,10 @@ void UAlbertaBotModule::onFrame()
 
 void UAlbertaBotModule::onUnitDestroy(BWAPI::Unit * unit)
 {
-	if(BWAPI::Broodwar->isReplay())
-	{
+	if(Broodwar->isReplay()){
 		print(",Destroyed,", unit);
 		intovectors(unit, UAlbertaBotModule::DESTROYEDVECTOR);
-		
+
 	}
 	if (!Broodwar->isReplay())
 	{
@@ -213,8 +207,7 @@ void UAlbertaBotModule::onUnitDestroy(BWAPI::Unit * unit)
 
 void UAlbertaBotModule::onUnitMorph(BWAPI::Unit * unit)
 {
-	if(BWAPI::Broodwar->isReplay())
-	{
+	if(Broodwar->isReplay()){
 		print(",Morph,", unit);
 		intovectors(unit, UAlbertaBotModule::MADEVECTOR);
 	}
@@ -226,69 +219,69 @@ void UAlbertaBotModule::onUnitMorph(BWAPI::Unit * unit)
 }
 void UAlbertaBotModule::intovectors(BWAPI::Unit * unit, UAlbertaBotModule::vectortype type)
 {
-		int time = Broodwar->elapsedTime();
-		std::pair<int, std::string> theunit(unit->getPlayer()->getID(), unit->getType().getName());
+	int time = Broodwar->elapsedTime();
+	std::pair<int, std::string> theunit(unit->getPlayer()->getID(), unit->getType().getName());
 
-		if(type == UAlbertaBotModule::MADEVECTOR )
-		{
-			if(time <=EARLY){
-				if(this->gameSummary.unitsmade[0].find(theunit) == this->gameSummary.unitsmade[0].end()){
-					this->gameSummary.unitsmade[0][theunit] = std::make_pair(EARLY, 1);
-				}
-				else{
-					this->gameSummary.unitsmade[0].find(theunit)->second.second++;
-				}
+	if(type == UAlbertaBotModule::MADEVECTOR )
+	{
+		if(time <=EARLY){
+			if(this->gameSummary.unitsmade[0].find(theunit) == this->gameSummary.unitsmade[0].end()){
+				this->gameSummary.unitsmade[0][theunit] = std::make_pair(EARLY, 1);
 			}
-			else if(EARLY < time && time <= MID){
-				if(this->gameSummary.unitsmade[1].find(theunit) == this->gameSummary.unitsmade[1].end()){
-					this->gameSummary.unitsmade[1][theunit] = std::make_pair(MID, 1);
-				}
-				else{
-					this->gameSummary.unitsmade[1].find(theunit)->second.second++;
-				}
-			}
-			else if(time > LATE){
-				if(this->gameSummary.unitsmade[2].find(theunit) == this->gameSummary.unitsmade[2].end()){
-					this->gameSummary.unitsmade[2][theunit] = std::make_pair(LATE, 1);
-				}
-				else{
-					this->gameSummary.unitsmade[2].find(theunit)->second.second++;
-				}
+			else{
+				this->gameSummary.unitsmade[0].find(theunit)->second.second++;
 			}
 		}
-		if(type == UAlbertaBotModule::DESTROYEDVECTOR )
-		{
-			if(time <=EARLY){
-				if(this->gameSummary.unitsdestroyed[0].find(theunit) == this->gameSummary.unitsdestroyed[0].end()){
-					this->gameSummary.unitsdestroyed[0][theunit] = std::make_pair(EARLY, 1);
-				}
-				else{
-					this->gameSummary.unitsdestroyed[0].find(theunit)->second.second++;
-				}
+		else if(EARLY < time && time <= MID){
+			if(this->gameSummary.unitsmade[1].find(theunit) == this->gameSummary.unitsmade[1].end()){
+				this->gameSummary.unitsmade[1][theunit] = std::make_pair(MID, 1);
 			}
-			else if(EARLY < time && time <= MID){
-				if(this->gameSummary.unitsdestroyed[1].find(theunit) == this->gameSummary.unitsdestroyed[1].end())
-					this->gameSummary.unitsdestroyed[1][theunit] = std::make_pair(MID, 1);
-				else{
-					this->gameSummary.unitsdestroyed[1].find(theunit)->second.second++;
-				}
-			}
-			else if(time > LATE){
-				if(this->gameSummary.unitsdestroyed[2].find(theunit) == this->gameSummary.unitsdestroyed[2].end()){
-					this->gameSummary.unitsdestroyed[2][theunit] = std::make_pair(LATE, 1);
-				}
-				else{
-					this->gameSummary.unitsdestroyed[2].find(theunit)->second.second++;
-				}
+			else{
+				this->gameSummary.unitsmade[1].find(theunit)->second.second++;
 			}
 		}
+		else if(time > LATE){
+			if(this->gameSummary.unitsmade[2].find(theunit) == this->gameSummary.unitsmade[2].end()){
+				this->gameSummary.unitsmade[2][theunit] = std::make_pair(LATE, 1);
+			}
+			else{
+				this->gameSummary.unitsmade[2].find(theunit)->second.second++;
+			}
+		}
+	}
+	if(type == UAlbertaBotModule::DESTROYEDVECTOR )
+	{
+		if(time <=EARLY){
+			if(this->gameSummary.unitsdestroyed[0].find(theunit) == this->gameSummary.unitsdestroyed[0].end()){
+				this->gameSummary.unitsdestroyed[0][theunit] = std::make_pair(EARLY, 1);
+			}
+			else{
+				this->gameSummary.unitsdestroyed[0].find(theunit)->second.second++;
+			}
+		}
+		else if(EARLY < time && time <= MID){
+			if(this->gameSummary.unitsdestroyed[1].find(theunit) == this->gameSummary.unitsdestroyed[1].end())
+				this->gameSummary.unitsdestroyed[1][theunit] = std::make_pair(MID, 1);
+			else{
+				this->gameSummary.unitsdestroyed[1].find(theunit)->second.second++;
+			}
+		}
+		else if(time > LATE){
+			if(this->gameSummary.unitsdestroyed[2].find(theunit) == this->gameSummary.unitsdestroyed[2].end()){
+				this->gameSummary.unitsdestroyed[2][theunit] = std::make_pair(LATE, 1);
+			}
+			else{
+				this->gameSummary.unitsdestroyed[2].find(theunit)->second.second++;
+			}
+		}
+	}
 }
 void UAlbertaBotModule::onSendText(std::string text) 
 { 
 	if (!Broodwar->isReplay())
 	{
 		BWAPI::Broodwar->sendText(text.c_str());
-	
+
 		if (Options::Modules::USING_REPLAY_VISUALIZER && (text.compare("sim") == 0))
 		{
 			BWAPI::Unit * selected = NULL;
@@ -303,10 +296,10 @@ void UAlbertaBotModule::onSendText(std::string text)
 
 			if (selected)
 			{
-				#ifdef USING_VISUALIZATION_LIBRARIES
-					ReplayVisualizer rv;
-					rv.launchSimulation(selected->getPosition(), 1000);
-				#endif
+#ifdef USING_VISUALIZATION_LIBRARIES
+				ReplayVisualizer rv;
+				rv.launchSimulation(selected->getPosition(), 1000);
+#endif
 			}
 		}
 		else if (text.compare("sim") != 0)
@@ -368,7 +361,7 @@ void UAlbertaBotModule::handleVisionEvents()
 
 void UAlbertaBotModule::onUnitCreate(BWAPI::Unit * unit)
 { 
-	if(BWAPI::Broodwar->isReplay() && unit->getPlayer()->getID() != -1)
+	if(Broodwar->isReplay() && unit->getPlayer()->getID() != -1)
 	{
 		print(",Created,", unit);
 		intovectors(unit, UAlbertaBotModule::MADEVECTOR);
@@ -388,7 +381,7 @@ void UAlbertaBotModule::onUnitCreate(BWAPI::Unit * unit)
 	}
 	if (Options::Modules::USING_GAMECOMMANDER && !Broodwar->isReplay())
 	{
-		  gameCommander.onUnitCreate(unit); 
+		gameCommander.onUnitCreate(unit); 
 	}
 }
 
@@ -407,7 +400,7 @@ void UAlbertaBotModule::onUnitRenegade(BWAPI::Unit * unit)
 	if(Broodwar->isReplay() && unit->getPlayer()->getID() != -1)
 	{
 		this->replayDat << Broodwar->elapsedTime() << "," << unit->getPlayer()->getID()
-		<< ",ChangedOwnership," << unit->getType().getName() << std::endl;
+			<< ",ChangedOwnership," << unit->getType().getName() << std::endl;
 		for each(Player* p in this->activePlayers)
 		{
 			if(p != unit->getPlayer())

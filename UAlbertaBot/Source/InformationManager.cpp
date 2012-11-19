@@ -10,7 +10,8 @@ InformationManager::InformationManager()
 	, map(BWAPI::Broodwar)
 	, lastFrameRegroup(false)
 {
-	initializeRegionInformation();
+	if(!BWAPI::Broodwar->isReplay()) //added this line so playing replays dont crash the game
+		initializeRegionInformation();
 }
 
 // get an instance of this
