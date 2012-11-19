@@ -31,12 +31,6 @@ std::string filepath;
 void UAlbertaBotModule::onStart()
 {
 	if(Broodwar->isReplay()){
-		for(int i = 0; i<NUMBEROFGAMEUNITS; i++){
-			std::map<std::pair<int, std::string>, std::pair<int, int>> m;
-			this->gameSummary.unitsdestroyed.push_back(m);
-			std::map<std::pair<int, std::string>, std::pair<int, int>> map;
-			this->gameSummary.unitsmade.push_back(map);
-		}
 		BWAPI::Broodwar->setLocalSpeed(0);
 		//Broodwar->setFrameSkip(0); //i have no idea what this does
 		filepath = BWAPI::Broodwar->mapPathName() + ".rgd";
