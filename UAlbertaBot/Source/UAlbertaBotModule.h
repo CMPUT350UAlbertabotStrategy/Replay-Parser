@@ -12,8 +12,6 @@
 #include "ReplayVisualizer.h"
 #include <iomanip>
 
-#include <map>
-
 #include "EnhancedInterface.hpp"
 
 #include "Options.h"
@@ -47,10 +45,18 @@ public:
 	std::map<BWAPI::Player*, std::set<std::pair<BWAPI::Unit*, BWAPI::UnitType> > > unseenUnits;
 
 	//test datatype
-	//each unit knows who owns it
+	//first pair is PLAYER ID and UNIT(marine,zealot,etc) then TIME IN SECONDS, NUMBER OF THESE UNITS
+	struct data{
+		std::vector<std::map<std::pair<int, std::string>, std::pair<int, int>>> unitsdestroyed; 
+		std::vector<std::map<std::pair<int, std::string>, std::pair<int, int>>> unitsmade; 
+	};
 
-	std::map<std::pair<int, std::string>, int> unitsdestroyed; 
-	std::map<std::pair<int, std::string>, int> unitsmade; 
+	data gameSummary;
+
+	enum vectortype{DESTROYEDVECTOR, MADEVECTOR};
+	enum gameunits{NUMBEROFGAMEUNITS = 3, EARLY = 180, MID=360, LATE=540};
 	void	checkVision(BWAPI::Unit * unit);
 	void	handleVisionEvents();
+	void	intovectors(BWAPI::Unit * unit, UAlbertaBotModule::vectortype);
+	void	print(std::string event, BWAPI::Unit * unit);
 };
