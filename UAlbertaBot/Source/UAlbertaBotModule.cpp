@@ -103,33 +103,47 @@ void UAlbertaBotModule::onEnd(bool isWinner)
 		}
 	}
 	if(Broodwar->isReplay()){
-		std::map<std::pair<int, std::string>, std::pair<int, int>>::iterator it;
+		std::map<std::pair<int, std::string>, int>::iterator it;
+		//can be called with any interval
+		gamecountinterval  * early, * mid,* late;
+		early = summarytointerval(0, EARLY);
+		mid = summarytointerval(MID, LATE);
+		late = summarytointerval(LATE, Broodwar->getReplayFrameCount());
 		this->replayDat<< "[UNITS LOST]" << std::endl;
-		for(unsigned int i =0; i< gameSummary.unitsdestroyed.size(); i++){
-			for (it = this->gameSummary.unitsdestroyed[i].begin();it != this->gameSummary.unitsdestroyed[i].end();it++){
-				if(it->first.first != -1){
-					this->replayDat <<it->first.first << " " << it->first.second << " " << it->second.first << " " << it->second.second << std::endl;
-				}
-			}
-			gameSummary.unitsdestroyed[i].clear();
+		for(it = early->unitsdestroyed.begin(); it != early->unitsdestroyed.end();++it){
+			this->replayDat << it->first.first << " " << it->first.second << " " << early->lowerboundry<< "-"<< early->higherboundry << " " 
+				<< it->second  << std::endl;
+		}
+		for(it = mid->unitsdestroyed.begin(); it != mid->unitsdestroyed.end();++it){
+			this->replayDat << it->first.first << " " << it->first.second << " " << mid->lowerboundry<< "-"<< mid->higherboundry << " " 
+				<< it->second  << std::endl;
+		}
+		for(it = late->unitsdestroyed.begin(); it != late->unitsdestroyed.end();++it){
+			this->replayDat << it->first.first << " " << it->first.second << " " << late->lowerboundry<< "-"<< late->higherboundry << " " 
+				<< it->second  << std::endl;
 		}
 		this->replayDat<< "[UNITS CREATED]" << std::endl;
-		for(unsigned int i =0; i< gameSummary.unitsmade.size(); i++){
-			for (it = this->gameSummary.unitsmade[i].begin();it != this->gameSummary.unitsmade[i].end();it++){
-				if(it->first.first != -1){
-					this->replayDat <<it->first.first << " " << it->first.second << " " << it->second.first << " " << it->second.second << std::endl;
-				}
-			}
-			gameSummary.unitsmade[i].clear();
+		for(it = early->unitsmade.begin(); it != early->unitsmade.end();++it){
+			this->replayDat << it->first.first << " " << it->first.second << " " << early->lowerboundry<< "-"<< early->higherboundry << " " 
+				<< it->second  << std::endl;
 		}
+		for(it = mid->unitsmade.begin(); it != mid->unitsmade.end();++it){
+			this->replayDat << it->first.first << " " << it->first.second << " " << mid->lowerboundry<< "-"<< mid->higherboundry << " " 
+				<< it->second  << std::endl;
+		}
+		for(it = late->unitsmade.begin(); it != late->unitsmade.end();++it){
+			this->replayDat << it->first.first << " " << it->first.second << " " << late->lowerboundry<< "-"<< late->higherboundry << " " 
+				<< it->second  << std::endl;
+		}
+
+
 		this->replayDat << "ELAPSED TIME: "<<Broodwar->elapsedTime() << std::endl << "[EndGame]" << std::endl;
+		//clear the vectors in the gamesummary struct, but later I would assume there would be a function processing this data.
+
 		this->replayDat.close();
-		this->gameSummary.unitsdestroyed.clear();
-		this->gameSummary.unitsmade.clear();
 		this->seenThisTurn.clear();
 		this->unseenUnits.clear();
 		this->activePlayers.clear();
-
 	}
 }
 
@@ -187,9 +201,11 @@ void UAlbertaBotModule::onFrame()
 void UAlbertaBotModule::onUnitDestroy(BWAPI::Unit * unit)
 {
 	if(Broodwar->isReplay()){
-		print(",Destroyed,", unit);
-		intovectors(unit, UAlbertaBotModule::DESTROYEDVECTOR);
-
+		print(" Destroyed ", unit);
+		if(unit->getPlayer()->getID() != -1){
+			UAlbertaBotModule::data u (unit->getType().getName(), Broodwar->getFrameCount(), unit->getPlayer()->getID());
+			this->gameSummary.unitsdestroyed.push_back(u);
+		}
 	}
 	if (!Broodwar->isReplay())
 	{
@@ -202,8 +218,9 @@ void UAlbertaBotModule::onUnitDestroy(BWAPI::Unit * unit)
 void UAlbertaBotModule::onUnitMorph(BWAPI::Unit * unit)
 {
 	if(Broodwar->isReplay()){
-		print(",Morph,", unit);
-		intovectors(unit, UAlbertaBotModule::MADEVECTOR);
+		print(" Morph ", unit);
+		UAlbertaBotModule::data u (unit->getType().getName(), Broodwar->getFrameCount(), unit->getPlayer()->getID());
+		this->gameSummary.unitsmade.push_back(u);
 	}
 
 	if (!Broodwar->isReplay())
@@ -211,65 +228,29 @@ void UAlbertaBotModule::onUnitMorph(BWAPI::Unit * unit)
 		if (Options::Modules::USING_GAMECOMMANDER) { gameCommander.onUnitMorph(unit); }
 	}
 }
-void UAlbertaBotModule::intovectors(BWAPI::Unit * unit, UAlbertaBotModule::vectortype type)
-{
-	int time = Broodwar->elapsedTime();
-	std::pair<int, std::string> theunit(unit->getPlayer()->getID(), unit->getType().getName());
 
-	if(type == UAlbertaBotModule::MADEVECTOR )
+void UAlbertaBotModule::onUnitCreate(BWAPI::Unit * unit)
+{ 
+	if(Broodwar->isReplay() && unit->getPlayer()->getID() != -1)
 	{
-		if(time <= EARLY){
-			if(this->gameSummary.unitsmade[EARLYindex].find(theunit) == this->gameSummary.unitsmade[0].end()){
-				this->gameSummary.unitsmade[EARLYindex][theunit] = std::make_pair(EARLY, 1);
-			}
-			else{
-				this->gameSummary.unitsmade[EARLYindex].find(theunit)->second.second++;
-			}
-		}
-		if(EARLY < time && time <= MID){
-			if(this->gameSummary.unitsmade[MIDindex].find(theunit) == this->gameSummary.unitsmade[1].end()){
-				this->gameSummary.unitsmade[MIDindex][theunit] = std::make_pair(MID, 1);
-			}
-			else{
-				this->gameSummary.unitsmade[MIDindex].find(theunit)->second.second++;
-			}
-		}
-		else{
-			if(this->gameSummary.unitsmade[LATEindex].find(theunit) == this->gameSummary.unitsmade[2].end()){
-				this->gameSummary.unitsmade[LATEindex][theunit] = std::make_pair(LATE, 1);
-			}
-			else{
-				this->gameSummary.unitsmade[LATEindex].find(theunit)->second.second++;
-			}
-		}
+		print(" Created ", unit);
+		UAlbertaBotModule::data u (unit->getType().getName(), Broodwar->getFrameCount(), unit->getPlayer()->getID());
+		this->gameSummary.unitsmade.push_back(u);
+
+		BWAPI::TilePosition tp(unit->getPosition());
+		if(unit->getType() != BWAPI::UnitTypes::Zerg_Larva)
+			for each(BWAPI::Player* p in this->activePlayers)
+				if(this->activePlayers.find(unit->getPlayer()) != this->activePlayers.end())
+					if(p->getType() != BWAPI::UnitTypes::Zerg_Larva)
+						if(p != unit->getPlayer())
+							this->unseenUnits[p].insert(std::pair<BWAPI::Unit*, BWAPI::UnitType>(unit, unit->getType()));
 	}
-	if(type == UAlbertaBotModule::DESTROYEDVECTOR )
+	if (Options::Modules::USING_GAMECOMMANDER && !Broodwar->isReplay())
 	{
-		if(time <= EARLY){
-			if(this->gameSummary.unitsdestroyed[EARLYindex].find(theunit) == this->gameSummary.unitsdestroyed[0].end()){
-				this->gameSummary.unitsdestroyed[EARLYindex][theunit] = std::make_pair(EARLY, 1);
-			}
-			else{
-				this->gameSummary.unitsdestroyed[EARLYindex].find(theunit)->second.second++;
-			}
-		}
-		if(EARLY < time && time <= MID){
-			if(this->gameSummary.unitsdestroyed[MIDindex].find(theunit) == this->gameSummary.unitsdestroyed[1].end())
-				this->gameSummary.unitsdestroyed[MIDindex][theunit] = std::make_pair(MID, 1);
-			else{
-				this->gameSummary.unitsdestroyed[MIDindex].find(theunit)->second.second++;
-			}
-		}
-		else{
-			if(this->gameSummary.unitsdestroyed[LATEindex].find(theunit) == this->gameSummary.unitsdestroyed[2].end()){
-				this->gameSummary.unitsdestroyed[LATEindex][theunit] = std::make_pair(LATE, 1);
-			}
-			else{
-				this->gameSummary.unitsdestroyed[LATEindex].find(theunit)->second.second++;
-			}
-		}
+		gameCommander.onUnitCreate(unit); 
 	}
 }
+
 void UAlbertaBotModule::onSendText(std::string text) 
 { 
 	if (!Broodwar->isReplay())
@@ -305,9 +286,9 @@ void UAlbertaBotModule::onSendText(std::string text)
 
 void UAlbertaBotModule::print(std::string event, Unit * unit)
 {
-	this->replayDat << BWAPI::Broodwar->elapsedTime() << "," << unit->getPlayer()->getID() << event
-		<< unit->getID() << ","  << unit->getType().getName() << ",(" 
-		<< unit->getPosition().x() << "," << unit->getPosition().y() <<")" << std::endl;
+	this->replayDat << BWAPI::Broodwar->getFrameCount() << " " << unit->getPlayer()->getID() << event
+		<< unit->getID() << " "  << unit->getType().getName() << " (" 
+		<< unit->getPosition().x() << " " << unit->getPosition().y() <<")" << std::endl;
 }
 
 void UAlbertaBotModule::checkVision(BWAPI::Unit* u)
@@ -332,7 +313,7 @@ void UAlbertaBotModule::checkVision(BWAPI::Unit* u)
 				{
 					if(this->seenThisTurn[u->getPlayer()].find(visionTarget) == this->seenThisTurn[u->getPlayer()].end())
 					{
-						print(",Discovered,", u);
+						print(" Discovered ", u);
 						this->seenThisTurn[u->getPlayer()].insert(visionTarget);
 					}
 				}
@@ -344,39 +325,41 @@ void UAlbertaBotModule::checkVision(BWAPI::Unit* u)
 void UAlbertaBotModule::handleVisionEvents()
 {
 	for each(BWAPI::Player * p in this->activePlayers)
-	{
 		for each(BWAPI::Unit* u in p->getUnits())
-		{
 			checkVision(u);
-		}
-	}
 }
 
+UAlbertaBotModule::gamecountinterval * UAlbertaBotModule::summarytointerval(int lowerboundry, int higherboundry)
+{
+	gamecountinterval * temp = new gamecountinterval(lowerboundry, higherboundry);
+	std::map<std::pair<int, std::string>, int>::iterator it;
+	int size = this->gameSummary.unitsdestroyed.size();
+	int size2 = this->gameSummary.unitsmade.size();
+	for(int i =0; i< size; ++i){
+		data var = this->gameSummary.unitsdestroyed[i]; 
+		if(var.frame < higherboundry && var.frame >= lowerboundry){
+			std::pair<int, std::string> IDandunit = std::make_pair(var.player, var.unit);
+			it = temp->unitsdestroyed.find(IDandunit);
+			if(it == temp->unitsdestroyed.end())
+				temp->unitsdestroyed[IDandunit] = 1;
+			else
+				it->second++;
+		}
+		if(i<size2){
+			var = this->gameSummary.unitsmade[i]; 
+			if(var.frame < higherboundry && var.frame >= lowerboundry){
+				std::pair<int, std::string> IDandunit = std::make_pair(var.player, var.unit);
+				it = temp->unitsmade.find(IDandunit);
+				if(it == temp->unitsmade.end())
+					temp->unitsmade[IDandunit] = 1;
+				else
+					it->second++;
 
-void UAlbertaBotModule::onUnitCreate(BWAPI::Unit * unit)
-{ 
-	if(Broodwar->isReplay() && unit->getPlayer()->getID() != -1)
-	{
-		print(",Created,", unit);
-		intovectors(unit, UAlbertaBotModule::MADEVECTOR);
-
-		BWAPI::TilePosition tp(unit->getPosition());
-		if(unit->getType() != BWAPI::UnitTypes::Zerg_Larva){
-			for each(BWAPI::Player* p in this->activePlayers){
-				if(this->activePlayers.find(unit->getPlayer()) != this->activePlayers.end()){
-					if(p->getType() != BWAPI::UnitTypes::Zerg_Larva){
-						if(p != unit->getPlayer()){
-							this->unseenUnits[p].insert(std::pair<BWAPI::Unit*, BWAPI::UnitType>(unit, unit->getType()));
-						}
-					}
-				}
 			}
 		}
 	}
-	if (Options::Modules::USING_GAMECOMMANDER && !Broodwar->isReplay())
-	{
-		gameCommander.onUnitCreate(unit); 
-	}
+
+	return temp;
 }
 
 void UAlbertaBotModule::onUnitShow(BWAPI::Unit * unit)
@@ -393,8 +376,8 @@ void UAlbertaBotModule::onUnitRenegade(BWAPI::Unit * unit)
 { 
 	if(Broodwar->isReplay() && unit->getPlayer()->getID() != -1)
 	{
-		this->replayDat << Broodwar->elapsedTime() << "," << unit->getPlayer()->getID()
-			<< ",ChangedOwnership," << unit->getType().getName() << std::endl;
+		this->replayDat << Broodwar->getFrameCount() << " " << unit->getPlayer()->getID()
+			<< " ChangedOwnership " << unit->getType().getName() << std::endl;
 		for each(Player* p in this->activePlayers)
 		{
 			if(p != unit->getPlayer())

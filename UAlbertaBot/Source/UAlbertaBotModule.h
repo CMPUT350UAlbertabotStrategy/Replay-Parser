@@ -43,34 +43,39 @@ private:
 	std::ofstream replayDat;
 	std::map<BWAPI::Player*, std::set<BWAPI::Unit*> > seenThisTurn;
 	std::set<BWAPI::Player*> activePlayers;
-	std::map<BWAPI::Player*, std::set<std::pair<BWAPI::Unit*, BWAPI::UnitType> > > unseenUnits;
+	std::map<BWAPI::Player*, std::set<std::pair<BWAPI::Unit*, BWAPI::UnitType>>> unseenUnits;
 
-	//test datatype
-	//first pair is PLAYER ID and UNIT(marine,zealot,etc) then TIME IN SECONDS, NUMBER OF THESE UNITS
+	//holds ALL unit(and id of player) and the time they were made.
 	struct data{
-		data(){
-			for(int i = 0; i<NUMBEROFGAMEUNITS; i++){
-				std::map<std::pair<int, std::string>, std::pair<int, int>> m;
-				unitsdestroyed.push_back(m);
-				std::map<std::pair<int, std::string>, std::pair<int, int>> M;
-				unitsmade.push_back(M);
-			}
-		}
-		std::vector<std::map<std::pair<int, std::string>, std::pair<int, int>>> unitsdestroyed; 
-		std::vector<std::map<std::pair<int, std::string>, std::pair<int, int>>> unitsmade; 
+		data(std::string unit, int frame, int player): unit(unit), frame(frame), player(player){}
+		std::string unit;
+		int frame;
+		int player;
+	};
+	struct gamesummary{
+		~gamesummary(){unitsdestroyed.clear(); unitsmade.clear();}
+		std::vector<data> unitsdestroyed;
+		std::vector<data> unitsmade;
+	};
+	//similar to getsummary but is contained within a time interval and values are in a map.
+	struct gamecountinterval{
+		gamecountinterval(){}
+		gamecountinterval(int low, int high): lowerboundry(low) , higherboundry(high){}
+		~gamecountinterval(){unitsmade.clear(); unitsdestroyed.clear();}
+		std::map<std::pair<int, std::string>, int> unitsdestroyed;
+		std::map<std::pair<int, std::string>, int> unitsmade;
+		int lowerboundry, higherboundry;
 	};
 
-	data gameSummary;
+	gamesummary gameSummary;
 
-	enum vectortype{DESTROYEDVECTOR, MADEVECTOR};
-	//these game units are an approximate unit of time - ~1 unit/s -
-	//ok for machine learning as long as this is kept the same.
-	//could enumerate different values for units made and units destroyed vector map 
-	enum gameunits{EARLYindex = 0, MIDindex = 1 , LATEindex = 2, NUMBEROFGAMEUNITS = 3, EARLY = 240, MID = 540, LATE = 840};
+	//maybe use some kind of fraction and use Broodwar->getReplayFrameCount(); since this gives the total frames.
+	enum gameunits{EARLY = 8000, MID = 12000, LATE = 18000};
 	
 	//checkvision is used instead of BWAPI onunitshow because it makes text verboose with unhelpful information
 	void	checkVision(BWAPI::Unit * unit);
 	void	handleVisionEvents();
-	void	intovectors(BWAPI::Unit * unit, UAlbertaBotModule::vectortype);
 	void	print(std::string event, BWAPI::Unit * unit);
+	gamecountinterval *	summarytointerval(int lowerboundry, int higherboundry);
+	
 };
