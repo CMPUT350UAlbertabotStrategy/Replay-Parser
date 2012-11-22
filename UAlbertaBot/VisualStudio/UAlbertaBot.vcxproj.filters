@@ -156,6 +156,9 @@
     <ClCompile Include="..\Source\ReplayVisualizer.cpp">
       <Filter>extra</Filter>
     </ClCompile>
+    <ClCompile Include="ReplayModule.cpp">
+      <Filter>module</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Source\CombatCommander.h">
@@ -277,6 +280,9 @@
     </ClInclude>
     <ClInclude Include="..\Source\ReplayVisualizer.h">
       <Filter>extra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\ReplayModule.h">
+      <Filter>module</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
