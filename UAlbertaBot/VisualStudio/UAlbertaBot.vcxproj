@@ -138,6 +138,7 @@
     <ClCompile Include="..\Source\micromanagement\RangedManager.cpp" />
     <ClCompile Include="..\Source\micromanagement\TransportManager.cpp" />
     <ClCompile Include="..\Source\Options.cpp" />
+    <ClCompile Include="..\Source\ReplayModule.cpp" />
     <ClCompile Include="..\Source\ReplayVisualizer.cpp" />
     <ClCompile Include="..\Source\ScoutManager.cpp" />
     <ClCompile Include="..\Source\Squad.cpp" />
@@ -146,7 +147,6 @@
     <ClCompile Include="..\Source\UAlbertaBotModule.cpp" />
     <ClCompile Include="..\Source\UnitData.cpp" />
     <ClCompile Include="..\Source\Visualizer.cpp" />
-    <ClCompile Include="ReplayModule.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Source\CombatSimulation.h" />

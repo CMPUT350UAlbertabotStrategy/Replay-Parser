@@ -4,6 +4,8 @@
 #include "boost/format.hpp"
 #include <iomanip>
 #include <fstream>
+
+
 class ReplayModule
 {
 public:
@@ -59,3 +61,4 @@ private:
 	gamecountinterval *	summarytointerval(int lowerboundry, int higherboundry);
 
 };
+

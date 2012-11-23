@@ -8,7 +8,9 @@ void ReplayModule::print(std::string event, Unit * unit)
 		%BWAPI::Broodwar->getFrameCount()  %unit->getPlayer()->getID() %event
 		%unit->getID() %unit->getType().getName() %unit->getPosition().x()  %unit->getPosition().y()<< std::endl;
 }
-void ReplayModule::onStart(){
+
+void ReplayModule::onStart()
+{
 		BWAPI::Broodwar->setLocalSpeed(0);
 		//Broodwar->setFrameSkip(0); //i have no idea what this does
 		std::string filepath = BWAPI::Broodwar->mapPathName() + ".rgd";
@@ -40,7 +42,7 @@ void ReplayModule::onStart(){
 			}
 		}
 		replayDat << "Begin replay data:" << std::endl;
-		}
+}
 
 void ReplayModule::checkVision(BWAPI::Unit* u)
 {
@@ -139,7 +141,7 @@ void ReplayModule::onUnitRenegade(BWAPI::Unit * unit)
 }
 
 void ReplayModule::onUnitCreate(BWAPI::Unit * unit)
-		{
+{
 		print("Created", unit);
 		ReplayModule::data u (unit->getType().getName(), Broodwar->getFrameCount(), unit->getPlayer()->getID());
 		this->gameSummary.unitsmade.push_back(u);
@@ -151,14 +153,17 @@ void ReplayModule::onUnitCreate(BWAPI::Unit * unit)
 					if(p->getType() != BWAPI::UnitTypes::Zerg_Larva)
 						if(p != unit->getPlayer())
 							this->unseenUnits[p].insert(std::pair<BWAPI::Unit*, BWAPI::UnitType>(unit, unit->getType()));
-		}
-void ReplayModule::onUnitDestroy(BWAPI::Unit * unit){
+}
+
+void ReplayModule::onUnitDestroy(BWAPI::Unit * unit)
+{
 		print("Destroyed", unit);
 		if(unit->getPlayer()->getID() != -1){
 			ReplayModule::data u (unit->getType().getName(), Broodwar->getFrameCount(), unit->getPlayer()->getID());
 			this->gameSummary.unitsdestroyed.push_back(u);
 		}
 }
+
 void ReplayModule::onEnd(bool isWinner) {
 		this->replayDat << "[ELAPSED TIME]: "<<Broodwar->elapsedTime() << std::endl; 
 		std::map<std::pair<int, std::string>, int>::iterator it;
@@ -204,6 +209,7 @@ void ReplayModule::onEnd(bool isWinner) {
 		this->unseenUnits.clear();
 		this->activePlayers.clear();
 }
+
 void ReplayModule::onFrame(){
 
 		if(BWAPI::Broodwar->getFrameCount() % 12 == 0)
@@ -221,3 +227,4 @@ void ReplayModule::onFrame(){
 		}
 
 }
+

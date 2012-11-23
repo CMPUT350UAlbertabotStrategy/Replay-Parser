@@ -156,7 +156,7 @@
     <ClCompile Include="..\Source\ReplayVisualizer.cpp">
       <Filter>extra</Filter>
     </ClCompile>
-    <ClCompile Include="ReplayModule.cpp">
+    <ClCompile Include="..\Source\ReplayModule.cpp">
       <Filter>module</Filter>
     </ClCompile>
   </ItemGroup>
