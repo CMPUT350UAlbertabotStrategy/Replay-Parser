@@ -1,10 +1,6 @@
 #include "ReplayModule.h"
 
-
-
 using namespace BWAPI;
-
-std::string filepath;
 
 void ReplayModule::print(std::string event, Unit * unit)
 {
@@ -15,7 +11,7 @@ void ReplayModule::print(std::string event, Unit * unit)
 void ReplayModule::onStart(){
 		BWAPI::Broodwar->setLocalSpeed(0);
 		//Broodwar->setFrameSkip(0); //i have no idea what this does
-		filepath = BWAPI::Broodwar->mapPathName() + ".rgd";
+		std::string filepath = BWAPI::Broodwar->mapPathName() + ".rgd";
 
 		replayDat.open(filepath.c_str());
 

@@ -17,14 +17,14 @@ public:
 	void	onUnitRenegade(BWAPI::Unit * unit);
 	void	onUnitCreate(BWAPI::Unit * unit);
 private:
-	bool IO; //IO FUNCTIONS ARE SLOW OPTION TO TURN THEM OFF IF DESIRED
+	bool IO; //IO actions are slow. this will be a future option to turn it off.
 	//new functions and variables
 	std::ofstream replayDat;
 	std::map<BWAPI::Player*, std::set<BWAPI::Unit*> > seenThisTurn;
 	std::set<BWAPI::Player*> activePlayers;
 	std::map<BWAPI::Player*, std::set<std::pair<BWAPI::Unit*, BWAPI::UnitType>>> unseenUnits;
 
-	//holds ALL unit(and id of player) and the time they were made.
+	//holds ALL units(and id of player) and the time they were made.
 	struct data{
 		data(std::string unit, int frame, int player): unit(unit), frame(frame), player(player){}
 		std::string unit;
@@ -49,7 +49,7 @@ private:
 
 	gamesummary gameSummary;
 
-	//maybe use some kind of fraction and use Broodwar->getReplayFrameCount(); since this gives the total frames.
+	//maybe use some kind of (fraction*Broodwar->getReplayFrameCount()); 
 	enum gameunits{EARLY = 8000, MID = 12000, LATE = 18000};
 
 	//checkvision is used instead of BWAPI onunitshow because it makes text verboose with unhelpful information
