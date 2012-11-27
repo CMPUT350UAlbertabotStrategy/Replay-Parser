@@ -9,8 +9,8 @@
 class ReplayModule
 {
 public:
-	ReplayModule();
-	~ReplayModule();
+	ReplayModule(){}
+	~ReplayModule(){}
 	void	onStart();
 	void	onFrame();
 	void	onEnd(bool isWinner);
