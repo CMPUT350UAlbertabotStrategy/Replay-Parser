@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AdversarialSearch", "..\..\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StarcraftBuildOrderSearch", "..\..\StarcraftBuildOrderSearch\VisualStudio\StarcraftBuildOrderSearch.vcxproj", "{9F8709E3-AC4F-45F2-8105-4A99D8E2A127}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kmeansclustering", "..\kmeansclustering\kmeansclustering.vcxproj", "{3F0889E8-82FF-453E-B151-8681AC09B764}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Itanium = Debug|Itanium
@@ -43,6 +45,14 @@ Global
 		{9F8709E3-AC4F-45F2-8105-4A99D8E2A127}.Release|Win32.ActiveCfg = Release|Win32
 		{9F8709E3-AC4F-45F2-8105-4A99D8E2A127}.Release|Win32.Build.0 = Release|Win32
 		{9F8709E3-AC4F-45F2-8105-4A99D8E2A127}.Release|x64.ActiveCfg = Release|Win32
+		{3F0889E8-82FF-453E-B151-8681AC09B764}.Debug|Itanium.ActiveCfg = Debug|Win32
+		{3F0889E8-82FF-453E-B151-8681AC09B764}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3F0889E8-82FF-453E-B151-8681AC09B764}.Debug|Win32.Build.0 = Debug|Win32
+		{3F0889E8-82FF-453E-B151-8681AC09B764}.Debug|x64.ActiveCfg = Debug|Win32
+		{3F0889E8-82FF-453E-B151-8681AC09B764}.Release|Itanium.ActiveCfg = Release|Win32
+		{3F0889E8-82FF-453E-B151-8681AC09B764}.Release|Win32.ActiveCfg = Release|Win32
+		{3F0889E8-82FF-453E-B151-8681AC09B764}.Release|Win32.Build.0 = Release|Win32
+		{3F0889E8-82FF-453E-B151-8681AC09B764}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

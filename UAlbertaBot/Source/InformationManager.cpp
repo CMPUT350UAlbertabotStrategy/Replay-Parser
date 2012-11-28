@@ -55,6 +55,7 @@ void InformationManager::initializeRegionInformation()
 	mainBaseLocations[ENEMY_INDEX] = BWTA::getStartLocation(BWAPI::Broodwar->enemy());
 
 	// push that region into our occupied vector
+	//this line of code is causeing errors somehow.
 	updateOccupiedRegions(BWTA::getRegion(mainBaseLocations[SELF_INDEX]->getTilePosition()), BWAPI::Broodwar->self());
 }
 

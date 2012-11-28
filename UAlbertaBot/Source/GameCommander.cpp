@@ -72,7 +72,9 @@ void GameCommander::drawDebugInterface()
 	// draw position of mouse cursor
 	if (Options::Debug::DRAW_UALBERTABOT_DEBUG)
 	{
-		BWAPI::Broodwar->drawTextScreen(20, 20, "Frame: %7d\nTime: %4dm %3ds", BWAPI::Broodwar->getFrameCount(), BWAPI::Broodwar->getFrameCount()/(24*60), (BWAPI::Broodwar->getFrameCount()/24)%60);
+		BWAPI::Broodwar->drawTextScreen(110, 20, "Frame: %7d\nTime: %4dm %3ds\nAPM: %4d", 
+			BWAPI::Broodwar->getFrameCount(), BWAPI::Broodwar->getFrameCount()/(24*60), 
+			(BWAPI::Broodwar->getFrameCount()/24)%60, BWAPI::Broodwar->getAPM());	
 		int mouseX = BWAPI::Broodwar->getMousePosition().x() + BWAPI::Broodwar->getScreenPosition().x();
 		int mouseY = BWAPI::Broodwar->getMousePosition().y() + BWAPI::Broodwar->getScreenPosition().y();
 		BWAPI::Broodwar->drawTextMap(mouseX + 20, mouseY, " %d %d", mouseX, mouseY);
