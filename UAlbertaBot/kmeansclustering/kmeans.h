@@ -2,6 +2,7 @@
 #include <string>
 #include <vector>
 #include <fstream>
-#include <regex>
-#include <iomanip>
-#include <fstream>
+#include <windows.h>
+#include <cstdlib>
+#include <stdlib.h>
+#include <string.h>

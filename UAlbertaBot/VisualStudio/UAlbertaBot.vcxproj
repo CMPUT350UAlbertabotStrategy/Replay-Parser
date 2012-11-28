@@ -95,6 +95,7 @@
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <EnablePREfast>true</EnablePREfast>
       <WholeProgramOptimization>true</WholeProgramOptimization>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ProjectReference>
       <LinkLibraryDependencies>true</LinkLibraryDependencies>

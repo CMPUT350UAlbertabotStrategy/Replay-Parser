@@ -1,0 +1,7 @@
+#Saved ELKI settings. First line is title, remaining lines are parameters.
+
+-algorithm
+clustering.kmeans.KMedoidsEM
+-kmeans.k
+6
+
