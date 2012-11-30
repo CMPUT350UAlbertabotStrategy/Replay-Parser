@@ -1,3 +1,5 @@
+#pragma once
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -6,6 +8,6 @@
 #include <cstdlib>
 #include <stdlib.h>
 #include <string.h>
-#include <boost/lexical_cast.hpp>
-#include <boost/format.hpp>
 #include <sstream>
+#include <stdio.h>
+#include <fstream>

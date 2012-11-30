@@ -20,7 +20,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="kmeans.cpp">
+    <ClCompile Include="kmeans.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kmeansparser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
