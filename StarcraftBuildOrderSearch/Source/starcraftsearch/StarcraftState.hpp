@@ -15,7 +15,7 @@
 #include "BuildingData.hpp"
 #include "StarcraftSearchGoal.hpp"
 #include "StarcraftSearchConstraint.hpp"
-#include <math.h>
+#include <cmath>
 
 // #define DEBUG_LEGAL
 namespace BuildOrderSearch

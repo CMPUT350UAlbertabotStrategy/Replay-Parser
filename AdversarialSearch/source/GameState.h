@@ -9,7 +9,7 @@
 #include "Hash.h"
 #include "MicroSearchParameters.h"
 #include "Map.hpp"
-#include <math.h>
+#include <cmath>
 
 typedef boost::shared_ptr<MicroSearch::Map> MapPtr;
 

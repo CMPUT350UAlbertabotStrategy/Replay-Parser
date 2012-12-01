@@ -5,7 +5,7 @@
 #include <boost/foreach.hpp>
 #include "assert.h"
 #include <stdio.h>
-#include <math.h>
+#include <cmath>
 #include <fstream>
 
 // macro to access StarcraftData singleton

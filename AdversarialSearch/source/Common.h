@@ -4,7 +4,7 @@
 #include "BaseTypes.hpp"
 #include "assert.h"
 #include <stdio.h>
-#include <math.h>
+#include <cmath>
 #include <fstream>
 #include <intrin.h>
 #include <sstream>

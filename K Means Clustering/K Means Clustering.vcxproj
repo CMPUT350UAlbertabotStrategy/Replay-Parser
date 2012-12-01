@@ -71,7 +71,7 @@
     <ClInclude Include="kmeans.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="kmeans.C" />
+    <ClCompile Include="kmeans.cpp" />
     <ClCompile Include="kmeansparser.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
