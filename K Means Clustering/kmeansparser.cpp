@@ -2,9 +2,6 @@
 
 using namespace std;
 
-//centroids number?? 
-
-
 string theline;
 char file[200];
 int player;
@@ -16,14 +13,12 @@ int main()
 {
 	//this program requires itself to be located in the same folder as the rep.rgd files
 	//==================================
-	FILE * input= _popen("dir *.rep.rgd /b", "r");
-	ifstream thefile("1.rep.rgd");
-	//this line is messed up beyond belief
-	//this line will not work without a literal in quotes. So now it is nessessary to have a start
-	//file called 1.rep.rgd, but otherwise this will work with files ending in .rep.rgd
-	while(!feof(input))
+	FILE * pipe= _popen("dir *.rep.rgd /b", "r");//use windows command dir with argument /b for simple file listing add /s for full path
+	ifstream thefile(""); //empty string to get the first item
+	//ifstream should default construct with emtpy string... no single help place 
+	while(!feof(pipe))
 	{
-		fgets(file, 199, input);
+		fgets(file, 199, pipe);
 		cout << file;
 		
 		bool flagcreated =false , flagdestroyed =false;
@@ -37,7 +32,7 @@ int main()
 				istringstream stream(theline);
 				stream >> player >> unit >> unit >> numberofunits;
 				//cout <<  player<< " " << unit<< " " <<" " <<numberofunits;
-				//something to do with vecotr unitsdestroyed
+				//something to do with vector unitsdestroyed
 			}
 			if(flagcreated == true)
 			{
@@ -46,11 +41,10 @@ int main()
 				//cout <<  player<< " " << unit<< " " <<" " <<numberofunits;
 				//something to do with vector unitsmade.
 			}
-
 		}
 		thefile.close();
 		thefile.open(file);
 	} 
-	_pclose(input);
+	_pclose(pipe);
 	//==================================
 }
