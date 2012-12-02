@@ -1,5 +1,5 @@
 #include "kmeans.h"
-#include "kmeans.cpp"
+
 using namespace std;
 
 char file[200];

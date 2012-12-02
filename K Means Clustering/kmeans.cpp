@@ -4,32 +4,22 @@
  *  Created on: Nov 28, 2012
  *      Author: ba6
  */
-<<<<<<< HEAD:K Means Clustering/kmeans.cpp
-#include "kmeans.h"
-using namespace std;
 
-=======
+#include "kmeans.H"
 
-#include "kmeans.h"
 using namespace std;
 
 
->>>>>>> 87d0a98808726619ca783ab520a91fb20005103d:K Means Clustering/kmeans.cpp
-class Strategy
+Strategy::Strategy()
 {
-public:
-	Strategy()
-	{
-		// freakout, should not be allowed
-	}
 
-	Strategy(vector<int> units){
-		// TODO: convert the units seen into their resource costs
-		features = units;
-	}
-	int cluster;
-	vector<int> features;
-};
+}
+
+Strategy::Strategy(std::vector<int> units){
+	// TODO: convert the units seen into their resource costs
+	features = units;
+}
+
 
 // get similarity is driven by an attempt at using dot product as an approximation for similarity between strategies.
 // I have no guarantees that this is a sensible or appropriate way to evaluate similarity.
@@ -37,16 +27,16 @@ public:
 // in following that strategy (in the case of low economy rushes etc). Thus, we attempt to treat the resources spent in buildings and units
 // as vectors and compare them.
 // returns 0 if the strategies are identical, smaller return is greater similarity
-double getSimilarity(Strategy &st1, Strategy &st2)
+double getSimilarity(Strategy* st1, Strategy* st2)
 {
 	long double dot_product = 0;
 	long double dot_identity = 0;
 
 	// calculate the dot product of st1 . st2, and st2 with itself
-	for (unsigned int i = 0; i < st2.features.size(); i++)
+	for (unsigned int i = 0; i < st2->features.size(); i++)
 	{
-		dot_product += st1.features[i] * st2.features[i];
-		dot_identity += st2.features[i] * st2.features[i];
+		dot_product += st1->features[i] * st2->features[i];
+		dot_identity += st2->features[i] * st2->features[i];
 	}
 
 	// divide the dot product by the 'dot identity' in an attempt to norm for resouces gather
@@ -58,59 +48,53 @@ double getSimilarity(Strategy &st1, Strategy &st2)
 
 }
 
-class Cluster
+Cluster::Cluster(std::vector<int> units)
 {
-public:
-	vector<Strategy*> members;
-	Strategy centroid;
-	string strategy_label;
+	Strategy* new_start = new Strategy(units);
+	members.push_back(new_start);
+	centroid = new_start;
+}
 
-	Cluster()
-	{
-		// freak out, should not be allowed!
-	}
-
-	Cluster(vector<int> units)
-	{
-		members.push_back(new Strategy(units));
-		centroid = calculateCentroid();
-	}
-
-	// creates the center of the cluster based on a simple average for each feature
-	Strategy calculateCentroid()
-	{
-		Strategy old_centroid = centroid;
-		// TODO: reset the centroid
-		for (unsigned int i = 0; i < members.size(); i++)
-			for (unsigned int j = 0; j < members[i]->features.size(); j++)
-				centroid.features[j] += members[i]->features[j];
-
-		for (unsigned int k = 0; k < centroid.features.size(); k++)
-			centroid.features[k] = centroid.features[k] / members.size();
-
-		return centroid;
-
-	}
-
-	double update(vector<Strategy*> new_members){
-		Strategy old_centroid = centroid;
-		members = new_members;
-		centroid = calculateCentroid();
-		return getSimilarity(old_centroid, centroid);
-	}
-};
-
-
-
-vector<Strategy> kmeans(vector<vector<int> >unit_list, int k, double cutoff)
+// creates the center of the cluster based on a simple average for each feature
+Strategy* Cluster::calculateCentroid()
 {
-	vector<Cluster*> clusters;
-	for (int i = 0; i < k; i++)
+//	Strategy old_centroid = centroid;
+	// TODO: reset the centroid
+	for (unsigned int i = 0; i < centroid->features.size(); i++)
+		centroid->features[i] = 0;
+
+
+	for (unsigned int i = 0; i < members.size(); i++)
+		for (unsigned int j = 0; j < members[i]->features.size(); j++)
+			centroid->features[j] += members[i]->features[j];
+
+	for (unsigned int k = 0; k < centroid->features.size(); k++)
+		centroid->features[k] = centroid->features[k] / members.size();
+
+	return centroid;
+
+}
+
+double Cluster::update(std::vector<Strategy*> new_members){
+	Strategy* old_centroid = centroid;
+	members = new_members;
+	centroid = calculateCentroid();
+	return getSimilarity(old_centroid, centroid);
+}
+
+
+
+
+//std::vector<Strategy*>
+unsigned int kmeans(std::vector<std::vector<int> >unit_list, unsigned int k, double cutoff)
+{
+	std::vector<Cluster*> clusters;
+	for (unsigned int i = 0; i < k; i++)
 	{
 		clusters.push_back(new Cluster(unit_list[i]));
 	}
 
-	vector<Strategy* > Strategy_list;
+	std::vector<Strategy* > Strategy_list;
 	for (unsigned int i = k; i < unit_list.size(); i++)
 	{
 		Strategy_list.push_back(new Strategy(unit_list[i]));
@@ -118,18 +102,17 @@ vector<Strategy> kmeans(vector<vector<int> >unit_list, int k, double cutoff)
 
 	while (true)
 	{
-		// TODO: change to strategy
-		vector<vector<Strategy*> > cluster_list;
+		std::vector<std::vector<Strategy*> > cluster_list;
 		// for each strategy
 		for (unsigned int i = 0; i < Strategy_list.size(); i++)
 		{
 			// find the cluster with the most similar centoid
-			double most_similar = getSimilarity(*Strategy_list[i], clusters[0]->centroid);
+			double most_similar = getSimilarity(Strategy_list[i], clusters[0]->centroid);
 			int best_index = 0;
 			for (unsigned int j = 1; j < clusters.size(); j++)
 			{
 				// if the jth cluster is more similar than any seen so far, keep track
-				double similarity = getSimilarity(*Strategy_list[i], clusters[j]->centroid);
+				double similarity = getSimilarity(Strategy_list[i], clusters[j]->centroid);
 				if (similarity < most_similar)
 				{
 					most_similar = similarity;
@@ -137,8 +120,7 @@ vector<Strategy> kmeans(vector<vector<int> >unit_list, int k, double cutoff)
 				}
 			}
 
-			// add the strategy to the most similar cluster_list
-			// TODO: convet the vector to a strategy
+			// TODO add the strategy to the most similar cluster_list
 			cluster_list[best_index].push_back(Strategy_list[i]);
 		}
 
@@ -157,14 +139,10 @@ vector<Strategy> kmeans(vector<vector<int> >unit_list, int k, double cutoff)
 			break;
 	}
 
-	// TODO: return centroids, not cluster
-	vector<Strategy> centroids;
+	std::vector<Strategy*> centroids;
 	for (unsigned int i = 0; i < clusters.size(); i++)
 		centroids.push_back(clusters[i]->centroid);
 
-	return centroids;
+	return 1;
 
-<<<<<<< HEAD:K Means Clustering/kmeans.cpp
-=======
 }
->>>>>>> 87d0a98808726619ca783ab520a91fb20005103d:K Means Clustering/kmeans.cpp

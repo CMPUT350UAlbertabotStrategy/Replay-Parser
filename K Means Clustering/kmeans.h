@@ -35,6 +35,41 @@ gamecountinterval *	summarytointerval(int lowerboundry, int higherboundry);
 
 
 
+class Strategy
+{
+public:
+	Strategy();
+	Strategy(std::vector<int> units);
+	int cluster;
+	std::vector<int> features;
+};
+
+// get similarity is driven by an attempt at using dot product as an approximation for similarity between strategies.
+// I have no guarantees that this is a sensible or appropriate way to evaluate similarity.
+// Conceptually, similarity between strategies is based on resources sunk into following that strategy, or the opportunity cost missed
+// in following that strategy (in the case of low economy rushes etc). Thus, we attempt to treat the resources spent in buildings and units
+// as vectors and compare them.
+// returns 0 if the strategies are identical, smaller return is greater similarity
+double getSimilarity(Strategy* st1, Strategy* st2);
+
+class Cluster
+{
+public:
+	std::vector<Strategy*> members;
+	Strategy* centroid;
+
+	Cluster();
+	Cluster(std::vector<int> units);
+
+	// creates the center of the cluster based on a simple average for each feature
+	Strategy* calculateCentroid();
+
+	double update(std::vector<Strategy*> new_members);
+};
+
+//std::vector<Strategy*>
+int kmeans(std::vector<std::vector<int> >unit_list, int k, double cutoff);
+
 
 
 
