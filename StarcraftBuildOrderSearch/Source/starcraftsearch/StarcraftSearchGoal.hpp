@@ -9,7 +9,7 @@
 #include "ActionSet.hpp"
 #include "StarcraftAction.hpp"
 #include "StarcraftData.hpp"
-#include <math.h>
+#include <cmath>
 
 namespace BuildOrderSearch
 {
