@@ -14,11 +14,10 @@ int main()
 	//this program requires itself to be located in the same folder as the rep.rgd files
 	//==================================
 	FILE * pipe= _popen("dir *.rep.rgd /b", "r");//use windows command dir with argument /b for simple file listing add /s for full path
-	ifstream thefile(""); //empty string to get the first item
-	//ifstream should default construct with emtpy string... no single help place 
+	ifstream thefile("*.rep.rgd"); //wilcard .rep.rgd to get first item
 	while(!feof(pipe))
 	{
-		fgets(file, 199, pipe);
+		fgets(file, 199, pipe);//file size has a character limit, but line size does not.
 		cout << file;
 		
 		bool flagcreated =false , flagdestroyed =false;

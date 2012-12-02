@@ -3,12 +3,9 @@
  *
  *  Created on: Nov 28, 2012
  *      Author: ba6
-
-
-
+ */
+#include "kmeans.h"
 using namespace std;
-
-
 
 class Strategy
 {
@@ -149,4 +146,3 @@ vector<Cluster> kmeans(vector<vector<int> >Strategy_list, int k, double cutoff)
 
 }
 
-*/
