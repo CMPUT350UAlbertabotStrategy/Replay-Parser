@@ -17,7 +17,7 @@ void ReplayModule::onStart()
 
 		replayDat.open(filepath.c_str());
 
-		replayDat << "[Replay Start]\n" << std::fixed << std::setprecision(4)
+		replayDat << "[Replay Start]"<< std::endl << std::fixed << std::setprecision(4)
 			<< "RepPath: " << BWAPI::Broodwar->mapPathName() << std::endl
 			<< "MapName: " << BWAPI::Broodwar->mapName() << std::endl
 			<< "NumStartPositions: " << BWAPI::Broodwar->getStartLocations().size() << std::endl
@@ -37,7 +37,7 @@ void ReplayModule::onStart()
 						foundstart = true;
 					}
 				}
-				replayDat << (*p)->getID() << ", " << (*p)->getName() << ", " << (*p)->getRace().getName() << ", " << startloc << std::endl;
+				replayDat << (*p)->getID() << " " << (*p)->getRace().getName() << " "<< (*p)->getName() << " "  << startloc << std::endl;
 				this->activePlayers.insert(*p);
 			}
 		}
@@ -199,15 +199,11 @@ void ReplayModule::onEnd(bool isWinner) {
 			this->replayDat << boost::format("%s %s %s [%s-%s]") %it->first.first %it->first.second 
 				 %it->second %late->lowerboundry %late->higherboundry << std::endl;
 		}
-
-
+	
 		this->replayDat << "[EndGame]" << std::endl;
 		//clear the vectors in the gamesummary struct, but later I would assume there would be a function processing this data.
 
 		this->replayDat.close();
-		this->seenThisTurn.clear();
-		this->unseenUnits.clear();
-		this->activePlayers.clear();
 }
 
 void ReplayModule::onFrame(){

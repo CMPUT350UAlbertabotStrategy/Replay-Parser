@@ -15,7 +15,7 @@ struct data{
 	int frame;
 	int player;
 };
-void sort(std::map<std::pair<int, std::string>, int>);
+
 struct gamesummary{
 	~gamesummary(){unitsdestroyed.clear(); unitsmade.clear();}
 	std::vector<data> unitsdestroyed;
@@ -31,8 +31,9 @@ struct gamecountinterval{
 	std::map<std::pair<int, std::string>, int> unitsmade;
 	int lowerboundry, higherboundry;
 };
-gamecountinterval *	summarytointerval(int lowerboundry, int higherboundry);
 
+gamecountinterval *	summarytointerval(int lowerboundry, int higherboundry);
+void sort(std::map<std::pair<int, std::string>, int>);
 
 
 class Strategy
