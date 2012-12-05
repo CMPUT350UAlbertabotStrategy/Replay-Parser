@@ -104,13 +104,15 @@ int main(int argc, int ** argv)
 		gameSummary.unitsdestroyed.clear();
 		//================================== end of loop ============== all files read ==============
 	}
-	std::vector<Strategy*>centroids = kmeans(featurelist, 3, 0.1);
-
-	for (unsigned int i = 0; i < centroids.size(); i++)
+	std::vector<Strategy*>centroids = kmeans(featurelist, 8, 0.05);
+	unsigned int size = centroids.size();
+	for (unsigned int i = 0; i < size; i++)
 	{
 		std::cout << "centroid " << i << ": ";
 		for (unsigned int j = 0; j < centroids[i]->features.size(); j++)
-		std::cout << centroids[i]->features[j] << "," << std::endl;
+			std::cout << centroids[i]->features[j] << "," ;
+
+		cout << std::endl;
 	}
 	
 #ifdef linux
@@ -189,7 +191,7 @@ void sort(std::map<std::pair<int, std::string>, int> summary)
 		if((it = summary.find(make_pair(1, "Corsair"))) != summary.end())			features1.push_back(it->second);else features1.push_back(0);
 		if((it = summary.find(make_pair(1, "CitadelofAdun"))) != summary.end())		features1.push_back(it->second);else features1.push_back(0);
 		if((it = summary.find(make_pair(1, "CyberneticsCore"))) != summary.end())	features1.push_back(it->second);else features1.push_back(0);
-		if((it = summary.find(make_pair(1, "Darkarchon"))) != summary.end())		features1.push_back(it->second);else features1.push_back(0);
+		if((it = summary.find(make_pair(1, "DarkArchon"))) != summary.end())		features1.push_back(it->second);else features1.push_back(0);
 		if((it = summary.find(make_pair(1, "DarkTemplar"))) != summary.end())		features1.push_back(it->second);else features1.push_back(0);
 		if((it = summary.find(make_pair(1, "Dragoon"))) != summary.end())			features1.push_back(it->second);else features1.push_back(0);
 		if((it = summary.find(make_pair(1, "HighTemplar"))) != summary.end())		features1.push_back(it->second);else features1.push_back(0);
@@ -205,11 +207,11 @@ void sort(std::map<std::pair<int, std::string>, int> summary)
 		if((it = summary.find(make_pair(1, "Observatory"))) != summary.end())		features1.push_back(it->second);else features1.push_back(0);
 		if((it = summary.find(make_pair(1, "FleetBeacon"))) != summary.end())		features1.push_back(it->second);else features1.push_back(0);
 		if((it = summary.find(make_pair(1, "Forge"))) != summary.end())				features1.push_back(it->second);else features1.push_back(0);
-		if((it = summary.find(make_pair(1, "Photoncannon"))) != summary.end())		features1.push_back(it->second);else features1.push_back(0);
+		if((it = summary.find(make_pair(1, "PhotonCannon"))) != summary.end())		features1.push_back(it->second);else features1.push_back(0);
 		if((it = summary.find(make_pair(1, "Pylon"))) != summary.end())				features1.push_back(it->second);else features1.push_back(0);
 		if((it = summary.find(make_pair(1, "RoboticsFacility"))) != summary.end())	features1.push_back(it->second);else features1.push_back(0);
-		if((it = summary.find(make_pair(1, "RoboticsSupportbay"))) != summary.end())features1.push_back(it->second);else features1.push_back(0);
-		if((it = summary.find(make_pair(1, "Shieldbattery"))) != summary.end())		features1.push_back(it->second);else features1.push_back(0);
+		if((it = summary.find(make_pair(1, "RoboticsSupportBay"))) != summary.end())features1.push_back(it->second);else features1.push_back(0);
+		if((it = summary.find(make_pair(1, "ShieldBattery"))) != summary.end())		features1.push_back(it->second);else features1.push_back(0);
 		if((it = summary.find(make_pair(1, "Stargate"))) != summary.end())			features1.push_back(it->second);else features1.push_back(0);
 		if((it = summary.find(make_pair(1, "TemplarArchives"))) != summary.end())	features1.push_back(it->second);else features1.push_back(0);
 		featurelist.push_back(features1);
@@ -227,7 +229,7 @@ void sort(std::map<std::pair<int, std::string>, int> summary)
 		if((it = summary.find(make_pair(0, "Corsair"))) != summary.end())			features0.push_back(it->second);else features0.push_back(0);
 		if((it = summary.find(make_pair(0, "CitadelofAdun"))) != summary.end())		features0.push_back(it->second);else features0.push_back(0);
 		if((it = summary.find(make_pair(0, "CyberneticsCore"))) != summary.end())	features0.push_back(it->second);else features0.push_back(0);
-		if((it = summary.find(make_pair(0, "Darkarchon"))) != summary.end())		features0.push_back(it->second);else features0.push_back(0);
+		if((it = summary.find(make_pair(0, "DarkArchon"))) != summary.end())		features0.push_back(it->second);else features0.push_back(0);
 		if((it = summary.find(make_pair(0, "DarkTemplar"))) != summary.end())		features0.push_back(it->second);else features0.push_back(0);
 		if((it = summary.find(make_pair(0, "Dragoon"))) != summary.end())			features0.push_back(it->second);else features0.push_back(0);
 		if((it = summary.find(make_pair(0, "HighTemplar"))) != summary.end())		features0.push_back(it->second);else features0.push_back(0);
@@ -247,7 +249,7 @@ void sort(std::map<std::pair<int, std::string>, int> summary)
 		if((it = summary.find(make_pair(0, "Pylon"))) != summary.end())				features0.push_back(it->second);else features0.push_back(0);
 		if((it = summary.find(make_pair(0, "RoboticsFacility"))) != summary.end())	features0.push_back(it->second);else features0.push_back(0);
 		if((it = summary.find(make_pair(0, "RoboticsSupportbay"))) != summary.end())features0.push_back(it->second);else features0.push_back(0);
-		if((it = summary.find(make_pair(0, "Shieldbattery"))) != summary.end())		features0.push_back(it->second);else features0.push_back(0);
+		if((it = summary.find(make_pair(0, "ShieldBattery"))) != summary.end())		features0.push_back(it->second);else features0.push_back(0);
 		if((it = summary.find(make_pair(0, "Stargate"))) != summary.end())			features0.push_back(it->second);else features0.push_back(0);
 		if((it = summary.find(make_pair(0, "TemplarArchives"))) != summary.end())	features0.push_back(it->second);else features0.push_back(0);
 		featurelist.push_back(features0);

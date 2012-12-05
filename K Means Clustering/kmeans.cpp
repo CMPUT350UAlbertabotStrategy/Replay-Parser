@@ -4,14 +4,11 @@
  *  Created on: Nov 28, 2012
  *      Author: ba6
  */
-
-
 #include "kmeans.h"
 
 #pragma once
 
-//using namespace std;
-
+using namespace std;
 
 Strategy::Strategy()
 {
