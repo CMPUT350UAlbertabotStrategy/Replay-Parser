@@ -33,7 +33,7 @@ struct gamecountinterval{
 };
 
 gamecountinterval *	summarytointerval(int lowerboundry, int higherboundry);
-void sort(std::map<std::pair<int, std::string>, int>);
+void protossfeatureV(std::map<std::pair<int, std::string>, int>);
 
 class Strategy
 {

@@ -37,7 +37,7 @@ void ReplayModule::onStart()
 						foundstart = true;
 					}
 				}
-				replayDat << (*p)->getID() << " " << (*p)->getRace().getName() << " "<< (*p)->getName() << " "  << startloc << std::endl;
+				replayDat << (*p)->getID() << ", " << (*p)->getRace().getName() << " "<< (*p)->getName() << " "  << startloc << std::endl;
 				this->activePlayers.insert(*p);
 			}
 		}
