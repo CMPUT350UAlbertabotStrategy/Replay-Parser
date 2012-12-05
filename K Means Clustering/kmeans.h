@@ -18,8 +18,8 @@ struct data{
 
 struct gamesummary{
 	~gamesummary(){unitsdestroyed.clear(); unitsmade.clear();}
-	std::vector<data> unitsdestroyed;
-	std::vector<data> unitsmade;
+	std::vector<data*> unitsdestroyed;
+	std::vector<data*> unitsmade;
 };
 //similar to getsummary but is contained within a time interval and values are in a map.
 struct gamecountinterval{
@@ -34,7 +34,6 @@ struct gamecountinterval{
 
 gamecountinterval *	summarytointerval(int lowerboundry, int higherboundry);
 void sort(std::map<std::pair<int, std::string>, int>);
-
 
 class Strategy
 {
@@ -68,8 +67,7 @@ public:
 	double update(std::vector<Strategy*> new_members);
 };
 
-//std::vector<Strategy*>
-int kmeans(std::vector<std::vector<int> >unit_list, int k, double cutoff);
+std::vector<Strategy*> kmeans(std::vector<std::vector<int> >unit_list, int k, double cutoff);
 
 
 
