@@ -1,0 +1,220 @@
+[Replay Start]
+RepPath: MAPS\REPLAYS\TL924.rep
+MapName: 신 백두대간 2.4
+NumStartPositions: 8
+The following players are in this replay:
+0, NsP_Destiny, Zerg, 7
+1, Nal_Draco, Protoss, 0
+Begin replay data:
+0 1 Created 15 Protoss Nexus (672,3536)
+0 1 Created 16 Protoss Probe (696,3592)
+0 1 Created 18 Protoss Probe (648,3592)
+0 0 Created 19 Zerg Hatchery (2400,560)
+0 0 Created 32 Zerg Drone (2448,608)
+0 0 Created 33 Zerg Larva (2400,602)
+0 0 Created 36 Zerg Drone (2424,608)
+0 0 Created 59 Zerg Drone (2360,608)
+0 0 Created 64 Zerg Overlord (2301,625)
+0 1 Created 68 Protoss Probe (672,3592)
+0 1 Created 69 Protoss Probe (624,3592)
+0 0 Created 71 Zerg Drone (2464,578)
+0 0 Created 78 Zerg Larva (2400,602)
+0 0 Created 85 Zerg Larva (2400,602)
+7 1 Created 98 Protoss Probe (672,3536)
+7 0 Morph 78 Zerg Egg (2395,606)
+325 0 Morph 78 Zerg Drone (2395,606)
+335 0 Created 99 Zerg Larva (2400,602)
+351 1 Created 100 Protoss Probe (672,3536)
+391 0 Morph 85 Zerg Egg (2343,601)
+571 0 Morph 33 Zerg Egg (2343,601)
+653 1 Created 101 Protoss Probe (672,3536)
+709 0 Morph 85 Zerg Drone (2343,601)
+727 0 Created 102 Zerg Larva (2400,602)
+839 0 Morph 99 Zerg Egg (2457,611)
+889 0 Morph 33 Zerg Drone (2343,601)
+955 1 Created 103 Protoss Probe (672,3536)
+997 0 Morph 102 Zerg Egg (2421,615)
+1063 0 Created 104 Zerg Larva (2400,602)
+1157 0 Morph 99 Zerg Drone (2457,611)
+1159 1 Created 105 Protoss Pylon (1024,3136)
+1305 1 Created 106 Protoss Probe (672,3536)
+1315 0 Morph 102 Zerg Drone (2421,615)
+1317 0 Morph 104 Zerg Egg (2428,619)
+1403 0 Created 107 Zerg Larva (2400,602)
+1512 0 Discovered 64 Zerg Overlord (1799,1683)
+1524 1 Discovered 101 Protoss Probe (1596,1809)
+1680 1 Created 108 Protoss Probe (672,3536)
+1741 0 Created 109 Zerg Larva (2400,602)
+1812 1 Discovered 101 Protoss Probe (2200,712)
+1836 1 Discovered 101 Protoss Probe (2314,698)
+1836 1 Discovered 101 Protoss Probe (2314,698)
+1836 1 Discovered 101 Protoss Probe (2314,698)
+1848 1 Discovered 101 Protoss Probe (2365,671)
+1903 0 Morph 59 Zerg Spawning Pool (2288,512)
+1935 0 Morph 104 Zerg Overlord (2428,619)
+1982 1 Created 110 Protoss Probe (672,3536)
+2035 0 Destroyed 33 Zerg Drone (2624,512)
+2035 0 Morph 31 Zerg Extractor (2624,512)
+2035 0 ChangedOwnership Zerg Extractor
+2078 0 Created 111 Zerg Larva (2400,602)
+2100 1 Discovered 101 Protoss Probe (2479,668)
+2107 0 Morph 109 Zerg Egg (2450,613)
+2149 1 Created 112 Protoss Forge (1200,3200)
+2284 1 Created 113 Protoss Probe (672,3536)
+2287 0 Morph 107 Zerg Egg (2349,615)
+2397 0 Morph 111 Zerg Egg (2430,601)
+2425 0 Morph 109 Zerg Drone (2450,613)
+2441 0 Created 114 Zerg Larva (2400,602)
+2586 1 Created 115 Protoss Probe (672,3536)
+2605 0 Morph 107 Zerg Drone (2349,615)
+2715 0 Morph 111 Zerg Drone (2430,601)
+2789 0 Created 116 Zerg Larva (2400,602)
+2888 1 Created 117 Protoss Probe (672,3536)
+3126 0 Created 118 Zerg Larva (2400,602)
+3169 0 Morph 116 Zerg Egg (2437,603)
+3169 0 Morph 114 Zerg Egg (2350,608)
+3180 0 Discovered 64 Zerg Overlord (1224,2908)
+3192 0 Discovered 64 Zerg Overlord (1230,2916)
+3241 1 Created 119 Protoss Photon Cannon (960,3136)
+3265 1 Created 120 Protoss Probe (672,3536)
+3499 0 Created 121 Zerg Larva (2400,602)
+3567 1 Created 122 Protoss Probe (672,3536)
+3607 0 Morph 116 Zerg Zergling (2437,603)
+3607 0 Morph 114 Zerg Zergling (2350,608)
+3622 0 Created 123 Zerg Zergling (2343,611)
+3622 0 Created 124 Zerg Zergling (2430,606)
+3624 1 Discovered 101 Protoss Probe (2670,634)
+3648 1 Discovered 101 Protoss Probe (2720,535)
+3840 0 Created 125 Zerg Larva (2400,602)
+3869 1 Created 126 Protoss Probe (672,3536)
+4011 1 Created 127 Protoss Photon Cannon (1088,3072)
+4224 0 Discovered 64 Zerg Overlord (1022,3495)
+4224 0 Discovered 64 Zerg Overlord (1022,3495)
+4248 0 Discovered 64 Zerg Overlord (1003,3501)
+4260 0 Discovered 64 Zerg Overlord (993,3504)
+4281 0 Morph 85 Zerg Hatchery (2144,1072)
+4296 0 Discovered 64 Zerg Overlord (969,3489)
+4296 0 Discovered 64 Zerg Overlord (969,3489)
+4320 0 Discovered 64 Zerg Overlord (950,3481)
+4380 0 Discovered 64 Zerg Overlord (905,3459)
+4452 0 Discovered 64 Zerg Overlord (866,3439)
+4476 0 Discovered 64 Zerg Overlord (866,3439)
+4518 1 Created 128 Protoss Nexus (928,3056)
+4644 0 Discovered 64 Zerg Overlord (949,3423)
+5076 0 Discovered 104 Zerg Overlord (1265,2848)
+5316 0 Discovered 64 Zerg Overlord (952,3422)
+5388 0 Discovered 64 Zerg Overlord (952,3422)
+5450 1 Morph 30 Protoss Assimilator (448,3488)
+5450 1 ChangedOwnership Protoss Assimilator
+5580 0 Discovered 123 Zerg Zergling (1097,3012)
+5583 0 Destroyed 123 Zerg Zergling (1086,3022)
+5592 0 Discovered 116 Zerg Zergling (1070,3033)
+5624 0 Destroyed 114 Zerg Zergling (1064,3204)
+5634 0 Destroyed 116 Zerg Zergling (977,3290)
+5664 0 Discovered 64 Zerg Overlord (952,3422)
+5688 0 Discovered 64 Zerg Overlord (952,3422)
+6089 0 Created 129 Zerg Larva (2144,1114)
+6428 0 Created 130 Zerg Larva (2144,1114)
+6528 0 Destroyed 109 Zerg Drone (1202,3139)
+6701 1 Created 131 Protoss Probe (672,3536)
+6761 0 Created 132 Zerg Larva (2144,1114)
+6792 0 Discovered 64 Zerg Overlord (952,3422)
+7069 1 Created 133 Protoss Probe (672,3536)
+7371 1 Created 134 Protoss Probe (672,3536)
+7673 1 Created 135 Protoss Probe (672,3536)
+7975 1 Created 136 Protoss Probe (672,3536)
+8277 1 Created 137 Protoss Probe (672,3536)
+8579 1 Created 138 Protoss Probe (672,3536)
+8652 0 Discovered 64 Zerg Overlord (952,3422)
+8881 1 Created 139 Protoss Probe (672,3536)
+9183 1 Created 140 Protoss Probe (672,3536)
+9252 0 Discovered 64 Zerg Overlord (952,3422)
+9564 0 Discovered 64 Zerg Overlord (952,3422)
+10496 1 Created 141 Protoss Pylon (384,3616)
+11133 1 Created 142 Protoss Probe (672,3536)
+11306 1 Created 143 Protoss Pylon (320,3552)
+11595 1 Created 144 Protoss Probe (672,3536)
+12120 0 Discovered 85 Zerg Hatchery (2144,1072)
+12251 1 Created 145 Protoss Probe (672,3536)
+12565 1 Created 146 Protoss Probe (672,3536)
+12588 0 Discovered 85 Zerg Hatchery (2144,1072)
+12744 0 Discovered 64 Zerg Overlord (1211,2996)
+12777 0 Destroyed 64 Zerg Overlord (1191,2979)
+12867 1 Created 147 Protoss Probe (672,3536)
+13169 1 Created 148 Protoss Probe (672,3536)
+13471 1 Created 149 Protoss Probe (672,3536)
+13584 0 Discovered 85 Zerg Hatchery (2144,1072)
+13734 1 Created 150 Protoss Pylon (160,3328)
+13773 1 Created 151 Protoss Probe (672,3536)
+13908 0 Discovered 85 Zerg Hatchery (2144,1072)
+14075 1 Created 152 Protoss Probe (672,3536)
+14080 1 Created 153 Protoss Gateway (320,3440)
+14665 1 Created 154 Protoss Probe (672,3536)
+14967 1 Created 155 Protoss Probe (672,3536)
+15128 0 Destroyed 125 Zerg Larva (2343,601)
+15269 1 Created 156 Protoss Probe (672,3536)
+15461 0 Created 157 Zerg Larva (2400,602)
+15571 1 Created 158 Protoss Probe (672,3536)
+15740 0 Destroyed 19 Zerg Hatchery (2400,560)
+15993 1 Destroyed 146 Protoss Probe (2246,818)
+16242 1 Destroyed 142 Protoss Probe (2226,738)
+16263 0 Destroyed 32 Zerg Drone (2324,395)
+16293 0 Destroyed 118 Zerg Larva (2250,651)
+16506 0 Destroyed 124 Zerg Zergling (2156,688)
+16735 0 Destroyed 157 Zerg Larva (2471,701)
+16806 0 Destroyed 121 Zerg Larva (2397,641)
+17255 1 Created 159 Protoss Probe (672,3536)
+17334 1 Created 160 Protoss Pylon (160,3520)
+17370 1 Destroyed 113 Protoss Probe (1731,1002)
+17426 0 Destroyed 107 Zerg Drone (2548,414)
+17669 0 Destroyed 78 Zerg Drone (1305,1007)
+18380 0 Destroyed 111 Zerg Drone (2548,459)
+19911 1 Created 161 Protoss Probe (672,3536)
+21261 1 Created 162 Protoss Probe (672,3536)
+22339 1 Created 163 Protoss Probe (672,3536)
+26038 0 Destroyed 99 Zerg Drone (2305,577)
+33240 0 Discovered 104 Zerg Overlord (2528,1463)
+33264 0 Discovered 104 Zerg Overlord (2546,1471)
+33492 0 Discovered 104 Zerg Overlord (2718,1548)
+37236 0 Discovered 104 Zerg Overlord (2913,1637)
+37277 -1 Destroyed 42 Resource Mineral Field (736,3728)
+39144 0 Discovered 104 Zerg Overlord (2913,1637)
+39875 0 Destroyed 36 Zerg Drone (139,1428)
+40062 1 Destroyed 145 Protoss Probe (183,1406)
+42684 0 Discovered 71 Zerg Drone (2093,2335)
+42756 0 Discovered 71 Zerg Drone (1921,2335)
+43142 0 Destroyed 71 Zerg Drone (1487,2432)
+43557 -1 Destroyed 60 Resource Mineral Field (704,3696)
+[ELAPSED TIME]: 2790
+[UNITS LOST]
+0 Zerg Drone 2 [0-8000]
+0 Zerg Zergling 3 [0-8000]
+0 Zerg Drone 3 [12000-18000]
+0 Zerg Hatchery 1 [12000-18000]
+0 Zerg Larva 4 [12000-18000]
+0 Zerg Overlord 1 [12000-18000]
+0 Zerg Zergling 1 [12000-18000]
+1 Protoss Probe 3 [12000-18000]
+0 Zerg Drone 4 [18000-44641]
+1 Protoss Probe 1 [18000-44641]
+[UNITS CREATED]
+0 Zerg Drone 12 [0-8000]
+0 Zerg Egg 11 [0-8000]
+0 Zerg Extractor 1 [0-8000]
+0 Zerg Hatchery 2 [0-8000]
+0 Zerg Larva 17 [0-8000]
+0 Zerg Overlord 2 [0-8000]
+0 Zerg Spawning Pool 1 [0-8000]
+0 Zerg Zergling 4 [0-8000]
+1 Protoss Assimilator 1 [0-8000]
+1 Protoss Forge 1 [0-8000]
+1 Protoss Nexus 2 [0-8000]
+1 Protoss Photon Cannon 2 [0-8000]
+1 Protoss Probe 22 [0-8000]
+1 Protoss Pylon 1 [0-8000]
+0 Zerg Larva 1 [12000-18000]
+1 Protoss Gateway 1 [12000-18000]
+1 Protoss Probe 12 [12000-18000]
+1 Protoss Pylon 2 [12000-18000]
+1 Protoss Probe 3 [18000-44641]
+[EndGame]

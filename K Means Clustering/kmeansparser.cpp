@@ -15,7 +15,7 @@ int main(int argc, int ** argv)
 	//this program requires itself to be located in the same folder as the rep.rgd files
 	//==================================
 #ifdef linux
-	FILE * pipe= _popen("find -name \"*.rep.rgd\" -print", "r");//use linux command ls
+	FILE * pipe= popen("find -name \"*.rep.rgd\" -print", "r");//use linux command ls
 	cout<< "make sure to have replay files in this directory<< endl;
 #elif _WIN32
 	FILE * pipe= _popen("dir *.rep.rgd /b", "r");//use windows command dir with argument /b for simple file listing add /s for full path
@@ -113,6 +113,8 @@ int main(int argc, int ** argv)
 
 		cout << std::endl;
 	}
+	//for(int i =3; i<7; i++){
+		//centroids = kmeans(featurelistMINERALS, i, 0.1);
 	centroids = kmeans(featurelistMINERALS, 3, 0.1);
 	size = centroids.size();
 	for (unsigned int i = 0; i < size; i++)
@@ -123,6 +125,7 @@ int main(int argc, int ** argv)
 
 		cout << std::endl;
 	}
+	//}
 #ifdef linux
 	pclose(pipe);
 #elif _WIN32

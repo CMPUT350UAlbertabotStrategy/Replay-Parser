@@ -1,5 +1,11 @@
 Replay-Parser
 =============
+Brendan Anthony
+Anthony Ou
+
+
+The wiki can be found at our github
+https://github.com/CMPUT350UAlbertabotStrategy/Replay-Parser/wiki
 
 A parsing system for retrieving strategic information from BroodWarAPI replays
 
@@ -20,6 +26,8 @@ After the replays are all a vector of vectors is passed and clusters are generat
 
 
 ===========================================
+Each name corresponds to an index in each feature vector or cluster
+Arbiter starting at index 0
 
 	Arbiter,Archon,ArbiterTribunal,Assimilator,
 	Carrier,Corsair,CitadelofAdun,CyberneticsCore,
@@ -30,15 +38,15 @@ After the replays are all a vector of vectors is passed and clusters are generat
 	Pylon,RoboticsFacility,RoboticsSupportbay,
 	Shieldbattery,Stargate,TemplarArchives
 
-
-
 ===========================================
 
 
-Kmeans Parser uses linux ls and cat programs or the windows dir and an included coreutils for 
-windows. Put the compiled K Cleans Clustering.exe in the same folder as replay files and install the coreutils.exe included to have windows access to cat, with windows path directed to the installed
-coreutils.
 
+Kmeans Parser uses linux ls and cat programs(untested and incomplete implimentation) the windows dir and an included coreutils for 
+windows. Put the compiled K Cleans Clustering.exe in the same folder as replay files and install the coreutils.exe included to have windows access to cat, with windows path directed to the installed coreutils/bin folder.
+
+This program uses most of the same dependences as UAlbertaBot except for coreutils
+http://gnuwin32.sourceforge.net/packages/coreutils.htm
 
 =============================================================================
 ========================New Features tracklist===============================
@@ -79,3 +87,10 @@ gamecountinterval * summarytointerval(int lowerboundry, int higherboundry)
 
 parses the summary of the game, the two big vectors holding all units made and destroyed into a gamecountinterval struct object.
 ============================================================================================
+
+Kmeans.cpp
+Vectors have to be the same size and there are limited amounts of type checking but this is taken care of by the parser to some extent.
+
+
+
+

@@ -1,0 +1,152 @@
+[Replay Start]
+RepPath: MAPS\REPLAYS\TL378.rep
+MapName: Neo Forbidden Zone
+NumStartPositions: 8
+The following players are in this replay:
+0, L.Nazgul[pG], Protoss, 3
+1, iVenture-Legion, Protoss, 7
+Begin replay data:
+0 1 Created 16 Protoss Probe (3784,3848)
+0 0 Created 48 Protoss Probe (312,3848)
+0 1 Created 52 Protoss Probe (3760,3848)
+0 1 Created 54 Protoss Probe (3808,3848)
+0 0 Created 56 Protoss Nexus (288,3792)
+0 0 Created 62 Protoss Probe (288,3848)
+0 0 Created 82 Protoss Probe (264,3848)
+0 1 Created 83 Protoss Nexus (3808,3792)
+0 0 Created 97 Protoss Probe (240,3848)
+0 1 Created 104 Protoss Probe (3832,3848)
+21 1 Created 110 Protoss Probe (3808,3792)
+26 0 Created 111 Protoss Probe (288,3792)
+386 1 Created 112 Protoss Probe (3808,3792)
+396 0 Created 113 Protoss Probe (288,3792)
+688 1 Created 114 Protoss Probe (3808,3792)
+698 0 Created 115 Protoss Probe (288,3792)
+990 1 Created 116 Protoss Probe (3808,3792)
+1000 0 Created 117 Protoss Probe (288,3792)
+1221 0 Created 118 Protoss Pylon (384,3712)
+1239 1 Created 119 Protoss Pylon (3872,3648)
+1301 1 Created 120 Protoss Probe (3808,3792)
+1311 0 Created 121 Protoss Probe (288,3792)
+1348 -1 Destroyed 58 Critter Scantid (1856,3920)
+1742 0 Created 122 Protoss Probe (288,3792)
+1760 1 Created 123 Protoss Probe (3808,3792)
+1849 1 Morph 19 Protoss Assimilator (3808,3968)
+1849 1 ChangedOwnership Protoss Assimilator
+1865 0 Morph 22 Protoss Assimilator (288,3968)
+1865 0 ChangedOwnership Protoss Assimilator
+2044 0 Created 124 Protoss Probe (288,3792)
+2062 1 Created 125 Protoss Probe (3808,3792)
+2268 1 Created 126 Protoss Gateway (3776,3632)
+2364 1 Created 127 Protoss Probe (3808,3792)
+2374 0 Created 128 Protoss Gateway (608,3696)
+2441 0 Created 129 Protoss Probe (288,3792)
+2666 1 Created 130 Protoss Probe (3808,3792)
+2743 0 Created 131 Protoss Probe (288,3792)
+2968 1 Created 132 Protoss Probe (3808,3792)
+3045 0 Created 133 Protoss Probe (288,3792)
+3268 1 Created 134 Protoss Cybernetics Core (3856,3712)
+3270 1 Created 135 Protoss Probe (3808,3792)
+3347 0 Created 136 Protoss Probe (288,3792)
+3436 0 Created 137 Protoss Cybernetics Core (400,3584)
+3558 1 Created 138 Protoss Pylon (3904,3968)
+3572 1 Created 139 Protoss Probe (3808,3792)
+3598 0 Created 140 Protoss Pylon (160,3392)
+3649 0 Created 141 Protoss Probe (288,3792)
+3874 1 Created 142 Protoss Probe (3808,3792)
+3951 0 Created 143 Protoss Probe (288,3792)
+4176 1 Created 144 Protoss Probe (3808,3792)
+4253 0 Created 145 Protoss Probe (288,3792)
+4425 1 Created 146 Protoss Robotics Facility (3760,3712)
+4470 0 Created 147 Protoss Robotics Facility (80,3520)
+4478 1 Created 148 Protoss Probe (3808,3792)
+4501 1 Created 149 Protoss Zealot (3776,3632)
+4555 0 Created 150 Protoss Probe (288,3792)
+4771 1 Created 151 Protoss Pylon (3616,3776)
+4786 1 Created 152 Protoss Probe (3808,3792)
+4816 0 Created 153 Protoss Pylon (800,3552)
+4857 0 Created 154 Protoss Probe (288,3792)
+5088 1 Created 155 Protoss Probe (3808,3792)
+5146 1 Created 156 Protoss Zealot (3776,3632)
+5159 0 Created 157 Protoss Probe (288,3792)
+5390 1 Created 158 Protoss Probe (3808,3792)
+5461 0 Created 159 Protoss Probe (288,3792)
+5493 1 Created 160 Protoss Robotics Facility (4016,3616)
+5692 1 Created 161 Protoss Probe (3808,3792)
+5756 1 Created 162 Protoss Zealot (3776,3632)
+5763 0 Created 163 Protoss Probe (288,3792)
+5816 0 Created 164 Protoss Observatory (944,3648)
+5840 1 Destroyed 161 Protoss Probe (3808,3792)
+5920 0 Created 165 Protoss Pylon (832,3936)
+6031 0 Created 166 Protoss Dragoon (608,3696)
+6065 0 Created 167 Protoss Probe (288,3792)
+6123 1 Created 168 Protoss Observatory (3600,3840)
+6367 0 Created 169 Protoss Probe (288,3792)
+6386 1 Created 170 Protoss Probe (3808,3792)
+6406 1 Created 171 Protoss Zealot (3776,3632)
+6669 0 Created 172 Protoss Probe (288,3792)
+6774 1 Created 173 Protoss Robotics Support Bay (3696,3840)
+6783 0 Created 174 Protoss Dragoon (608,3696)
+6971 0 Created 175 Protoss Probe (288,3792)
+7130 0 Destroyed 175 Protoss Probe (288,3792)
+7521 0 Created 176 Protoss Probe (288,3792)
+7535 0 Created 177 Protoss Dragoon (608,3696)
+8036 0 Created 178 Protoss Probe (288,3792)
+8201 1 Created 179 Protoss Probe (3808,3792)
+8287 0 Created 180 Protoss Dragoon (608,3696)
+8710 1 Created 181 Protoss Forge (3664,3904)
+8841 0 Created 182 Protoss Probe (288,3792)
+8881 1 Created 183 Protoss Probe (3808,3792)
+9211 0 Created 184 Protoss Dragoon (608,3696)
+9301 0 Created 185 Protoss Probe (288,3792)
+9434 1 Created 186 Protoss Photon Cannon (3840,3872)
+9826 0 Created 187 Protoss Probe (288,3792)
+13554 0 Created 188 Protoss Pylon (320,3712)
+14075 0 Created 189 Protoss Dragoon (608,3696)
+14436 0 Created 190 Protoss Observer (80,3520)
+14445 0 Destroyed 190 Protoss Observer (80,3520)
+14456 0 Created 191 Protoss Observer (80,3520)
+14827 0 Created 192 Protoss Dragoon (608,3696)
+15579 0 Created 193 Protoss Dragoon (608,3696)
+15836 0 Created 194 Protoss Probe (288,3792)
+21671 -1 Destroyed 1 Resource Mineral Field (4000,3760)
+21975 -1 Destroyed 51 Resource Mineral Field (4000,3824)
+22373 -1 Destroyed 50 Resource Mineral Field (64,3824)
+22413 -1 Destroyed 101 Resource Mineral Field (96,3856)
+23685 -1 Destroyed 57 Resource Mineral Field (4000,3920)
+23829 -1 Destroyed 23 Resource Mineral Field (4032,3728)
+24121 -1 Destroyed 67 Resource Mineral Field (96,3728)
+24173 -1 Destroyed 15 Resource Mineral Field (64,3760)
+24373 -1 Destroyed 60 Resource Mineral Field (4032,3792)
+24732 -1 Destroyed 77 Resource Mineral Field (4000,3696)
+25293 -1 Destroyed 109 Resource Mineral Field (96,3920)
+[ELAPSED TIME]: 1586
+[UNITS LOST]
+0 Protoss Probe 1 [0-8000]
+1 Protoss Probe 1 [0-8000]
+0 Protoss Observer 1 [12000-18000]
+[UNITS CREATED]
+0 Protoss Assimilator 1 [0-8000]
+0 Protoss Cybernetics Core 1 [0-8000]
+0 Protoss Dragoon 3 [0-8000]
+0 Protoss Gateway 1 [0-8000]
+0 Protoss Nexus 1 [0-8000]
+0 Protoss Observatory 1 [0-8000]
+0 Protoss Probe 28 [0-8000]
+0 Protoss Pylon 4 [0-8000]
+0 Protoss Robotics Facility 1 [0-8000]
+1 Protoss Assimilator 1 [0-8000]
+1 Protoss Cybernetics Core 1 [0-8000]
+1 Protoss Gateway 1 [0-8000]
+1 Protoss Nexus 1 [0-8000]
+1 Protoss Observatory 1 [0-8000]
+1 Protoss Probe 24 [0-8000]
+1 Protoss Pylon 3 [0-8000]
+1 Protoss Robotics Facility 2 [0-8000]
+1 Protoss Robotics Support Bay 1 [0-8000]
+1 Protoss Zealot 4 [0-8000]
+0 Protoss Dragoon 3 [12000-18000]
+0 Protoss Observer 2 [12000-18000]
+0 Protoss Probe 1 [12000-18000]
+0 Protoss Pylon 1 [12000-18000]
+[EndGame]

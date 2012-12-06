@@ -1,0 +1,133 @@
+[Replay Start]
+RepPath: MAPS\REPLAYS\TL1695.rep
+MapName: DTR[Destination1.1]ArtOf-
+NumStartPositions: 8
+The following players are in this replay:
+0, Rex.Clare, Protoss, 0
+1, TosSLove, Protoss, 1
+Begin replay data:
+0 0 Created 34 Protoss Probe (1032,328)
+0 1 Created 44 Protoss Probe (2136,3880)
+0 1 Created 58 Protoss Probe (2112,3880)
+0 1 Created 60 Protoss Nexus (2112,3824)
+0 0 Created 103 Protoss Nexus (1056,272)
+0 1 Created 120 Protoss Probe (2088,3880)
+0 0 Created 138 Protoss Probe (1080,328)
+0 0 Created 140 Protoss Probe (1056,328)
+0 1 Created 145 Protoss Probe (2064,3880)
+0 0 Created 149 Protoss Probe (1008,328)
+7 0 Created 155 Protoss Probe (1056,272)
+11 1 Created 156 Protoss Probe (2112,3824)
+365 1 Created 157 Protoss Probe (2112,3824)
+377 0 Created 158 Protoss Probe (1056,272)
+488 -1 Destroyed 51 Unknown (35,34)
+667 1 Created 159 Protoss Probe (2112,3824)
+679 0 Created 160 Protoss Probe (1056,272)
+969 1 Created 161 Protoss Probe (2112,3824)
+1162 1 Created 162 Protoss Pylon (2208,3808)
+1313 1 Created 163 Protoss Probe (2112,3824)
+1683 1 Created 164 Protoss Probe (2112,3824)
+1717 0 Created 165 Protoss Probe (1056,272)
+1812 0 Discovered 149 Protoss Probe (1749,3782)
+1812 1 Discovered 157 Protoss Probe (1951,3836)
+1848 0 Discovered 149 Protoss Probe (1897,3835)
+1848 0 Discovered 149 Protoss Probe (1897,3835)
+1872 0 Discovered 149 Protoss Probe (1929,3813)
+1884 0 Discovered 149 Protoss Probe (1944,3830)
+1896 0 Discovered 149 Protoss Probe (1961,3879)
+1908 0 Discovered 149 Protoss Probe (1985,3929)
+1920 0 Discovered 149 Protoss Probe (2044,3933)
+1920 0 Discovered 149 Protoss Probe (2044,3933)
+1920 0 Discovered 149 Protoss Probe (2044,3933)
+1920 0 Discovered 149 Protoss Probe (2044,3933)
+1932 0 Discovered 149 Protoss Probe (2103,3933)
+1985 1 Created 166 Protoss Probe (2112,3824)
+1992 0 Discovered 149 Protoss Probe (2103,4003)
+2019 0 Created 167 Protoss Probe (1056,272)
+2287 1 Created 168 Protoss Probe (2112,3824)
+2292 0 Discovered 149 Protoss Probe (2193,3948)
+2313 0 Destroyed 149 Protoss Probe (2193,3948)
+2321 0 Created 169 Protoss Probe (1056,272)
+2589 1 Created 170 Protoss Probe (2112,3824)
+2891 1 Created 171 Protoss Probe (2112,3824)
+3193 1 Created 172 Protoss Probe (2112,3824)
+3240 0 Discovered 165 Protoss Probe (1807,3853)
+3240 1 Discovered 60 Protoss Nexus (2112,3824)
+3252 0 Discovered 165 Protoss Probe (1867,3852)
+3288 0 Discovered 165 Protoss Probe (2014,3916)
+3495 1 Created 173 Protoss Probe (2112,3824)
+3557 0 Destroyed 165 Protoss Probe (1899,3607)
+3558 0 Created 174 Protoss Probe (1056,272)
+3797 1 Created 175 Protoss Probe (2112,3824)
+4908 1 Discovered 159 Protoss Probe (1936,3612)
+5760 1 Discovered 163 Protoss Probe (1917,3662)
+5820 0 Discovered 169 Protoss Probe (1919,3811)
+5820 0 Discovered 169 Protoss Probe (1919,3811)
+5925 0 Destroyed 169 Protoss Probe (2125,3917)
+5926 0 Created 176 Protoss Probe (1056,272)
+6339 0 Created 177 Protoss Pylon (1024,160)
+6860 0 Created 178 Protoss Probe (1056,272)
+7162 0 Created 179 Protoss Probe (1056,272)
+7464 0 Created 180 Protoss Probe (1056,272)
+7766 0 Created 181 Protoss Probe (1056,272)
+8068 0 Created 182 Protoss Probe (1056,272)
+8370 0 Created 183 Protoss Probe (1056,272)
+8672 0 Created 184 Protoss Probe (1056,272)
+8974 0 Created 185 Protoss Probe (1056,272)
+9564 1 Discovered 156 Protoss Probe (2114,966)
+10668 1 Discovered 156 Protoss Probe (2114,966)
+10680 1 Discovered 156 Protoss Probe (2114,966)
+11256 1 Discovered 156 Protoss Probe (2114,966)
+11256 1 Discovered 156 Protoss Probe (2114,966)
+11739 0 Created 186 Protoss Gateway (1248,176)
+14648 0 Created 187 Protoss Pylon (1152,160)
+15169 0 Created 188 Protoss Probe (1056,272)
+15471 0 Created 189 Protoss Probe (1056,272)
+15773 0 Created 190 Protoss Probe (1056,272)
+16075 0 Created 191 Protoss Probe (1056,272)
+16377 0 Created 192 Protoss Probe (1056,272)
+16437 0 Created 193 Protoss Pylon (1152,96)
+16552 0 Created 194 Protoss Gateway (1248,48)
+17683 1 Created 195 Protoss Pylon (2400,3904)
+18204 1 Created 196 Protoss Probe (2112,3824)
+18506 1 Created 197 Protoss Probe (2112,3824)
+18808 1 Created 198 Protoss Probe (2112,3824)
+19110 1 Created 199 Protoss Probe (2112,3824)
+19412 1 Created 200 Protoss Probe (2112,3824)
+21359 1 Destroyed 166 Protoss Probe (1202,3028)
+22122 -1 Destroyed 10 Resource Mineral Field (1312,3856)
+22209 -1 Destroyed 146 Resource Mineral Field (1312,3856)
+22302 -1 Destroyed 105 Resource Mineral Field (1312,3856)
+22395 -1 Destroyed 30 Resource Mineral Field (1312,3856)
+22488 -1 Destroyed 115 Resource Mineral Field (1312,3856)
+22581 -1 Destroyed 91 Resource Mineral Field (1312,3856)
+22668 -1 Destroyed 80 Resource Mineral Field (1312,3856)
+23304 1 Discovered 156 Protoss Probe (1563,2402)
+24000 0 Discovered 184 Protoss Probe (1920,3784)
+24000 0 Discovered 179 Protoss Probe (1963,3782)
+24000 0 Discovered 179 Protoss Probe (1963,3782)
+24000 0 Discovered 179 Protoss Probe (1963,3782)
+24012 0 Discovered 184 Protoss Probe (1965,3783)
+24335 1 Destroyed 156 Protoss Probe (1003,3661)
+24462 1 Destroyed 164 Protoss Probe (1003,3659)
+25545 1 Destroyed 44 Protoss Probe (1067,3652)
+27275 1 Destroyed 157 Protoss Probe (1003,3659)
+32698 1 Destroyed 161 Protoss Probe (1196,3636)
+34147 -1 Destroyed 135 Resource Mineral Field (2304,3920)
+[ELAPSED TIME]: 2194
+[UNITS LOST]
+0 Protoss Probe 3 [0-8000]
+1 Protoss Probe 6 [18000-35104]
+[UNITS CREATED]
+0 Protoss Nexus 1 [0-8000]
+0 Protoss Probe 16 [0-8000]
+0 Protoss Pylon 1 [0-8000]
+1 Protoss Nexus 1 [0-8000]
+1 Protoss Probe 17 [0-8000]
+1 Protoss Pylon 1 [0-8000]
+0 Protoss Gateway 1 [12000-18000]
+0 Protoss Probe 5 [12000-18000]
+0 Protoss Pylon 2 [12000-18000]
+1 Protoss Pylon 1 [12000-18000]
+1 Protoss Probe 5 [18000-35104]
+[EndGame]
