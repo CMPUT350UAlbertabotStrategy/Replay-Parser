@@ -5,8 +5,7 @@ using namespace std;
 char file[200], theline[1000];
 int frame, player, numberofunits;
 string unit, unit1, unit2, event;
-vector<vector<int> > featurelist,featurelistMINERALS;
-string CAT = "cat ";
+vector<vector<double>> featurelistMINERALS, featurelist;
 gamesummary gameSummary;
 bool P0isProtoss, P1isProtoss;
 
@@ -29,9 +28,9 @@ int main(int argc, int ** argv)
 
 		P0isProtoss =false; P1isProtoss =false;
 #ifdef linux
-		FILE * cat = popen((CAT + string(file)).c_str(), "r");
+		FILE * cat = popen(("cat " + string(file)).c_str(), "r");
 #elif _WIN32
-		FILE * cat = _popen((CAT + string(file)).c_str(), "r");
+		FILE * cat = _popen(("cat " + string(file)).c_str(), "r");
 #endif
 		int currentline = 0;
 		while(!feof(cat))
@@ -191,7 +190,7 @@ enum Protossfeature{
 
 void protossfeatureV(std::map<std::pair<int, std::string>, int> summary)
 {
-	vector<int> features1withminerals, features1 ,features0, features0withminerals;
+	vector<double> features1withminerals, features1 ,features0, features0withminerals;
 	std::map<std::pair<int, std::string>, int>::iterator it;
 	if(P1isProtoss){
 		if((it = summary.find(make_pair(1, "Arbiter"))) != summary.end()){			

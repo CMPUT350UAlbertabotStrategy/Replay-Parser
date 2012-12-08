@@ -15,7 +15,7 @@ Strategy::Strategy()
 
 }
 
-Strategy::Strategy(std::vector<int> units){
+Strategy::Strategy(std::vector<double> units){
 	// TODO: convert the units seen into their resource costs
 	features = units;
 }
@@ -40,8 +40,8 @@ double getSimilarity(Strategy* st1, Strategy* st2)
 	// calculate the dot product of st1 . st2, and st2 with itself
 	for (unsigned int i = 0; i < st2->features.size(); i++)
 	{
-		std::vector<int> temp = st1->features;
-		std::vector<int> temp2 = st2->features;
+		std::vector<double> temp = st1->features;
+		std::vector<double> temp2 = st2->features;
 		dot_product += st1->features[i] * st2->features[i];
 		dot_identity += st2->features[i] * st2->features[i];
 	}
@@ -55,7 +55,7 @@ double getSimilarity(Strategy* st1, Strategy* st2)
 
 }
 
-Cluster::Cluster(std::vector<int> units)
+Cluster::Cluster(std::vector<double> units)
 {
 	Strategy* new_start = new Strategy(units);
 	members.push_back(new_start);
@@ -90,10 +90,7 @@ double Cluster::update(std::vector<Strategy*> new_members){
 	return getSimilarity(old_centroid, centroid);
 }
 
-
-
-
-std::vector<Strategy*> kmeans(std::vector<std::vector<int> >unit_list, int k, double cutoff)
+std::vector<Strategy*> kmeans(std::vector<std::vector<double> >unit_list, int k, double cutoff)
 {
 	std::vector<Cluster*> clusters;
 	for (int i = 0; i < k; i++)

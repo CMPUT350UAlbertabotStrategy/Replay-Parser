@@ -39,9 +39,9 @@ class Strategy
 {
 public:
 	Strategy();
-	Strategy(std::vector<int> units);
+	Strategy(std::vector<double> units);
 	int cluster;
-	std::vector<int> features;
+	std::vector<double> features;
 };
 
 // get similarity is driven by an attempt at using dot product as an approximation for similarity between strategies.
@@ -59,7 +59,7 @@ public:
 	Strategy* centroid;
 
 	Cluster();
-	Cluster(std::vector<int> units);
+	Cluster(std::vector<double> units);
 
 	// creates the center of the cluster based on a simple average for each feature
 	Strategy* calculateCentroid();
@@ -67,7 +67,7 @@ public:
 	double update(std::vector<Strategy*> new_members);
 };
 
-std::vector<Strategy*> kmeans(std::vector<std::vector<int> >unit_list, int k, double cutoff);
+std::vector<Strategy*> kmeans(std::vector<std::vector<double> >unit_list, int k, double cutoff);
 
 
 
